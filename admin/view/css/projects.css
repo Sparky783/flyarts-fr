@@ -1,0 +1,88 @@
+h1 {
+	margin: 20px 0;
+}
+
+.float-right {
+	float: right;
+}
+
+#nbUsersText {
+	vertical-align: sub;
+}
+
+.table {
+	margin-bottom: -1px;
+}
+
+.table td {
+	vertical-align: middle;
+}
+
+.form-group + .form-group, .form-check {
+	margin-top: 1rem;
+}
+
+/* ==== Upload File ==== */
+#uploadProject {
+	position: relative;
+}
+
+.uploadFile-drop {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	padding: 15px 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.uploadFile-drop.droped {
+	border: dashed 3px gray;
+}
+
+.uploadFile-button {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+.uploadFile-preview-box {
+	position: relative;
+	background: #ced4da;
+	border-radius: 10px;
+	border: solid 1px #babec2;
+	overflow: hidden;
+}
+
+.uploadFile-preview-img {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 60%;
+	margin: 10px;
+	border-radius: 4px;
+}
+
+.uploadFile-preview-name {
+    padding: 0 10px 10px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.uploadFile-preview-overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 50% 10px 0;
+}
+
+.uploadFile-preview-message {
+	text-align: center;
+}

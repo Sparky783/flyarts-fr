@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+h1 {
+	margin: 20px 0 30px;
+}
+
+#projects .card {
+	margin-bottom: 30px;
+}
+
+#projects .card .badge {
+	font-size: 0.8rem;
+	vertical-align: bottom;
+}
+
+#projects .card .link {
+	margin-bottom: 0;
+}
+
+#more_projects p {
+	text-align: center;
+}
+
+#more_projects p span {
+	font-size: 1.5rem;
+}
+
+#more_projects p svg {
+	font-size: 8rem;
+	color: #dc3545;
+}
