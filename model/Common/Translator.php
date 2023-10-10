@@ -1,4 +1,6 @@
 <?php
+namespace Common;
+
 /*
  * Permet de gérer les traductions.
  */
@@ -27,7 +29,7 @@ class Translator
             $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
             $this->_lang = in_array($lang, $this->_acceptedLang) ? $lang : "fr";
 
-            $gmm->ModifyValue("lang", $this->_lang);
+            $gmm->setValue("lang", $this->_lang);
         }
     }
 

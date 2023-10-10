@@ -7,8 +7,9 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div id="mainMenu" class="collapse navbar-collapse navbar-right">
-			<ul class="navbar-nav mr-auto">
+		<div id="navbarSupportedContent" class="collapse navbar-collapse">
+			<div class="me-auto mb-2 mb-lg-0"></div>
+			<ul class="navbar-nav d-flex">
 				<li class="nav-item <?php if($router->GetCurrentPage() == "home" || $router->GetCurrentPage() == "") echo "active"; ?>">
 					<a class="nav-link" href=<?php $router->Url("home"); ?> title="Accueil du site FlyArts">Accueil</a>
 				</li>

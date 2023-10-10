@@ -58,7 +58,8 @@
 								<div class="cv-detail card">
 									<div class="card-body">
 										<p>
-											Développeur multilanguage (C#, C++, PHP, etc ...) pour le développement d'outil de test et de configuration pour les turbomoteurs du groupe Safran. J'ai été en charge de plusieurs projets tel qu'une interface utilisateur conçu avec le framework Synfony 3, un outil de communication avec les calculateurs développé en C++ ainsi qu'un driver Windows générant des ports série virtuels.
+											Développeur et chef de projet, je suis en charge du développement d'outils logiciel ayant pour principal objectif l'analyse et la maintenance des turbomoteurs du groupe Safran. Principalement écrit en C# et C++, ces programmes sont conçu autour d'un développement Agile (Scrum) et font de l'objet de tests unitaires avant leur livraison auprèt du client.<br />
+											D'autres projets auquel je suis membre font également partie de mes activités. La réalité virtuel d'une part ainsi que le développement d'outils de gestion de projet (en Symfony et en Ruby) d'autre part.
 										</p>
 									</div>
 								</div>

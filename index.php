@@ -1,12 +1,9 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+use System\WebSite;
 
 include_once("prepare.php"); // Chargement de la configuration et de l'ensemble des éléments communs.
-include_once(ABSPATH . "model/system/WebSite.php");
 
-$website = new WebSite();
+$website = new WebSite(ABSPATH);
 
 $website->SetPages(array(
 	"home",

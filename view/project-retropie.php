@@ -19,7 +19,7 @@
 				<section class="col-sm-12">
 					<h1>Playstation RetroPie</h1>
 				</section>
-				<section id="portrait" class="col-sm-12 fa-section">
+				<section id="portrait" class="col-sm-12 flyarts-section">
 					<h2>Objectif</h2>
 					<p>
 						Le principal objectif de ce projet est de mettre en place un système d'émulateur de console sur une Rasberry Pi 3 et d'intégrer ce système dans un boitier
@@ -29,7 +29,7 @@
 						<img src="content/projects/retropie/project-retropie-1.jpg" alt="Photo du projet PlayStation RetroPie terminé." />
 					</p>
 				</section>
-				<section id="retropie" class="col-md-12 fa-section">
+				<section id="retropie" class="col-md-12 flyarts-section">
 					<h2>1. RetroPie</h2>
 					<p>
 						RetroPie est un système d'émulation de console rétro disponible sur internet. Il n'est pas le seul système à fournir ce genre de service.
@@ -75,7 +75,7 @@
 						<img class="img-fluid" src="content/projects/retropie/project-retropie-2.jpg" alt="Photo du bouton des connectiques en façade et au dos." />
 					</p>
 				</section>
-				<section class="col-md-6 fa-section">
+				<section class="col-md-6 flyarts-section">
 					<div class="card">
 						<div class="card-header">
 							<h4>Eléments 3D</h4>
@@ -121,7 +121,7 @@
 						</table>
 					</div>
 				</section>
-				<section class="col-md-12 fa-section">
+				<section class="col-md-12 flyarts-section">
 					<h2>3. Montage</h2>
 					<p>
 						Tout d'abord, j'ai commencé par monter le support du Raspberry ainsi que le Raspberry Pi.
@@ -130,11 +130,11 @@
 						J'ai utilisé une petite alimentation externe de 5V que j'ai intégré dans la console afin de la rendre plus esthétique.
 					</p>
 					<p class="image">
-						<img class="img-fluid" src="view/img/project-retropie-4.jpg" alt="Photo du bouton des connectiques en façade et au dos." />
+						<img class="img-fluid" src="content/projects/retropie/project-retropie-4.jpg" alt="Photo du bouton des connectiques en façade et au dos." />
 					</p>
 				</section>
 
-				<section class="col-md-12 fa-section">
+				<section class="col-md-12 flyarts-section">
 					<h2>4. Bonus</h2>
 					<p>
 						J'ai voulu concerver le bouton "Reset" afin de pouvoir ajouter une fonctionnalité supplémentaire au système.

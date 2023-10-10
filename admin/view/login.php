@@ -14,7 +14,7 @@
 				</div>
 				<section id="loginForm" class="col-md-4 offset-md-4">
 					<div class="card flyarts-border">
-						<div class="card-header flyarts-bg text-white text-center">
+						<div class="card-header flyarts-bg text-center">
 							Espace administrateur
 						</div>
 						<form class="card-body" action="#" method="post">

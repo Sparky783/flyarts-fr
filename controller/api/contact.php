@@ -1,10 +1,8 @@
 <?php
-$app->Post("/contact", function($args) {
-	include_once(ABSPATH . "model/PHPMailer/src/PHPMailer.php");
-	include_once(ABSPATH . "model/PHPMailer/src/SMTP.php");
-	include_once(ABSPATH . "model/ReCaptcha.php");
-	include_once(ABSPATH . "model/EmailTemplates.php");
+use Exception;
+use Common\ReCaptcha;
 
+$app->Post("/contact", function($args) {
 	// ReCaptcha
 	$secret = "6LeezqgUAAAAAIJ-9sdMaX5UwdZea03iQNeB0auV"; // A modifier
 	$responseCaptcha = null;

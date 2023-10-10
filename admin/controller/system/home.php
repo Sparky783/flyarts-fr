@@ -1,7 +1,11 @@
 <?php
+use System\ToolBox;
+use System\WebSite;
+
 // ==== Access security ====
-if(!$session->admin_isConnected)
-	WebSite::Redirect("login", true);
+if (!$session->admin_isConnected) {
+	WebSite::redirect('login', true);
+}
 // =========================
 
 global $router;
@@ -10,14 +14,13 @@ global $router;
 $name = $session->admin_name;
 
 // Lien disponible pour l'utilisateur connecté
-$links = "";
+$links = '';
 
-if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
-	$links .= "<a class='btn btn-secondary btn-lg btn-block' href='" . $router->GetUrl("projects") . "'><i class='fas fa-cog'></i> Projets</a>";
+if (ToolBox::SearchInArray($session->admin_roles, ['admin'])) {
+	$links .= "<a class='btn btn-secondary btn-lg btn-block' href='" . $router->getUrl('projects') . "'><i class='fas fa-cog'></i> Projets</a>";
+}
 
-if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
-	$links .= "<a class='btn btn-secondary btn-lg btn-block' href='" . $router->GetUrl("options") . "'><i class='fas fa-cog'></i> Options du site</a>";
-
-if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
-	$links .= "<a class='btn btn-secondary btn-lg btn-block' href='" . $router->GetUrl("admins") . "'><i class='fas fa-cog'></i> Administrateurs</a>";
+if (ToolBox::SearchInArray($session->admin_roles, ['admin'])) {
+	$links .= "<a class='btn btn-secondary btn-lg btn-block' href='" . $router->getUrl('admins') . "'><i class='fas fa-cog'></i> Administrateurs</a>";
+}
 ?>

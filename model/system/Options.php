@@ -1,67 +1,149 @@
 <?php
-require_once(ABSPATH . "model/system/Database.php");
-require_once(ABSPATH . "model/system/ToolBox.php");
-require_once(ABSPATH . "model/system/OptionParam.php");
+namespace System;
+use ErrorException;
+use System\Database;
+use System\OptionParam;
 
-// ============================================================================================
-// ==== Permet de gérer les paramètres du site. Ces paramètres sont défini pour chaque site ===
-// ============================================================================================
-
+/**
+ * Manage all website options.
+ * 
+ * Options are different from website settings (Settings class).
+ * They can be created, remove and modify by the user.
+ */
 class Options
 {
-    private $options = array();
+    // ==== ATTRIBUTES ====
+	/**
+	 * @var array $_options Options list.
+	 */
+    private array $_options = [];
    
    
+    // ==== CONSTRUCTORS ====
+    /**
+     * Make a new instance of option manager.
+     */
     public function __construct() {}
    
-
-    // Charge les options depuis la base de donnée.
-    public function LoadFromDatabase()
+    // ==== OTHER METHODS ====
+    /**
+     * Load all options from database
+     * 
+     * @return void
+     */
+    public function loadFromDatabase(): void
     {
         $database = new Database();
-        $rech = $database->Query("SELECT * FROM options");
-        
-        while($data = $rech->fetch())
-        {
+        $rech = $database->query("SELECT * FROM `options`");
+
+        while ($data = $rech->fetch()) {
             $param = new OptionParam($data);
-            $this->options[$param->GetId()] = $param;
+            $this->_options[$param->getId()] = $param;
         }
     }
 
-    // Met à jour la basse de donnée
-    public function SaveToDatabase()
+    /**
+     * Update all options into database
+     * 
+     * @return bool Return True if all the process succeed, else False.
+     */
+    public function saveToDatabase(): bool
     {
         $result = true;
-        $database = new Database();
 
-        foreach($this->options as $option)
-            $result = $result & $option->SaveToDatabase();
+        foreach ($this->_options as $option) {
+            $result &= $option->saveToDatabase();
+        }
 
         return $result;
     }
    
 
-    // Redéfinie les fonctions Set, Get, Isset et Unset pour l'objet Options.
-    // Ceci permet de l'utiliser en tappant Options->MaVariable;
-    public function __set($name, $value)
+    // ==== OVERRIDE ====
+    // Override Set, Get, Isset and Unset function.
+    // That is used to do Options->MyVariable;
+
+    /**
+     * Set an option by its name.
+     * 
+     * @param string $name Name of the option to set.
+     * @param mixed $value Value of the option.
+     * @return void
+     */
+    public function __set(string $name, mixed $value): void
     {
-        $this->options[$name]->SetValue($value);
+        if (isset($this->_options[$name])) {
+            $this->_options[$name]->setValue($value);
+        } else {
+            $option = new OptionParam();
+            $option->initialize($this->getTypeFromValue($value));
+            $option->setValue($value);
+
+            $this->_options[$name] = $option;
+        }
     }
 
-    public function __get($name)
+    /**
+     * Get an option by its name.
+     *
+     * @param string $name Name of the option to set.
+     * @return mixed Value of the option
+     * @throws ErrorException
+     */
+    public function __get(string $name): mixed
     {
-        if(isset($this->options[$name]))
-            return $this->options[$name]->GetValue();
+        if (isset($this->_options[$name])) {
+            return $this->_options[$name]->getValue();
+        }
+
+        throw new ErrorException("The option '$name' does not exist.");
     }
    
-    public function __isset($name)
+    /**
+     * Say if the option exist of not.
+     * 
+     * @param string $name Name of the option to test.
+     * @return bool Return True if the option exist, else False.
+     */
+    public function __isset(string $name): bool
     {
-        return isset($this->options[$name]);
+        return isset($this->_options[$name]);
     }
-   
-    public function __unset($name)
+
+    /**
+     * Remove an option from the manager.
+     * Warning: the option is not remove from the database.
+     * 
+     * @param string $name Name of the option to remove.
+     * @return void 
+     */
+    public function __unset(string $name): void
     {
-        unset($this->options[$name]);
+        unset($this->_options[$name]);
+    }
+
+    // ==== PRIVATE METHODS ====
+    /**
+     * Find the type depending of the value.
+     * 
+     * @param mixed $value Value to analyze.
+     * @return string Type of the value.
+     */
+    private function getTypeFromValue(mixed $value): string
+    {
+        if (is_bool($value)) {
+            return 'boolean';
+        }
+
+        if (is_int($value)) {
+            return 'int';
+        }
+
+        if (is_float($value)) {
+            return 'float';
+        }
+
+        return 'default'; // Default type.
     }
 }
 ?>

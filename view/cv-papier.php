@@ -42,9 +42,8 @@
 							<span class="date">Depuis Octobre 2018</span><br />
 							<span class="content">Développeur logiciel à Safran Engineering Services</span><br />
 							<span class="description">
-								Travaillant sur des projets principalement pour des calculateurs de régulation, je suis chargé du développement d'outils de communication et de maintenance en C++,
-								du développement d'un driver bas niveau en User-Mode, du développement d'une application web pour la gestion de documments avec Synfony ainsi que l'écriture de documentations de spécifications et de tests. 
-
+								Développeur et chef de projet, je suis en charge du développement d'outils logiciel ayant pour principal objectif l'analyse et la maintenance des turbomoteurs du groupe Safran. Principalement écrit en C# et C++, ces programmes sont conçu autour d'un développement Agile (Scrum) et font de l'objet de tests unitaires avant leur livraison auprèt du client.<br />
+								D'autres projets auquel je suis membre font également partie de mes activités. La réalité virtuel d'une part ainsi que le développement d'outils de gestion de projet (en Symfony et en Ruby) d'autre part.
 							</span>
 						</li>
 						<li>

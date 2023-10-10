@@ -1,15 +1,17 @@
-<?php global $router; ?>
+<?php
+use System\ToolBox;
+
+global $router;
+?>
 
 <header>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href=<?php echo URL; ?>>
-			FlyArts Admin
-		</a>
+		<a class="navbar-brand" href=<?php echo URL; ?>>FlyArts Admin</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div id="navbarMenu" class="collapse navbar-collapse navbar-right">
+		<div id="navbarSupportedContent" class="collapse navbar-collapse">
 			<div class="me-auto mb-2 mb-lg-0"></div>
 			<ul class="navbar-nav d-flex">
 				<li class="nav-item active">
