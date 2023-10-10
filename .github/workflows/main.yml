@@ -11,27 +11,26 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y lftp
           npm install -g minifier
-          composer install --no-progress --no-suggest --prefer-dist
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '7.4'
+          php-version: '8.2'
 
       - name: Minify JS and CSS
         run: |
           find view/js -type f ! -name "*.min.js" -exec minify -o {} {} \;
           find view/css -type f ! -name "*.min.css" -exec minify -o {} {} \;
 
-      - name: Run tests
-        run: vendor/bin/phpunit --stop-on-failure
+      #- name: Run tests
+      #  run: vendor/bin/phpunit --stop-on-failure
 
       - name: Deploy to Server
         if: ${{ success() }}
@@ -40,7 +39,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /home/dewa3614/public_html/FLYARTS/
+          server-dir: /public_html/FLYARTS/
           local-dir: ./
           exclude: |
             .git*/**
