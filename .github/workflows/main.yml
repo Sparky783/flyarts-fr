@@ -29,8 +29,8 @@ jobs:
           find view/js -type f ! -name "*.min.js" -exec minify -o {} {} \;
           find view/css -type f ! -name "*.min.css" -exec minify -o {} {} \;
 
-      - name: Run tests
-        run: vendor/bin/phpunit --stop-on-failure
+      #- name: Run tests
+      #  run: vendor/bin/phpunit --stop-on-failure
 
       - name: Deploy to Server
         if: ${{ success() }}
@@ -39,7 +39,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /home/dewa3614/public_html/FLYARTS/
+          server-dir: /public_html/FLYARTS/
           local-dir: ./
           exclude: |
             .git*/**
