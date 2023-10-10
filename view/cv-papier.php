@@ -39,7 +39,14 @@
 					</div>
 					<ul>
 						<li>
-							<span class="date">Depuis Octobre 2018</span><br />
+							<span class="date">Depuis Mars 2023</span><br />
+							<span class="content">Développeur Web à NaturaBuy</span><br />
+							<span class="description">
+								Chargé du développement de nouvelles fonctionnalités ainsi que la maintenance de leur site E-commerce développé en PHP et JavaScript.
+							</span>
+						</li>
+						<li>
+							<span class="date">Octobre 2018 - Février 2023</span><br />
 							<span class="content">Développeur logiciel à Safran Engineering Services</span><br />
 							<span class="description">
 								Développeur et chef de projet, je suis en charge du développement d'outils logiciel ayant pour principal objectif l'analyse et la maintenance des turbomoteurs du groupe Safran. Principalement écrit en C# et C++, ces programmes sont conçu autour d'un développement Agile (Scrum) et font de l'objet de tests unitaires avant leur livraison auprèt du client.<br />
@@ -74,12 +81,12 @@
 							<span class="content">Assistant et gestionnaire d'application de reporting de production à Total</span><br />
 							<span class="description">Responsable de l'analyse et la présentation des données de production 100% opérés par l'entreprise.</span>
 						</li>
-						<li>
+						<!--<li>
 							<span class="date">Janvier 2012 - Juillet 2013</span><br />
 							<span class="content">Cartographe à ERDF</span><br />
 							<span class="description">Chargé de la mise à jour des plans cartographique des Landes, des Pyrénées-Atlantiques et des Hautes-Pyrénées.</span>
 						</li>
-						<!--<li>
+						<li>
 							<span class="date">Mai 2011 - Juin 2011</span><br />
 							<span class="content">Stagiaire à Aquitaine Electronique</span><br />
 							<span class="description">Chargé de la mise en place de procédures de test.</span>
@@ -188,8 +195,8 @@
 					<div>
 						<p>Permis B avec véhicule</p>
 						<p>
-							8 Chemin du haut<br />
-							64450 ARGELOS
+							5 allée de la Houn<br />
+							64420 ANDOINS
 						</p>
 						<p>06 70 56 27 10</p>
 						<p>florent.lavignotte@gmail.com</p>

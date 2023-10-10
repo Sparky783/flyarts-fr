@@ -26,8 +26,8 @@
 								<?php echo $age; ?> ans<br />
 								Permis B avec véhicule
 								<br /><br />
-								8 Chemin du haut<br />
-								64450 ARGELOS
+								5 allée de la Houn<br />
+								64420 ANDOINS
 								<br /><br />
 								06 70 56 27 10<br />
 								<a href=<?php $router->Url("contact"); ?> title="Contactez-moi si vous avez des questions">florent.lavignotte@gmail.com</a>
@@ -51,7 +51,21 @@
 						<ul>
 							<li class="cv-block">
 								<div class="cv-item">
-									<span class="date">Depuis Octobre 2018</span><br />
+									<span class="date">Depuis Mars 2023</span><br />
+									<span class="content">Développeur Web à NaturaBuy</span><br />
+									<span class="description">Développement et maintenance du site E-commerce NaturaBuy.</span>
+								</div>
+								<div class="cv-detail card">
+									<div class="card-body">
+										<p>
+											Chargé du développement de nouvelles fonctionnalités ainsi que la maintenance de leur site E-commerce développé en PHP et JavaScript.
+										</p>
+									</div>
+								</div>
+							</li>
+							<li class="cv-block">
+								<div class="cv-item">
+									<span class="date">Octobre 2018 - Février 2023</span><br />
 									<span class="content">Développeur logiciel à Safran Engineering Services</span><br />
 									<span class="description">Travaillant sur des projets principalement orienté C# et C++, je suis chargé du développement d'outils de communication et de maintenance de calculateurs de régulation.</span>
 								</div>

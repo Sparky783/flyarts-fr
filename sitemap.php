@@ -1,7 +1,7 @@
 <?php
 include_once("prepare.php"); // Chargement de la configuration et de l'ensemble des éléments communs.
 
-include_once(ABSPATH . "model/system/Sitemap.php");
+use System\Sitemap;
 
 global $router;
 
@@ -9,11 +9,11 @@ header("Content-type: text/xml");
 
 $sitemap = new Sitemap();
 
-$sitemap->AddPage($router->GetURL("home"), "yearly");
-$sitemap->AddPage($router->GetURL("contact"), "yearly");
-$sitemap->AddPage($router->GetURL("cv"), "yearly");
-$sitemap->AddPage($router->GetURL("cv-papier"), "yearly");
-$sitemap->AddPage($router->GetURL("projects"), "yearly");
-$sitemap->AddPage($router->GetURL("project-retropie"), "yearly");
+$sitemap->addPage($router->getURL("home"), "yearly");
+$sitemap->addPage($router->getURL("contact"), "yearly");
+$sitemap->addPage($router->getURL("cv"), "yearly");
+$sitemap->addPage($router->getURL("cv-papier"), "yearly");
+$sitemap->addPage($router->getURL("projects"), "yearly");
+$sitemap->addPage($router->getURL("project-retropie"), "yearly");
 
-$sitemap->Make();
+$sitemap->make();

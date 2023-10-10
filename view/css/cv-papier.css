@@ -64,7 +64,6 @@ ul {
 }
 
 li {
-	margin-bottom: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -80,6 +79,18 @@ li {
 
 #experiences {
 	margin: 120px 0 0;
+}
+
+#experiences li {
+	margin-bottom: 15px;
+}
+
+#formations li {
+	margin-bottom: 7px;
+}
+
+#competences li {
+	margin-bottom: 7px;
 }
 
 #loisirs {
