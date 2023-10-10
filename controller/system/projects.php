@@ -1,6 +1,6 @@
 <?php
-include_once(ABSPATH . "model/system/ToolBox.php");
-include_once(ABSPATH . "model/flyarts/Project.php");
+
+use FlyArts\Project;
 
 $projects = Project::GetList();
 $projectsHtml = "";

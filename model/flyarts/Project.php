@@ -1,5 +1,7 @@
 <?php
-require_once(ABSPATH . "model/system/Database.php");
+namespace FlyArts;
+use System\Database;
+use System\ToolBox;
 
 class Project
 {

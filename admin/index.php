@@ -1,18 +1,20 @@
 <?php
-
-include_once(ABSPATH . "model/system/WebSite.php");
-include_once(ABSPATH . "model/system/Session.php");
+use System\Session;
+use System\WebSite;
 
 $session = Session::getInstance();
 
-$website = new WebSite(true); // true = Enable admin mode
+if(!isset($session->admin_isConnected)) {
+	$session->admin_isConnected = false;
+}
+
+$website = new WebSite(ABSPATH . 'admin', true); // true = Enable admin mode
 
 $website->SetPages(array(
 	"login",
 	"home",
 	"profil",
 	"admins",
-	"options",
 	"projects"
 ));
 $website->DefaultPage("login");

@@ -1,4 +1,11 @@
 <?php
+use ApiCore\Api;
+use System\ToolBox;
+use System\Session;
+use Common\Picture;
+use Common\UploadFile;
+use FlyArts\Project;
+
 ini_set('memory_limit', '512M');
 
 if(ToolBox::SearchInArray($session->admin_roles, array("admin")))

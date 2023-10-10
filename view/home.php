@@ -19,22 +19,29 @@
 						<p class="lead">Mon petit site perso pour y mettre mes projets, mes passions et un peu de moi en ligne.</p>
 					</div>
 				</section>
-				<section id="portrait" class="col-sm-12 fa-section">
-					<img class="rounded float-left img-thumbnail" src="view/img/portrait-1.jpg" alt="...">
-					<h2>Qui suis-je ?</h2>
-					<p>
-						Je m'appelle Florent Lavignotte et je suis passionné d'informatique depuis le plus jeune age. Tombé dedans avec le premier OS Ms DOS
-						et désireux de créer tous les projets que j'ai en tête, je me suis lancé dans un cursus en Electronique pour ensuite aller dans
-						une école d'ingénieur en informatique spécialisée dans le développement. Aujourd'hui, je réalise enfin mes ambitions et crée des outils
-						en tout genre.
-					</p>
-					<p class="text-right">
-						<a class="btn btn-danger btn-lg" href=<?php $router->Url("cv"); ?> role="button">Accéder à mon CV</a>
-					</p>
+				<section id="portrait" class="col-sm-12 flyarts-section">
+					<div class="row">
+						<div class="col-md-4">
+						<img class="rounded float-left img-thumbnail" src="view/img/portrait-1.jpg" alt="...">
+</div>
+
+<div class="col-md-8">
+						<h2>Qui suis-je ?</h2>
+						<p>
+							Je m'appelle Florent Lavignotte et je suis passionné d'informatique depuis le plus jeune age. Tombé dedans avec le premier OS Ms DOS
+							et désireux de créer tous les projets que j'ai en tête, je me suis lancé dans un cursus en Electronique pour ensuite aller dans
+							une école d'ingénieur en informatique spécialisée dans le développement. Aujourd'hui, je réalise enfin mes ambitions et crée des outils
+							en tout genre.
+						</p>
+						<p class="text-right">
+							<a class="btn btn-danger btn-lg" href=<?php $router->Url("cv"); ?> role="button">Accéder à mon CV</a>
+						</p>
+						</div>
+</div>
 				</section>
 				<div class="col-md-12 shadow">
 					<div class="row">
-						<section class="col-md-6 fa-section">
+						<section class="col-md-6 flyarts-section">
 							<h2>Qu'est ce que FlyArts ?</h2>
 							<p>
 								FlyArts est un site internet que j'ai créé afin de présenter et mettre en avant mes compétences dans le domaine du développement
@@ -43,7 +50,7 @@
 								J'espère pouvoir apporter aux personnes interessées toutes les connaissances que j'ai acquise grâce à mes réalisations.
 							</p>
 						</section>
-						<section class="col-md-6 fa-section">
+						<section class="col-md-6 flyarts-section">
 							<h2>Pourquoi FlyArts ?</h2>
 							<p>
 								FlyArts était le nom que j'avais choisi pour mon projet de photographie.
@@ -55,7 +62,7 @@
 						</section>
 					</div>
 				</div>
-				<section id="projects" class="col-sm-12 fa-section">
+				<section id="projects" class="col-sm-12 flyarts-section">
 					<h2>Mes projets en cours</h2>
 					<div class="row">
 						<?php echo $currentProjectsHtml; ?>

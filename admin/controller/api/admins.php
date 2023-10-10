@@ -1,9 +1,13 @@
 <?php
+use ApiCore\Api;
+use System\ToolBox;
+use System\Admin;
+use System\Database;
+use Common\EmailTemplates;
+
 if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
 {
 	$app->Post("/admins_list", function($args) {
-		include_once(ABSPATH . "model/system/Admin.php");
-
 		$admins = Admin::GetList();
 		$list = array();
 		
@@ -21,12 +25,6 @@ if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
 	});
 
 	$app->Post("/admin_add", function($args) {
-		include_once(ABSPATH . "model/system/ToolBox.php");
-		include_once(ABSPATH . "model/system/Admin.php");
-		include_once(ABSPATH . "model/PHPMailer/src/PHPMailer.php");
-		include_once(ABSPATH . "model/PHPMailer/src/SMTP.php");
-		include_once(ABSPATH . "model/EmailTemplates.php");
-
 		$password = ToolBox::GeneratePassword();
 
 		$admin = new Admin();
@@ -73,15 +71,15 @@ if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
 					<br /><br />
 					Pensez à l'enregistrer dans vos favoris afin d'y avoir accès plus rapidement.
 					<br /><br />
-					Bisous bisous,
+					Cordialement,
 					<br /><br />
-					Les Snakes
+					L'administrateur
 				";
 
 				$mail->isHTML(true); // Set email format to HTML
 				$mail->Subject = $subject;
-				$mail->Body    = EmailTemplates::StandardHTML($subject, $message);
-				$mail->AltBody = EmailTemplates::TextFormat("Nouveau compte - " . TITLE);
+				$mail->Body    = EmailTemplates::standardHtml($subject, $message);
+				$mail->AltBody = EmailTemplates::standardText("Nouveau compte - " . TITLE);
 
 				$mail->send();
 				$resultEmail = true;
@@ -89,15 +87,13 @@ if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
 			catch (Exception $e) { }
 
 			if($resultEmail)
-				API::SendJSON($id);
+				API::SendJSON($admin->getId());
 			else
 				API::SendJSON(false);
 		}
 	});
 
 	$app->Post("/admin_edit", function($args) {
-		include_once(ABSPATH . "model/system/Admin.php");
-		
 		$admin = Admin::GetById($args['id_admin']);
 		$admin->SetEmail($args['email']);
 		$admin->SetName($args['name']);
@@ -107,18 +103,10 @@ if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
 	});
 
 	$app->Post("/admin_remove", function($args) {
-		include_once(ABSPATH . "model/system/Admin.php");
-		
 		API::SendJSON(Admin::RemoveFromDatabase($args['id_admin']));
 	});
 
 	$app->Post("/reinit_admin_password", function($args) {
-		include_once(ABSPATH . "model/system/Database.php");
-		include_once(ABSPATH . "model/system/ToolBox.php");
-		include_once(ABSPATH . "model/PHPMailer/src/PHPMailer.php");
-		include_once(ABSPATH . "model/PHPMailer/src/SMTP.php");
-		include_once(ABSPATH . "model/EmailTemplates.php");
-
 		$database = new Database();
 		$result = $database->Query(
 			"SELECT * FROM admins WHERE id_admin=:id_admin",
@@ -166,15 +154,15 @@ if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
 				<br /><br />
 				Mot de passe: " . $password . "
 				<br /><br />
-				A bientôt,
+				Cordialement,
 				<br /><br />
-				Les Snakes
+				L'administrateur
 			";
 
 			$mail->isHTML(true); // Set email format to HTML
 			$mail->Subject = $subject;
-			$mail->Body    = EmailTemplates::StandardHTML($subject, $message);
-			$mail->AltBody = EmailTemplates::TextFormat("Réinitialisation du mot de passe - " . TITLE);
+			$mail->Body    = EmailTemplates::standardHtml($subject, $message);
+			$mail->AltBody = EmailTemplates::standardText("Réinitialisation du mot de passe - " . TITLE);
 
 			$mail->send();
 			$resultEmail = true;

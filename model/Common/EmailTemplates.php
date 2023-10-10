@@ -1,4 +1,6 @@
 <?php
+namespace Common;
+
 class EmailTemplates
 {
 	// Afficahge stendard des Email.

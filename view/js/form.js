@@ -53,7 +53,7 @@
 					var id = $(this).attr("name");
 					Form.fields[id] = $(this).val();
 
-					$(this).click(function () {
+					$(this).change(function () {
 						Form.fields[id] = $(this).val();
 					});
 				});
@@ -90,7 +90,6 @@
 					});
 				});
 
-
 				// Trigger when you submit the form.
 				Element.submit(function(){
 					Element.find("input, textarea, select").each(function () {
@@ -100,6 +99,10 @@
 					Element.find("input[type='checkbox']").each(function () {
 						var id = $(this).attr("name");
 						Form.fields[id] = $(this).is(':checked');
+					});
+					Element.find("input[type='radio']:checked").each(function () {
+						var id = $(this).attr("name");
+						Form.fields[id] = $(this).val();
 					});
 					console.log(Form.fields);
 					
@@ -112,6 +115,7 @@
 					}).done(function(data) {
 						fnResponse(data);
 					});
+
 					return false;
 				});
 			},

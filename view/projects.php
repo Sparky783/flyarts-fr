@@ -13,13 +13,13 @@
 		<?php include_once("HEADER.php"); ?>
 		<section class="container">
 			<div class="row">
-				<section id="projects" class="col-sm-12 fa-section">
+				<section id="projects" class="col-sm-12 flyarts-section">
 					<h1>Mes projets</h1>
 					<div class="row">
 						<?php echo $projectsHtml; ?>
 					</div>
 				</section>
-				<section id="more_projects" class="col-sm-12 fa-section">
+				<section id="more_projects" class="col-sm-12 flyarts-section">
 					<h1>Plus de projets</h1>
 					<div class="row">
 						<div class="col-md-12">
@@ -27,7 +27,7 @@
 								<p class="card-body">
 									<span>Retrouvez tous mes projets de développement directement sur mon GitHub.</span>
 									<br /><br />
-									<a href="" target="_blank">
+									<a href="https://github.com/sparky783" target="_blank">
 										<i class="fab fa-github"></i>
 									</a>
 								</p>
