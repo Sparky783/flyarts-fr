@@ -1,4 +1,4 @@
 <?php
 use System\ToolBox;
 
-$age = ToolBox::Age("1990-08-24");
+$age = ToolBox::age(new DateTime('1990-08-24'));

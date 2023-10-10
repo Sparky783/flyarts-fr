@@ -1,36 +1,38 @@
 <?php
 use FlyArts\Project;
 
-$projects = Project::GetList();
-$currentProjectsHtml = "";
+$projects = Project::getList();
+$currentProjectsHtml = '';
 $maxDisplayed = 2;
 
-foreach($projects as $project)
-{
-    if($maxDisplayed == 0)
+foreach ($projects as $project) {
+    if ($maxDisplayed === 0) {
         break;
+    }
 
     // Display just project in progress.
-    if(!$project->GetInProgress())
+    if (!$project->getInProgress()) {
         continue;
+    }
 
-    if(!$project->GetImagePath())
+    if (!$project->getImagePath()) {
         continue;
+    }
 
-    $currentProjectsHtml .= "
+    $currentProjectsHtml .= <<<HTML
         <div class='col-md-4'>
             <div class='card'>
-                <img class='card-img-top' src='" . $project->GetImagePath() . "' alt='Image représentant le project " . $project->GetTitle() . "'>
+                <img class='card-img-top' src='{$project->getImagePath()}' alt='Image représentant le project {$project->getTitle()}'>
                 <div class='card-body'>
-                    <h5 class='card-title md-2'>" . $project->GetTitle() . " <span class='badge bg-info'>En cours</span></h5>
-                    <p class='card-text'>" . $project->GetDescription() . "</p>
+                    <h5 class='card-title md-2'>{$project->getTitle()} <span class='badge bg-info'>En cours</span></h5>
+                    <p class='card-text'>{$project->getDescription()}</p>
                     <p class='link text-right'>
-                        <a class='btn btn-danger disabled' href='" . $project->GetLink() . "' target='_blank'>Voir le site</a>
+                        <a class='btn btn-danger disabled' href='{$project->getLink()}' target='_blank'>Voir le site</a>
                     </p>
                 </div>
             </div>
         </div>
-    ";
+    HTML;
 
     $maxDisplayed --;
 }
