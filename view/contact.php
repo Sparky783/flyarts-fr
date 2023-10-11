@@ -17,14 +17,15 @@
 				$("#contactResponse").hide();
 
 				$("#contactForm form").SpForm(
-					function(){
+					function() {
 						$("#contactForm").hide();
 						$("#contactSend").show();
 					},
-					function(data){
-						console.log(data);
-						if(data.error)
+					function(data) {
+						if (data.error) {
 							console.log(data.errorMessage);
+						}
+
 						$("#contactResponse").html('<p class="text-center"><i class="fa fa-grin-alt"></i> ' + data.message + '</p>');
 						$("#contactSend").hide();
 						$("#contactResponse").show();
@@ -49,8 +50,6 @@
 							<b>Florent LAVIGNOTTE</b>
 							<br /><br />
 							<a class="btn btn-danger" href="mailto:florent.lavignotte@gmail.com">florent.lavignotte@gmail.com</a>
-							<br />ou<br />
-							<a class="btn btn-danger" href="mailto:contact@flyarts.fr">contact@flyarts.fr</a>
 						</p>
 					</section>
 					<section id="formulaire">
@@ -75,7 +74,7 @@
 										</div>
 										<small class="form-text text-muted"><span class="ap-form-star">*</span> Ces champs sont obligatoires.</small>
 										<p class="text-right">
-											<button class="btn btn-danger g-recaptcha" type="submit" data-sitekey="6LeezqgUAAAAADUa75MjU1Y6xUlG6EX7Qgdlg2IT" data-callback="sendFormCallback">Envoyer</button>
+											<button class="btn btn-danger g-recaptcha" type="submit" data-sitekey="<?= RECAPTCHA_PUBLIC_KEY ?>" data-callback="sendFormCallback">Envoyer</button>
 										</p>
 									</form>
 								</div>
