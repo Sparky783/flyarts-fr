@@ -6,7 +6,9 @@ require_once ABSPATH. 'model/PHPMailer/src/SMTP.php';
 
 use ApiCore\Api;
 use Common\ReCaptcha;
-use COmmon\EmailTemplates;
+use Common\EmailTemplates;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
 $app->post('/contact', function($args) {
 	// ReCaptcha
