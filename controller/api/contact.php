@@ -1,32 +1,48 @@
 <?php
-use Exception;
-use Common\ReCaptcha;
 
-$app->Post("/contact", function($args) {
+require_once ABSPATH. 'model/PHPMailer/src/Exception.php';
+require_once ABSPATH. 'model/PHPMailer/src/PHPMailer.php';
+require_once ABSPATH. 'model/PHPMailer/src/SMTP.php';
+
+use ApiCore\Api;
+use Common\ReCaptcha;
+use COmmon\EmailTemplates;
+
+$app->post('/contact', function($args) {
 	// ReCaptcha
-	$secret = "6LeezqgUAAAAAIJ-9sdMaX5UwdZea03iQNeB0auV"; // A modifier
+	$secret = '6LeezqgUAAAAAIJ-9sdMaX5UwdZea03iQNeB0auV'; // A modifier
 	$responseCaptcha = null;
 	$reCaptcha = new ReCaptcha($secret);
-	if($args["g-recaptcha-response"]){
+
+	if (ENV !== 'DEV' && $args['g-recaptcha-response']) {
 		$responseCaptcha = $reCaptcha->verifyResponse(
-			$_SERVER["REMOTE_ADDR"],
-			$args["g-recaptcha-response"]
+			$_SERVER['REMOTE_ADDR'],
+			$args['g-recaptcha-response']
 		);
 	}
 
 	// Récupération des données
-	$nom = strip_tags($args['name']);
-	$email = strip_tags($args['email']);
-	$message = strip_tags($args['message']);
+	$name = trim(strip_tags($args['name']));
+	$email = trim(strip_tags($args['email']));
+	$message = trim(strip_tags($args['message']));
 
 	$test = true;
-	if(!preg_match("/^[a-zéèàêâùïüëçA-Z -]{2,40}$/", $nom)) $test = false;
-	if(!preg_match("/^[a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,6}$/", $email)) $test = false;
-	if($message == "") $test = false;
+	if (!preg_match('/^[a-zéèàêâùïüëçA-Z -]{2,40}$/', $name)) {
+		$test = false;
+	}
 
-	if($test) {
-		if($responseCaptcha != null && $responseCaptcha->success) {
+	if (!preg_match('/^[a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,6}$/', $email)) {
+		 $test = false;
+	}
+
+	if ($message === '') {
+		$test = false;
+	}
+
+	if ($test) {
+		if ($responseCaptcha != null && $responseCaptcha->success) {
 			$mail = new PHPMailer(true); // Passing `true` enables exceptions
+
 			try {
 				//Server settings
 				$mail->isSMTP();
@@ -47,7 +63,7 @@ $app->Post("/contact", function($args) {
 				$sujet = "Nouveau message";
 				$html = "
 					<p>
-						<b>Vous avez reçu un message de ".$nom." (".$email.").</b>
+						<b>Vous avez reçu un message de ".$name." (".$email.").</b>
 						<br /><br />
 						<u>Message :</u>
 						<br /><br />
@@ -60,34 +76,31 @@ $app->Post("/contact", function($args) {
 				$mail->AltBody = EmailTemplates::StandardText($sujet, $html);
 
 				$mail->send();
-				$reponse = array(
+				$reponse = [
 					'error' => false,
 					'errorMessage' => "",
-					'message' => "Merci " . $nom ." ! Votre message à bien été envoyé."
-				);
+					'message' => "Merci " . $name ." ! Votre message à bien été envoyé."
+				];
 			} catch (Exception $e) {
-			    $reponse = array(
+			    $reponse = [
 					'error' => true,
 					'errorMessage' => "Message could not be sent. Mailer Error: " . $mail->ErrorInfo,
 					'message' => "Désolé, une erreur est survenue."
-				);
+				];
 			}
-
 		} else {
-			$reponse = array(
+			$reponse = [
 				'error' => true,
-				'errorMessage' => "Le controle anti-robot n'est pas dévérouillé.",
 				'message' => "Le controle anti-robot n'est pas dévérouillé."
-			);
+			];
 		}
 	} else {
-		$reponse = array(
+		$reponse = [
 			'error' => true,
-			'errorMessage' => "L'un des champs n'est pas correctement rempli.",
 			'message' => "L'un des champs n'est pas correctement rempli."
-		);
+		];
 	}
 
-	API::SendJSON($reponse);
+	API::sendJSON($reponse);
 });
 ?>

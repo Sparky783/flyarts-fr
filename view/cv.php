@@ -290,11 +290,11 @@
 						</div>
 						<ul>
 							<li>
-								<span class="content">Programmation Logiciel <span class="date">(Langages: C#, C++, C, Java)</span>, Framework <span class="date">(.NET Framework, .NET Core, Boost)</span><br />
-								Développement de drivers Windows en User-Mode</span>
+								<span class="content">Développement Web <span class="date">(Langages: PHP, Html, CSS, JavaScript)</span> Angular, jQuery, Synfony, NodeJS</span>
 							</li>
 							<li>
-								<span class="content">Développement Web <span class="date">(Langages: PHP, Html, CSS, JavaScript)</span> Angular, jQuery, Synfony, NodeJS</span>
+								<span class="content">Programmation Logiciel <span class="date">(Langages: C#, C++, C, Java)</span>, Framework <span class="date">(.NET Framework, .NET Core, Boost)</span><br />
+								Développement de drivers Windows en User-Mode</span>
 							</li>
 							<li>
 								<span class="content">Gestionnaire de base de données <span class="date">(OracleSQL, MySQL, SQL Server, PostgreSQL)</span></span>
