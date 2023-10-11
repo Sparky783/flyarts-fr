@@ -73,14 +73,14 @@ $app->post('/contact', function($args) {
 				";
 
 				$mail->Subject = $sujet;
-				$mail->Body    = EmailTemplates::StandardHTML($sujet, $html);
-				$mail->AltBody = EmailTemplates::StandardText($sujet, $html);
+				$mail->Body    = EmailTemplates::standardHTML($sujet, $html);
+				$mail->AltBody = EmailTemplates::standardText($sujet, $html);
 
 				$mail->send();
 				$reponse = [
 					'error' => false,
 					'errorMessage' => "",
-					'message' => "Merci " . $name ." ! Votre message à bien été envoyé."
+					'message' => "Merci {$name} !<br />Votre message à bien été envoyé."
 				];
 			} catch (Exception $e) {
 			    $reponse = [
