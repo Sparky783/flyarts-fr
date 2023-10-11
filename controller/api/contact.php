@@ -10,9 +10,8 @@ use COmmon\EmailTemplates;
 
 $app->post('/contact', function($args) {
 	// ReCaptcha
-	$secret = '6LeezqgUAAAAAIJ-9sdMaX5UwdZea03iQNeB0auV'; // A modifier
 	$responseCaptcha = null;
-	$reCaptcha = new ReCaptcha($secret);
+	$reCaptcha = new ReCaptcha(RECAPTCHA_PRIVATE_KEY);
 
 	if (ENV !== 'DEV' && $args['g-recaptcha-response']) {
 		$responseCaptcha = $reCaptcha->verifyResponse(
