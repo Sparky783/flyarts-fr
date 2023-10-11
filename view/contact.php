@@ -56,19 +56,17 @@
 						<h3><i class="fas fa-pen"></i> Envoyer un message</h3>
 						<div class="card card-danger">
 							<div class="card-body">
-								<div id="contactResponse" class="ap-form-response">
-								</div>
 								<div id="contactForm">
 									<form class="ap-form" action=<?php $router->API("contact"); ?> method="post">
-										<div class="form-group">
+										<div class="form-group mb-2">
 											<label for="inputName"><span class="ap-form-star">*</span>Nom et prénom :</label>
 											<input id="inputName" class="form-control" type="name" name="name" aria-describedby="nameHelp" placeholder="Entrez votre nom et votre prénom">
 										</div>
-										<div class="form-group">
+										<div class="form-group mb-2">
 											<label for="inputEmail"><span class="ap-form-star">*</span>E-mail :</label>
 											<input id="inputEmail" class="form-control" type="email" name="email" aria-describedby="emailHelp" placeholder="Entrez votre adresse E-mail">
 										</div>
-										<div class="form-group">
+										<div class="form-group mb-2">
 											<label for="inputMessage"><span class="ap-form-star">*</span>Message :</label>
 											<textarea id="inputMessage" class="form-control" type="message" name="message" rows="5"></textarea>
 										</div>
@@ -78,14 +76,16 @@
 										</p>
 									</form>
 								</div>
+
 								<div id="contactSend" class="ap-form-send">
 									<p class="text-center">
 										Envoi en cours ...<br />
 										Veuillez patienter
-										<br /><br />
-										<i class="fas fa-spinner fa-spin"></i>
 									</p>
+									<div class="spinner-border" role="status"></div>
 								</div>
+
+								<div id="contactResponse" class="ap-form-response"></div>
 							</div>
 						</div>
 					</section>
