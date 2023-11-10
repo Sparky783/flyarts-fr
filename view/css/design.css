@@ -14,11 +14,6 @@ header .navbar-brand {
 	margin: 0 15px;
 }
 
-header .navbar-right {
-	position: absolute;
-	justify-content: flex-end;
-}
-
 header .navbar-toggler {
 	margin-right: 20px;
     color: #ffffff;
@@ -63,8 +58,8 @@ footer #footer_copyright {
 
 
 @media (max-width: 992px) {
-	header .navbar-right {
-		position: relative;
+	header .navbar {
+		padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 	}
 
 	header .collapse {

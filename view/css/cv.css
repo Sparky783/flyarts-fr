@@ -59,6 +59,11 @@ h1 {
 	margin-bottom: 0;
 }
 
+.competences label {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
 #experiences {
 	margin-bottom: 40px; 
 }

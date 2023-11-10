@@ -31,178 +31,271 @@
 	</head>
 	<body>
 		<main>
+			<h1>Ingénieur développement logiciel et web</h1>
 			<div id="container">
-				<div id="block"></div>
-				<section id="experiences">
-					<div class="title">
-						<h2>Expériences professionnelles</h2>
-					</div>
-					<ul>
-						<li>
-							<span class="date">Depuis Mars 2023</span><br />
-							<span class="content">Développeur Web à NaturaBuy</span><br />
-							<span class="description">
-								Chargé du développement de nouvelles fonctionnalités ainsi que la maintenance de leur site E-commerce développé en PHP et JavaScript.
-							</span>
-						</li>
-						<li>
-							<span class="date">Octobre 2018 - Février 2023</span><br />
-							<span class="content">Développeur logiciel à Safran Engineering Services</span><br />
-							<span class="description">
-								Développeur et chef de projet, je suis en charge du développement d'outils logiciel ayant pour principal objectif l'analyse et la maintenance des turbomoteurs du groupe Safran. Principalement écrit en C# et C++, ces programmes sont conçu autour d'un développement Agile (Scrum) et font de l'objet de tests unitaires avant leur livraison auprèt du client.<br />
-								D'autres projets auquel je suis membre font également partie de mes activités. La réalité virtuel d'une part ainsi que le développement d'outils de gestion de projet (en Symfony et en Ruby) d'autre part.
-							</span>
-						</li>
-						<li>
-							<span class="date">Janvier 2018 - Juillet 2018</span><br />
-							<span class="content">Stagiaire développeur d'une application d'analyse de fluide à Total</span><br />
-							<span class="description">
-								Dans l'équipe d'allocation de production, j'ai participé à la conception et au développement d'une application web avec Angular 5 d'analyse des fluides permettant de fournir des résultats partout dans le monde.
-								Proche de l'utilisateur j'ai pu analyser le besoin et affiner l'expérience client au fur et à mesur de mon stage.
-							</span>
-						</li>
-						<li>
-							<span class="date">Octobre 2016 - Fevrier 2017</span><br />
-							<span class="content">Stagiaire responsable du développement d'un site E-commerce pour Awesome-Bubbles</span><br />
-							<span class="description">
-								En vue d'élargir la clientelle de ce jeune revandeur de champagne en Irlande, j'ai réalisé d'un site vitrine de A à Z a l'aide de l'outil WordPress à l'aide du plugin Woo Commerce.
-								Du design aux effets jQuery, la conception de ce site internet fut pour moi un exelent moyen de découvrir WordPress et tous ses aspects.
-							</span>
-						</li>
-						<li>
-							<span class="date">Février 2016 - Mai 2016</span><br />
-							<span class="content">Stagiaire chez Exakis, chargé de la mise en place d'un environnement Microsoft SharePoint 2016</span><br />
-							<span class="description">
-								Découverte et mise en place d'un serveur SharePoint OnPremise pour présentation des nouvelles fonctionnalités de la version 2016 de l'outil. 
-							</span>
-						</li>
-						<li>
-							<span class="date">Janvier 2014 - Janvier 2015</span><br />
-							<span class="content">Assistant et gestionnaire d'application de reporting de production à Total</span><br />
-							<span class="description">Responsable de l'analyse et la présentation des données de production 100% opérés par l'entreprise.</span>
-						</li>
-						<!--<li>
-							<span class="date">Janvier 2012 - Juillet 2013</span><br />
-							<span class="content">Cartographe à ERDF</span><br />
-							<span class="description">Chargé de la mise à jour des plans cartographique des Landes, des Pyrénées-Atlantiques et des Hautes-Pyrénées.</span>
-						</li>
-						<li>
-							<span class="date">Mai 2011 - Juin 2011</span><br />
-							<span class="content">Stagiaire à Aquitaine Electronique</span><br />
-							<span class="description">Chargé de la mise en place de procédures de test.</span>
-						</li>-->
-					</ul>
-				</section>
-				<section id="formations">
-					<div class="title">
-						<h2>Formations et Diplômes</h2>
-					</div>
-					<ul>
-						<li>
-							<span class="date">Septembre 2015 - Juillet 2018 :</span>
-							<span class="content">Ecole d'ingénieur Informatique à l'Exia.Cesi</span>
-						</li>
-						<li>
-							<span class="date">Décembre 2014 :</span>
-							<span class="content">Photoshop CS6 - Avancé</span>
-						</li>
-						<li>
-							<span class="date">Novembre 2014 :</span>
-							<span class="content">Gestion et modélisation des bases de données</span>
-						</li>
-						<li>
-							<span class="date">Novembre 2014 :</span>
-							<span class="content">Ergonomie et design des sites web</span>
-						</li>
-						<li>
-							<span class="date">Septembre 2014 :</span>
-							<span class="content">Base de données Oracle SQL</span>
-						</li>
-						<li>
-							<span class="date">Juin 2014 :</span>
-							<span class="content">Microsoft Sharepoint 2010</span>
-						</li>
-						<!--<li>
-							<span class="date">Septembre 2009 - Juin 2011 :</span>
-							<span class="content">DUT GEII (Génie Electronique et Informatique Industriel)</span>
-						</li>
-						<li>
-							<span class="date">Juin 2009 :</span>
-							<span class="content">Bac STI Electrotechnique (Science et Technique de l'Ingénieur)</span>
-						</li>-->
-					</ul>
-				</section>
-				<section id="competences">
-					<div class="title">
-						<h2>Compétences</h2>
-					</div>
-					<ul>
-						<li>
-							<span class="content">Développement Web <span class="date">(Langages: PHP, Html, CSS, JS)</span> Angular, jQuery, Synfony, NodeJS</span>
-						</li>
-						<li>
-							<span class="content">Programmation Logiciel <span class="date">(Langages: C#, C++, C, Java)</span>, Framework <span class="date">(.NET Framework, .NET Core, Boost)</span>
-								<!--<br />Développement de drivers Windows en User-Mode-->
-							</span>
-						</li>
-						<li>
-							<span class="content">Gestionnaire de base de données <span class="date">(Oracle SQL, MySQL, SQL Server)</span></span>
-						</li>
-						<li>
-							<span class="content">Réalité Virtuelle avec les casques Oculus sous Unreal Engine 4</span>
-						</li>
-						<li>
-						<span class="content">Outils de gestion <span class="date">(Git, TortoiseGit)</span></span>
-						</li>
-						<li>
-							<span class="content">Gestion de projets <span class="date">(Méthodes: Scrum, Agile)</span></span>
-						</li>
-						<!--<li>
-							<span class="content">Systèmes d'exploitation: Microsoft Windows, Linux</span>
-						</li>-->
-						<li>
-							<span class="content">Tests unitaires</span>
-						</li>
-						<!--<li>
-							<span class="content">Notion de TDD</span>
-						</li>-->
-					</ul>
-				</section>
-				<section id="loisirs">
-					<div class="title">
-						<h2>Loisirs</h2>
-					</div>
-					<div class="element-list">
-						<p class="element">
-							<i class="fas fa-dumbbell"></i><br />
-							<span>Sport</span>
-						</p>
-						<p class="element">
-							<i class="fas fa-music"></i><br />
-							<span>Piano</span>
-						</p>
-						<p class="element">
-							<i class="fas fa-camera"></i><br />
-							<span>Photographie</span>
-						</p>
-					</div>
-				</section>
-				<section id="infos">
-					<img src="view/img/cv-infos.png" />
-				</section>
-				<section id="infosText">
-					<p><?php echo $age; ?> ans</p>
-					<div>
-						<p>Permis B avec véhicule</p>
+				<div id="informations">
+					<section id="infosText">
+						<h2>Florent Lavignotte</h2>
+						<small><?php echo $age; ?> ans</small>
 						<p>
-							5 allée de la Houn<br />
+							<br /><br />
+							<i class="fas fa-car"></i> Permis B avec véhicule
+							<br /><br />
+							<i class="fas fa-map-marker-alt"></i> 5 allée de la Houn<br />
 							64420 ANDOINS
+							<br /><br />
+							<i class="fas fa-phone"></i> 06 70 56 27 10<br />
+							<i class="fas fa-envelope"></i> florent.lavignotte@gmail.com
 						</p>
-						<p>06 70 56 27 10</p>
-						<p>florent.lavignotte@gmail.com</p>
-					</div>
-				</section>
-				<h1>Ingénieur développement logiciel</h1>
+					</section>
+
+					<section id="competences">
+						<div class="title">
+							<h2>Compétences</h2>
+						</div>
+						<ul>
+							<li>
+								<p class="content">Développement Web</p>
+								<p class="techno">(Langages: PHP, Html, CSS, JavaScript)</p>
+							</li>
+							<li>
+								<p class="content">Environements techniques</p>
+								<p class="techno">(Angular, jQuery, Synfony, NodeJS, Docker)</p>
+							</li>
+							<li>
+								<p class="content">Programmation Logiciel</p>
+								<p class="techno">(Langages: C#, C++, C, Java)</p>
+								<!--<br />Développement de drivers Windows en User-Mode-->
+							</li>
+							<li>
+								<p class="content">Framework</p>
+								<p class="techno">(Langages: C#, C++, C, Java)</p>
+							</li>
+							<li>
+								<p class="content">Gestionnaire de base de données</p>
+								<p class="techno">(Oracle SQL, MySQL, SQL Server, PostgreSQL)</p>
+							</li>
+							<li>
+								<p class="content">Intégration continue / Deploiement continu</p>
+								<p class="techno">(GitHub Action)</p>
+							</li>
+							<li>
+								<p class="content">Outils de gestion</p>
+								<p class="techno">(Git, TortoiseGit)</p>
+							</li>
+							<li>
+								<p class="content">Gestion de projets</p>
+								<p class="techno">(Méthodes: Scrum, Agile)</p>
+							</li>
+							<!--<li>
+								<p class="content">Systèmes d'exploitation: Microsoft Windows, Linux</p>
+							</li>-->
+							<li>
+								<p class="content">Tests unitaires</p>
+							</li>
+							<!--<li>
+								<p class="content">Notion de TDD</p>
+							</li>
+							<li>
+								<p class="content">Réalité Virtuelle avec les casques Oculus sous Unreal Engine 4 et 5</p>
+							</li>-->
+						</ul>
+					</section>
+
+					<section id="loisirs">
+						<div class="title">
+							<h2>Loisirs</h2>
+						</div>
+						<div class="element-list">
+							<p class="element">
+								<i class="fas fa-dumbbell"></i><br />
+								<span>Sport</span>
+							</p>
+							<p class="element">
+								<i class="fas fa-music"></i><br />
+								<span>Piano</span>
+							</p>
+							<p class="element">
+								<i class="fas fa-camera"></i><br />
+								<span>Photographie</span>
+							</p>
+						</div>
+					</section>
+				</div>
+				<div id="content">
+					<section id="experiences">
+						<div class="title">
+							<h2>Expériences professionnelles</h2>
+						</div>
+						<ul>
+							<li>
+								<span class="date">Mars 2023 - Octobre 2023 (8 mois)</span><br />
+								<span class="content">Développeur Web à NaturaBuy</span><br />
+								<span class="activite">
+									Chargé du développement de nouvelles fonctionnalités ainsi que la maintenance de leur site E-commerce.
+								</span>
+								<div class="competences">
+									<label>Environement technique :</label>
+									<ul>
+										<li>PHP 8.2</li>
+										<li>Javascript</li>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>Docker</li>
+										<li>Git</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<span class="date">Octobre 2018 - Février 2023 (4 ans et 5 mois)</span><br />
+								<span class="content">Développeur logiciel à Safran Engineering Services</span><br />
+								<span class="activite">
+									Développeur et chef de projet en charge de l'évolution d'outils logiciel d'analyse et de maintenance des turbomoteurs du groupe Safran.
+								</span>
+								<div class="competences">
+									<label>Environement technique :</label>
+									<ul>
+										<li>C# avec .Net Fremwork 4.8</li>
+										<li>C/C++</li>
+										<li>Symfony 3</li>
+										<li>Gestion de projet</li>
+										<li>Rédaction de documentations techniques</li>
+										<li>Méthodologie Scrum</li>
+										<li>Git</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<span class="date">Janvier 2018 - Juillet 2018 (6 mois)</span><br />
+								<span class="content">Stagiaire développeur d'une application d'analyse de fluide à Total</span><br />
+								<span class="activite">
+									Conception et développement d'une application web pour l'équipe d'allocation de production.
+								</span>
+								<div class="competences">
+									<label>Environement technique :</label>
+									<ul>
+										<li>Migration de AngularJS vers Angular 5</li>
+										<li>PHP 5.6</li>
+										<li>CSS avec Bootstrap</li>
+										<li>Javascript avec jQuery</li>
+										<li>C#</li>
+										<li>Méthodologie Scrum</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<span class="date">Octobre 2016 - Fevrier 2017 (4 mois)</span><br />
+								<span class="content">Stagiaire responsable du développement d'un site E-commerce pour Awesome-Bubbles</span><br />
+								<span class="activite">
+									Réalisation d'un site vitrine et d'un site E-commerce avec WordPress.
+								</span>
+								<div class="competences">
+									<label>Environement technique :</label>
+									<ul>
+										<li>WordPress</li>
+										<li>Plugin WooCommerce</li>
+										<li>Création de thèmes</li>
+										<li>Création de plugins</li>
+										<li>PHP 5.6</li>
+										<li>CSS avec Bootstrap</li>
+										<li>Javascript avec jQuery</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<span class="date">Février 2016 - Mai 2016 (3 mois)</span><br />
+								<span class="content">Stagiaire chez Exakis, chargé de la mise en place d'un environnement Microsoft SharePoint 2016</span><br />
+								<span class="activite">
+									Découverte et mise en place d'un serveur SharePoint OnPremise pour présentation des nouvelles fonctionnalités de la version 2016 de l'outil. 
+								</span>
+								<div class="competences">
+									<label>Environement technique :</label>
+									<ul>
+										<li>SharePoint 2016</li>
+										<li>Rédaction de documentations techniques</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<span class="date">Janvier 2014 - Janvier 2015 (1 an)</span><br />
+								<span class="content">Assistant et gestionnaire d'application de reporting de production à Total</span><br />
+								<span class="activite">Responsable de l'analyse et la présentation des données de production 100% opérés par l'entreprise.</span>
+								
+								<div class="competences">
+									<label>Environement technique :</label>
+									<ul>
+										<li>Tableur Excel</li>
+										<li>Génération de rapport</li>
+										<li>Analyse de données pétrolières</li>
+									</ul>
+								</div>
+							</li>
+							<!--<li>
+								<span class="date">Janvier 2012 - Juillet 2013 (1 an et 7 mois)</span><br />
+								<span class="content">Cartographe à ERDF</span><br />
+								<span class="activite">Chargé de la mise à jour des plans cartographique des Landes, des Pyrénées-Atlantiques et des Hautes-Pyrénées.</span>
+								<ul class="competences">
+									<li>Utilisation des logiciel de cartographie Atlas et Pacific</li>
+									<li>Gestion des équipe de cartographie sur le terrain</li>
+									<li>Mise à jour des bases de données cartographique du sud-ouest</li>
+								</ul>
+							</li>
+							<li>
+								<span class="date">Mai 2011 - Juin 2011 (2 mois)</span><br />
+								<span class="content">Stagiaire à Aquitaine Electronique</span><br />
+								<span class="activite">Chargé de la mise en place de procédures de test.</span>
+								<ul class="competences">
+									<li>Rédaction de documentations de test</li>
+									<li>Analyse et test de schéma électique</li>
+								</ul>
+							</li>-->
+						</ul>
+					</section>
+
+					<section id="formations">
+						<div class="title">
+							<h2>Formations et Diplômes</h2>
+						</div>
+						<ul>
+							<li>
+								<span class="date">Octobre 2022 :</span>
+								<span class="content">Cybersécurité</span>
+							</li>
+							<li>
+								<span class="date">Septembre 2015 - Juillet 2018 :</span>
+								<span class="content">Ecole d'ingénieur Informatique à l'Exia.Cesi</span>
+							</li>
+							<li>
+								<span class="date">Décembre 2014 :</span>
+								<span class="content">Photoshop CS6 - Avancé</span>
+							</li>
+							<li>
+								<span class="date">Novembre 2014 :</span>
+								<span class="content">Gestion et modélisation des bases de données</span>
+							</li>
+							<li>
+								<span class="date">Novembre 2014 :</span>
+								<span class="content">Ergonomie et design des sites web</span>
+							</li>
+							<li>
+								<span class="date">Septembre 2014 :</span>
+								<span class="content">Base de données Oracle SQL</span>
+							</li>
+							<li>
+								<span class="date">Juin 2014 :</span>
+								<span class="content">Microsoft Sharepoint 2010</span>
+							</li>
+							<!--<li>
+								<span class="date">Septembre 2009 - Juin 2011 :</span>
+								<span class="content">DUT GEII (Génie Electronique et Informatique Industriel)</span>
+							</li>
+							<li>
+								<span class="date">Juin 2009 :</span>
+								<span class="content">Bac STI Electrotechnique (Science et Technique de l'Ingénieur)</span>
+							</li>-->
+						</ul>
+					</section>
+				</div>
 			</div>
 		</main>
 	</div>
