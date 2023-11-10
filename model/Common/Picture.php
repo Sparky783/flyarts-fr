@@ -53,7 +53,7 @@ class Picture
 	public function getWidth(): int|false
 	{
 		if ($this->_source !== null) {
-			return imagesx($this->_source);
+			return \imagesx($this->_source);
 		}
 
 		return false;
@@ -67,7 +67,7 @@ class Picture
 	public function getHeight(): int|false
 	{
 		if ($this->_source !== null) {
-			return imagesy($this->_source);
+			return \imagesy($this->_source);
 		}
 
 		return false;
@@ -97,7 +97,7 @@ class Picture
 	public function setInterlace(bool $isInterlace): bool
 	{
 		if ($this->_source !== null) {
-			return imageinterlace($this->_source, $isInterlace);
+			return \imageinterlace($this->_source, $isInterlace);
 		}
 
 		return false;
@@ -116,44 +116,44 @@ class Picture
 
 		switch ($this->_ext) {
 			case '.bmp':
-				$this->_source = imagecreatefrombmp($path);
+				$this->_source = \imagecreatefrombmp($path);
 				break;
 				
 			case '.wbmp':
-				$this->_source = imagecreatefromwbmp($path);
+				$this->_source = \imagecreatefromwbmp($path);
 				break;
 			
 			case '.png':
-				$this->_source = imagecreatefrompng($path);
+				$this->_source = \imagecreatefrompng($path);
 				break;
 				
 			case '.jpg':
 			case '.jpeg':
-				$this->_source = imagecreatefromjpeg($path);
+				$this->_source = \imagecreatefromjpeg($path);
 				break;
 				
 			case '.gif':
-				$this->_source = imagecreatefromgif($path);
+				$this->_source = \imagecreatefromgif($path);
 				break;
 			
 			case '.gd':
-				$this->_source = imagecreatefromgd($path);
+				$this->_source = \imagecreatefromgd($path);
 				break;
 				
 			case '.gd2':
-				$this->_source = imagecreatefromgd2($path);
+				$this->_source = \imagecreatefromgd2($path);
 				break;
 				
 			case '.webp':
-				$this->_source = imagecreatefromwebp($path);
+				$this->_source = \imagecreatefromwebp($path);
 				break;
 				
 			case '.xbm':
-				$this->_source = imagecreatefromxbm($path);
+				$this->_source = \imagecreatefromxbm($path);
 				break;
 				
 			case '.xpm':
-				$this->_source = imagecreatefromxpm($path);
+				$this->_source = \imagecreatefromxpm($path);
 				break;
 
 			default:
@@ -171,7 +171,7 @@ class Picture
 	 */
 	public function loadFromFileContent(string $content): bool
 	{
-		$source = imagecreatefromstring($content);
+		$source = \imagecreatefromstring($content);
 
 		if ($source === false) {
 			return false;
@@ -198,32 +198,32 @@ class Picture
 
 		switch ($this->_ext) {
 			case ".bmp":
-				return imagebmp($this->_source, $ouputPath);
+				return \imagebmp($this->_source, $ouputPath);
 				
 			case ".wbmp":
-				return imagewbmp($this->_source, $ouputPath);
+				return \imagewbmp($this->_source, $ouputPath);
 			
 			case ".png":
-				return imagepng($this->_source, $ouputPath, $quality);
+				return \imagepng($this->_source, $ouputPath, $quality);
 				
 			case ".jpg":
 			case ".jpeg":
-				return imagejpeg($this->_source, $ouputPath, $quality);
+				return \imagejpeg($this->_source, $ouputPath, $quality);
 				
 			case ".gif":
-				return imagegif($this->_source, $ouputPath);
+				return \imagegif($this->_source, $ouputPath);
 				
 			case ".gd":
-				return imagegd($this->_source, $ouputPath);
+				return \imagegd($this->_source, $ouputPath);
 				
 			case ".gd2":
-				return imagegd2($this->_source, $ouputPath);
+				return \imagegd2($this->_source, $ouputPath);
 				
 			case ".webp":
-				return imagewebp($this->_source, $ouputPath);
+				return \imagewebp($this->_source, $ouputPath);
 				
 			case ".xbm":
-				return imagexbm($this->_source, $ouputPath);
+				return \imagexbm($this->_source, $ouputPath);
 
 			default:
 				return false;
@@ -242,8 +242,8 @@ class Picture
 			return false;
 		}
 
-		$currentWidth = imagesx($this->_source);
-		$currentHeight = imagesy($this->_source);
+		$currentWidth = \imagesx($this->_source);
+		$currentHeight = \imagesy($this->_source);
 		
 		$newHeight = $currentHeight * $newWidth / $currentWidth;
 		
@@ -262,8 +262,8 @@ class Picture
 			return false;
 		}
 
-		$currentWidth = imagesx($this->_source);
-		$currentHeight = imagesy($this->_source);
+		$currentWidth = \imagesx($this->_source);
+		$currentHeight = \imagesy($this->_source);
 		
 		$newWidth = $currentWidth * $newHeight / $currentHeight;
 		
@@ -284,17 +284,17 @@ class Picture
 			return false;
 		}
 
-		$currentWidth = imagesx($this->_source);
-		$currentHeight = imagesy($this->_source);
+		$currentWidth = \imagesx($this->_source);
+		$currentHeight = \imagesy($this->_source);
 		
 		$image_finale = imagecreatetruecolor($newWidth, $newHeight);
-		imagealphablending($image_finale, false);
-		imagesavealpha($image_finale, true);
+		\imagealphablending($image_finale, false);
+		\imagesavealpha($image_finale, true);
 		
-		$transparent = imagecolorallocatealpha($image_finale, 255, 255, 255, 127);
-		imagefilledrectangle($image_finale, 0, 0, $newWidth, $newHeight, $transparent);
+		$transparent = \imagecolorallocatealpha($image_finale, 255, 255, 255, 127);
+		\imagefilledrectangle($image_finale, 0, 0, $newWidth, $newHeight, $transparent);
 		
-		if (imagecopyresampled($image_finale, $this->_source, 0, 0, 0, 0, $newWidth, $newHeight, $currentWidth, $currentHeight)) {
+		if (\imagecopyresampled($image_finale, $this->_source, 0, 0, 0, 0, $newWidth, $newHeight, $currentWidth, $currentHeight)) {
 			$this->_source = $image_finale;
 			return true;
 		}
@@ -320,10 +320,10 @@ class Picture
 		}
 
 		$newImage = $newImageSource;
-		$largeur_source = imagesx($this->_source);
-		$hauteur_source = imagesy($this->_source);
-		$largeur_image = imagesx($newImage);
-		$hauteur_image = imagesy($newImage);
+		$largeur_source = \imagesx($this->_source);
+		$hauteur_source = \imagesy($this->_source);
+		$largeur_image = \imagesx($newImage);
+		$hauteur_image = \imagesy($newImage);
 		
 		if ($largeur_image > $largeur_source || $hauteur_image > $hauteur_source) {
 			return false;
@@ -346,7 +346,7 @@ class Picture
 		}
 
 		// On met le logo (source) dans l'image de destination (la photo)
-		return imagecopy($this->_source, $newImage, $pos_x, $pos_y, 0, 0, $largeur_image, $hauteur_image);
+		return \imagecopy($this->_source, $newImage, $pos_x, $pos_y, 0, 0, $largeur_image, $hauteur_image);
 	}
 
 	/**
