@@ -17,7 +17,7 @@ if($session->admin_isConnected)
 		$session->admin_isConnected = false;
 
 		// Supprimer le token de la BDD s'il existe.
-		if($session->user_idToken > -1) {
+		if($session->admin_idToken > -1) {
 			AdminToken::removeFromDatabase($session->admin_idToken);
 
 			// On supprime le cookie de connexion

@@ -11,8 +11,6 @@ ini_set('memory_limit', '512M');
 if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
 {
 	$app->Post("/projects_list", function($args) {
-		include_once(ABSPATH . "model/flyarts/Project.php");
-
 		$projects = Project::GetList();
 		$list = array();
 		
@@ -23,12 +21,6 @@ if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
 	});
 
 	$app->Post("/project_add", function($args) {
-		include_once(ABSPATH . "model/system/ToolBox.php");
-		include_once(ABSPATH . "model/system/Session.php");
-		include_once(ABSPATH . "model/flyarts/Project.php");
-		include_once(ABSPATH . "model/UploadFile.php");
-		include_once(ABSPATH . "model/Picture.php");
-
 		$project = new Project();
 		$project->SetTitle($args['title']);
 		$project->SetLink($args['link']);
@@ -57,12 +49,6 @@ if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
 	});
 
 	$app->Post("/project_edit", function($args) {
-		include_once(ABSPATH . "model/system/ToolBox.php");
-		include_once(ABSPATH . "model/system/Session.php");
-		include_once(ABSPATH . "model/flyarts/Project.php");
-		include_once(ABSPATH . "model/UploadFile.php");
-		include_once(ABSPATH . "model/Picture.php");
-		
 		$project = Project::GetById($args['id_project']);
 		$project->SetTitle($args['title']);
 		$project->SetLink($args['link']);
@@ -91,16 +77,10 @@ if(ToolBox::SearchInArray($session->admin_roles, array("admin")))
 	});
 
 	$app->Post("/project_remove", function($args) {
-		include_once(ABSPATH . "model/flyarts/Project.php");
-
 		API::SendJSON(Project::RemoveFromDatabase($args['id_project']));
 	});
 
 	$app->Post("/upload-project-image", function($args) {
-		include_once(ABSPATH . "model/system/Session.php");
-		include_once(ABSPATH . "model/flyarts/Project.php");
-		include_once(ABSPATH . "model/UploadFile.php");
-	
 		$session = Session::getInstance();
 	
 		if(isset($_FILES['data'])) {
