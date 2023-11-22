@@ -20,7 +20,7 @@
 
 		<?php // CSS Standard ?>
 		<link rel="stylesheet" type="text/css" href="view/css/all.min.css" />
-		<link rel="stylesheet" type="text/css" href="view/css/cv-papier.css" />
+		<link rel="stylesheet" type="text/css" href="view/css/cv-papier.css?v=1" />
 
 		<?php // Script principaux ?>
 		<!--[if lt IE 9]>

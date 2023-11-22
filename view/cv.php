@@ -7,7 +7,7 @@
 		<title>FlyArts, mes projets, mes passions et mes loisirs en ligne | <?php echo TITLE; ?></title>
 		<meta name="description" content="Site officiel de Florent LAVIGNOTTE.">
 		
-		<link rel="stylesheet" type="text/css" href="view/css/cv.css" />
+		<link rel="stylesheet" type="text/css" href="view/css/cv.css?v=1" />
 		
 		<script type="text/javascript" src="view/js/cv.js"></script>
 	</head>
