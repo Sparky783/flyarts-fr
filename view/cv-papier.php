@@ -56,11 +56,11 @@
 						<ul>
 							<li>
 								<p class="content">Développement Web</p>
-								<p class="techno">(Langages: PHP, Html, CSS, JavaScript)</p>
+								<p class="techno">(Langages: PHP, HTML, CSS, Javascript)</p>
 							</li>
 							<li>
 								<p class="content">Environements techniques</p>
-								<p class="techno">(Angular, jQuery, Synfony, NodeJS, Docker)</p>
+								<p class="techno">(NodeJS, Docker, Git Bash, TortoiseGit)</p>
 							</li>
 							<li>
 								<p class="content">Programmation Logiciel</p>
@@ -69,26 +69,22 @@
 							</li>
 							<li>
 								<p class="content">Framework</p>
-								<p class="techno">(Langages: C#, C++, C, Java)</p>
+								<p class="techno">(Angular, jQuery, Symfony, .NET)</p>
 							</li>
 							<li>
 								<p class="content">Gestionnaire de base de données</p>
-								<p class="techno">(Oracle SQL, MySQL, SQL Server, PostgreSQL)</p>
+								<p class="techno">(MySQL, SQL Server, PostgreSQL, Oracle SQL)</p>
 							</li>
 							<li>
 								<p class="content">Intégration continue / Deploiement continu</p>
 								<p class="techno">(GitHub Action)</p>
 							</li>
 							<li>
-								<p class="content">Outils de gestion</p>
-								<p class="techno">(Git, TortoiseGit)</p>
-							</li>
-							<li>
 								<p class="content">Gestion de projets</p>
-								<p class="techno">(Méthodes: Scrum, Agile)</p>
+								<p class="techno">(Scrum, Agile)</p>
 							</li>
 							<!--<li>
-								<p class="content">Systèmes d'exploitation: Microsoft Windows, Linux</p>
+								<p class="content">Systèmes d'exploitation: Windows, Linux</p>
 							</li>-->
 							<li>
 								<p class="content">Tests unitaires</p>
@@ -259,7 +255,7 @@
 						<ul>
 							<li>
 								<span class="date">Octobre 2022 :</span>
-								<span class="content">Cybersécurité</span>
+								<span class="content">Cybersécurité Software et Hardware</span>
 							</li>
 							<li>
 								<span class="date">Septembre 2015 - Juillet 2018 :</span>

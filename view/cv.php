@@ -248,7 +248,7 @@
 							<li class="cv-block">
 								<div class="cv-item">
 									<span class="date">Octobre 2022 :</span>
-									<span class="content">Cybersécurité</span>
+									<span class="content">Cybersécurité Software et Hardware</span>
 								</div>
 								<div class="cv-detail card">
 									<div class="card-body">
@@ -380,29 +380,26 @@
 						</div>
 						<ul>
 							<li>
-								<span class="content">Développement Web <span class="date">(Langages: PHP, Html, CSS, JavaScript)</span> Angular, jQuery, Synfony, NodeJS</span>
+								<span class="content">Développement Web <span class="info">Langages: PHP, HTML, CSS, Javascript</span> Framework <span class="info">Angular, jQuery, Symfony</span></span>
 							</li>
 							<li>
-								<span class="content">Programmation Logiciel <span class="date">(Langages: C#, C++, C, Java)</span>, Framework <span class="date">(.NET Framework, .NET Core, Boost)</span><br />
-								Développement de drivers Windows en User-Mode</span>
+								<span class="content">Environement technique <span class="info">NodeJS, Docker, Git Bash, TortoiseGit</span></span>
 							</li>
 							<li>
-								<span class="content">Gestionnaire de base de données <span class="date">(OracleSQL, MySQL, SQL Server, PostgreSQL)</span></span>
+								<span class="content">Programmation Logiciel <span class="info">Langages: C#, C++, C, Java</span> Framework <span class="info">.NET Framework, .NET Core, Boost</span>
+								<!--<br /><span class="info">Développement de drivers Windows en User-Mode</span>--></span>
 							</li>
 							<li>
-								<span class="content">Environement <span class="date">(Docker)</span></span>
+								<span class="content">Gestionnaire de base de données <span class="info">MySQL, SQL Server, PostgreSQL, OracleSQL</span></span>
 							</li>
 							<li>
-								<span class="content">Intégration continue / Deploiement continu <span class="date">(GitHub Action)</span></span>
+								<span class="content">Intégration continue / Deploiement continu <span class="info">GitHub Action</span></span>
 							</li>
 							<li>
-								<span class="content">Outils de gestion <span class="date">(Git, TortoiseGit)</span></span>
+								<span class="content">Gestion de projets <span class="info">Scrum, Agile</span></span>
 							</li>
 							<li>
-								<span class="content">Gestion de projets <span class="date">(Méthodes: Scrum, Agile)</span></span>
-							</li>
-							<li>
-								<span class="content">Systèmes d'exploitation <span class="date">(Windows, Linux)</span></span>
+								<span class="content">Systèmes d'exploitation <span class="info">Windows, Linux</span></span>
 							</li>
 							<li>
 								<span class="content">Tests unitaires</span>
@@ -423,7 +420,7 @@
 											<b>Logiciels graphiques:</b> Photoshop CS6, Gimp, Paint<br />
 											<b>Logiciels de modélisation 3D:</b> Blender<br />
 											<b>Logiciels de CAO:</b> FreeCAD, AutoDesk Fusion 360, SolidWorks<br />
-											<b>Logiciels de montage vidéo:</b> Premiere Pro, After Effect<br />
+											<b>Logiciels de montage vidéo:</b> Premiere Pro, After Effect, DaVinci Resolve<br />
 											<b>Logiciels de bureautique:</b> Suite Microsoft Office (Word, Excel, PowerPoint)
 										</p>
 									</div>
