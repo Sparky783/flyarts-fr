@@ -55,7 +55,7 @@
 						</div>
 						<ul>
 							<li>
-								<p class="content">Développement Web</p>
+								<p class="content">Développement web</p>
 								<p class="techno">(Langages: PHP, HTML, CSS, Javascript)</p>
 							</li>
 							<li>
@@ -95,6 +95,10 @@
 							<li>
 								<p class="content">Réalité Virtuelle avec les casques Oculus sous Unreal Engine 4 et 5</p>
 							</li>-->
+							<li>
+								<p class="content">Anglais technique</p>
+								<p class="techno">TOEIC niveau B2</p>
+							</li>
 						</ul>
 					</section>
 

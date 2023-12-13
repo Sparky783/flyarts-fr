@@ -52,7 +52,7 @@
 							<li class="cv-block">
 								<div class="cv-item">
 									<span class="date">Mars 2023 - Octobre 2023 (8 mois)</span><br />
-									<span class="content">Développeur Web à NaturaBuy</span><br />
+									<span class="content">Développeur web à NaturaBuy</span><br />
 									<span class="description">Développement et maintenance du site E-commerce NaturaBuy.</span>
 								</div>
 								<div class="cv-detail card">
@@ -409,6 +409,9 @@
 							</li>
 							<li>
 								<span class="content">Réalité Virtuelle avec les casques Oculus sous Unreal Engine 4 et 5</span>
+							</li>
+							<li>
+								<span class="content">Anglais technique <span class="info">TOEIC niveau B2</span></span>
 							</li>
 							<li class="cv-block">
 								<div class="cv-item">
