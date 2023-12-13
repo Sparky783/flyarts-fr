@@ -7,7 +7,7 @@
 		<title>FlyArts, mes projets, mes passions et mes loisirs en ligne | <?php echo TITLE; ?></title>
 		<meta name="description" content="Site officiel de Florent LAVIGNOTTE.">
 		
-		<link rel="stylesheet" type="text/css" href="view/css/cv.css" />
+		<link rel="stylesheet" type="text/css" href="view/css/cv.css?v=1" />
 		
 		<script type="text/javascript" src="view/js/cv.js"></script>
 	</head>
@@ -52,7 +52,7 @@
 							<li class="cv-block">
 								<div class="cv-item">
 									<span class="date">Mars 2023 - Octobre 2023 (8 mois)</span><br />
-									<span class="content">Développeur Web à NaturaBuy</span><br />
+									<span class="content">Développeur web à NaturaBuy</span><br />
 									<span class="description">Développement et maintenance du site E-commerce NaturaBuy.</span>
 								</div>
 								<div class="cv-detail card">
@@ -409,6 +409,9 @@
 							</li>
 							<li>
 								<span class="content">Réalité Virtuelle avec les casques Oculus sous Unreal Engine 4 et 5</span>
+							</li>
+							<li>
+								<span class="content">Anglais technique <span class="info">TOEIC niveau B2</span></span>
 							</li>
 							<li class="cv-block">
 								<div class="cv-item">
