@@ -59,7 +59,7 @@
 								<p class="techno">(Langages: PHP, HTML, CSS, Javascript)</p>
 							</li>
 							<li>
-								<p class="content">Environements techniques</p>
+								<p class="content">Environnements techniques</p>
 								<p class="techno">(NodeJS, Docker, Git Bash, TortoiseGit)</p>
 							</li>
 							<li>
@@ -76,7 +76,7 @@
 								<p class="techno">(MySQL, SQL Server, PostgreSQL, Oracle SQL)</p>
 							</li>
 							<li>
-								<p class="content">Intégration continue / Deploiement continu</p>
+								<p class="content">Intégration continue / Déploiement continu</p>
 								<p class="techno">(GitHub Action)</p>
 							</li>
 							<li>
@@ -135,7 +135,7 @@
 									Chargé du développement de nouvelles fonctionnalités ainsi que la maintenance de leur site E-commerce.
 								</span>
 								<div class="competences">
-									<label>Environement technique :</label>
+									<label>Environnement technique :</label>
 									<ul>
 										<li>PHP 8.2</li>
 										<li>Javascript</li>
@@ -153,7 +153,7 @@
 									Développeur et chef de projet en charge de l'évolution d'outils logiciel d'analyse et de maintenance des turbomoteurs du groupe Safran.
 								</span>
 								<div class="competences">
-									<label>Environement technique :</label>
+									<label>Environnement technique :</label>
 									<ul>
 										<li>C# avec .Net Fremwork 4.8</li>
 										<li>C/C++</li>
@@ -172,7 +172,7 @@
 									Conception et développement d'une application web pour l'équipe d'allocation de production.
 								</span>
 								<div class="competences">
-									<label>Environement technique :</label>
+									<label>Environnement technique :</label>
 									<ul>
 										<li>Migration de AngularJS vers Angular 5</li>
 										<li>PHP 5.6</li>
@@ -184,13 +184,13 @@
 								</div>
 							</li>
 							<li>
-								<span class="date">Octobre 2016 - Fevrier 2017 (4 mois)</span><br />
+								<span class="date">Octobre 2016 - Février 2017 (4 mois)</span><br />
 								<span class="content">Stagiaire responsable du développement d'un site E-commerce pour Awesome-Bubbles</span><br />
 								<span class="activite">
 									Réalisation d'un site vitrine et d'un site E-commerce avec WordPress.
 								</span>
 								<div class="competences">
-									<label>Environement technique :</label>
+									<label>Environnement technique :</label>
 									<ul>
 										<li>WordPress</li>
 										<li>Plugin WooCommerce</li>
@@ -209,7 +209,7 @@
 									Découverte et mise en place d'un serveur SharePoint OnPremise pour présentation des nouvelles fonctionnalités de la version 2016 de l'outil. 
 								</span>
 								<div class="competences">
-									<label>Environement technique :</label>
+									<label>Environnement technique :</label>
 									<ul>
 										<li>SharePoint 2016</li>
 										<li>Rédaction de documentations techniques</li>
@@ -222,7 +222,7 @@
 								<span class="activite">Responsable de l'analyse et la présentation des données de production 100% opérés par l'entreprise.</span>
 								
 								<div class="competences">
-									<label>Environement technique :</label>
+									<label>Environnement technique :</label>
 									<ul>
 										<li>Tableur Excel</li>
 										<li>Génération de rapport</li>
@@ -236,7 +236,7 @@
 								<span class="activite">Chargé de la mise à jour des plans cartographique des Landes, des Pyrénées-Atlantiques et des Hautes-Pyrénées.</span>
 								<ul class="competences">
 									<li>Utilisation des logiciel de cartographie Atlas et Pacific</li>
-									<li>Gestion des équipe de cartographie sur le terrain</li>
+									<li>Gestion des équipes de cartographie sur le terrain</li>
 									<li>Mise à jour des bases de données cartographique du sud-ouest</li>
 								</ul>
 							</li>
@@ -246,7 +246,7 @@
 								<span class="activite">Chargé de la mise en place de procédures de test.</span>
 								<ul class="competences">
 									<li>Rédaction de documentations de test</li>
-									<li>Analyse et test de schéma électique</li>
+									<li>Analyse et test de schéma électrique</li>
 								</ul>
 							</li>-->
 						</ul>
@@ -283,7 +283,7 @@
 							</li>
 							<li>
 								<span class="date">Juin 2014 :</span>
-								<span class="content">Microsoft Sharepoint 2010</span>
+								<span class="content">Microsoft SharePoint 2010</span>
 							</li>
 							<!--<li>
 								<span class="date">Septembre 2009 - Juin 2011 :</span>

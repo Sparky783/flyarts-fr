@@ -61,7 +61,7 @@
 											Chargé du développement de nouvelles fonctionnalités ainsi que la maintenance de leur site E-commerce développé en PHP et JavaScript.
 										</p>
 										<div class="competences">
-											<label>Compétences aquises :</label>
+											<label>Compétences acquises :</label>
 											<ul>
 												<li>PHP 8.2</li>
 												<li>Javascript</li>
@@ -83,11 +83,12 @@
 								<div class="cv-detail card">
 									<div class="card-body">
 										<p class="details">
-											Développeur et chef de projet, je suis en charge du développement d'outils logiciel ayant pour principal objectif l'analyse et la maintenance des turbomoteurs du groupe Safran. Principalement écrit en C# et C++, ces programmes sont conçu autour d'un développement Agile (Scrum) et font de l'objet de tests unitaires avant leur livraison auprèt du client.<br />
-											D'autres projets auquel je suis membre font également partie de mes activités. La réalité virtuel d'une part ainsi que le développement d'outils de gestion de projet (en Symfony et en Ruby) d'autre part.
+											Développeur et chef de projet, je suis en charge du développement d'outils logiciel ayant pour principal objectif l'analyse et la maintenance des turbomoteurs du groupe Safran.
+											Principalement écrit en C# et C++, ces programmes sont conçus autour d'un développement Agile (Scrum) et font de l'objet de tests unitaires avant leur livraison auprès du client.<br />
+											D'autres projets auquel je suis membre font également partie de mes activités. La réalité virtuelle d'une part ainsi que le développement d'outils de gestion de projet (en Symfony et en Ruby) d'autre part.
 										</p>
 										<div class="competences">
-											<label>Compétences aquises :</label>
+											<label>Compétences acquises :</label>
 											<ul>
 												<li>C# avec .Net Fremwork 4.8</li>
 												<li>C/C++</li>
@@ -110,10 +111,11 @@
 								<div class="cv-detail card">
 									<div class="card-body">
 										<p class="details">
-											L'objectif de ce stage de 6 mois fut de réaliser une aplication web permettant d'analyser les hydrocarbures prélevés en laboratoire. Cet outil doit être intuitif et facile d'utilisation. J'ai créé une interface utilisateur à l'aide du framework Angular 5. Afin de traiter la masse de données et de retourner des résultats précis, une API réalisée en C# a été mise en place.
+											L'objectif de ce stage de 6 mois fut de réaliser une application web permettant d'analyser les hydrocarbures prélevés en laboratoire. Cet outil doit être intuitif et facile d'utilisation.
+											J'ai créé une interface utilisateur à l'aide du framework Angular 5. Afin de traiter la masse de données et de retourner des résultats précis, une API réalisée en C# a été mise en place.
 										</p>
 										<div class="competences">
-											<label>Compétences aquises :</label>
+											<label>Compétences acquises :</label>
 											<ul>
 												<li>Migration de AngularJS vers Angular 5</li>
 												<li>PHP 5.6</li>
@@ -128,17 +130,18 @@
 							</li>
 							<li class="cv-block">
 								<div class="cv-item">
-									<span class="date">Octobre 2016 - Fevrier 2017 (4 mois)</span><br />
+									<span class="date">Octobre 2016 - Février 2017 (4 mois)</span><br />
 									<span class="content">Stagiaire responsable du développement d'un site E-commerce pour Awesome-Bubbles</span><br />
 									<span class="description">En vue d'élargir la clientèle de ce revendeur de champagne en Irlande, j'ai réalisé un site vitrine WordPress à l'aide d'un plugin Woo Commerce.</span>
 								</div>
 								<div class="cv-detail card">
 									<div class="card-body">
 										<p class="details">
-											Désireux d'être plus présent sur le net, cette petite entreprise de vente de champagne en Irlande a fait appel à un stagiaire pour mettre à jour leur site internet. C'est pourquoi, j'ai rejoint cette équipe et mis en place un site vitrine pour la présentation de ce commerçant ainsi qu'un site E-commerce afin d'étendre ses ventes sur internet.
+											Désireux d'être plus présent sur le net, cette petite entreprise de vente de champagne en Irlande a fait appel à un stagiaire pour mettre à jour leur site internet.
+											C'est pourquoi, j'ai rejoint cette équipe et mis en place un site vitrine pour la présentation de ce commerçant ainsi qu'un site E-commerce afin d'étendre ses ventes sur internet.
 										</p>
 										<div class="competences">
-											<label>Compétences aquises :</label>
+											<label>Compétences acquises :</label>
 											<ul>
 												<li>WordPress</li>
 												<li>Plugin WooCommerce</li>
@@ -161,10 +164,13 @@
 								<div class="cv-detail card">
 									<div class="card-body">
 										<p class="details">
-											Durant 4 mois de stage chez Exakis à Bidart, j'étais chargé de mettre en place un environnement Microsoft SharePoint 2016 OnPremise. La nouvelle version de cet outil colaboratif a pour principal objectif d'être complètement lié au cloud, ceci permettant une plus grande disponibilité des services et garantissant de meilleures performances. Tout au long de cette mission, j'ai rédigé plusieurs documents permettant d'expliquer son fonctionnement aux collaborateurs ainsi que la procédure de mise en place de l'outil directement chez le client. Pour finir, j'ai mis en place l'outil sur un serveur dédié par l'entreprise afin de pouvoir présenter Microsoft Sarepoint 2016 aux clients.
+											Durant 4 mois de stage chez Exakis à Bidart, j'étais chargé de mettre en place un environnement Microsoft SharePoint 2016 OnPremise.
+											La nouvelle version de cet outil collaboratif a pour principal objectif d'être complètement lié au cloud, ceci permettant une plus grande disponibilité des services et garantissant de meilleures performances.
+											Tout au long de cette mission, j'ai rédigé plusieurs documents permettant d'expliquer son fonctionnement aux collaborateurs ainsi que la procédure de mise en place de l'outil directement chez le client.
+											Pour finir, j'ai mis en place l'outil sur un serveur dédié par l'entreprise afin de pouvoir présenter Microsoft SharePoint 2016 aux clients.
 										</p>
 										<div class="competences">
-											<label>Compétences aquises :</label>
+											<label>Compétences acquises :</label>
 											<ul>
 												<li>SharePoint 2016</li>
 												<li>Rédaction de documentations techniques</li>
@@ -182,10 +188,12 @@
 								<div class="cv-detail card">
 									<div class="card-body">
 										<p class="details">
-											Au service Reporting de production mon objectif était de collecter les données hebdomadaires et mensuelles de production des sites du groupe Total. Directement en relation avec les filliales, j'avais également pour responsabilité de faire remonter les incidents survenus lors de la production afin de manager la production et d'augmenter les performances. Le dernier point de cette mission fut la rédaction de rapports de production en vu d'informer la direction.
+											Au service Reporting de production mon objectif était de collecter les données hebdomadaires et mensuelles de production des sites du groupe Total.
+											Directement en relation avec les filiales, j'avais également pour responsabilité de faire remonter les incidents survenus lors de la production afin de manager la production et d'augmenter les performances.
+											Le dernier point de cette mission fut la rédaction de rapports de production en vue d'informer la direction.
 										</p>
 										<div class="competences">
-											<label>Compétences aquises :</label>
+											<label>Compétences acquises :</label>
 											<ul>
 												<li>Tableur Excel</li>
 												<li>Génération de rapport</li>
@@ -204,10 +212,12 @@
 								<div class="cv-detail card">
 									<div class="card-body">
 										<p class="details">
-											Dans cette grande entreprise française, j'étais en charge de la mise à jour des réseaux électrique des départements Pyrénées-Atlantiques, Hautes-Pyrénées ainsi que des Landes. Travaillant avec les logiciels de cartographie Atlas et Pacific, mon objectif était de détecter les anomalies présentes dans la base de données de l'entreprise et de les corriger. Cette activité pleinement en autonomie, me permettait d'être en relation avec les techniciens présent sur le terrain ainsi qu'avec les Géométre-Topographes partenaires d'ERDF.
+											Dans cette grande entreprise française, j'étais en charge de la mise à jour des réseaux électrique des départements Pyrénées-Atlantiques, Hautes-Pyrénées ainsi que des Landes.
+											Travaillant avec les logiciels de cartographie Atlas et Pacific, mon objectif était de détecter les anomalies présentes dans la base de données de l'entreprise et de les corriger.
+											Cette activité pleinement en autonomie, me permettait d'être en relation avec les techniciens présent sur le terrain ainsi qu'avec les Géomètre-Topographes partenaires d'ERDF.
 										</p>
 										<div class="competences">
-											<label>Compétences aquises :</label>
+											<label>Compétences acquises :</label>
 											<ul>
 												<li>Utilisation des logiciel de cartographie Atlas et Pacific</li>
 												<li>Gestion des équipe de cartographie sur le terrain</li>
@@ -226,13 +236,14 @@
 								<div class="cv-detail card">
 									<div class="card-body">
 										<p class="details">
-											Stagiaire de fin d'étude pour mon DUT, j'ai durant 2 mois à Aquitaine Electronique rédigé plusieurs procédures de contrôle pour des baies électrique utilisé dans les équipements militaire produit par l'entreprise. J'ai également réalisé le contrôle de celle-ci afin de valider ces procédures.
+											Stagiaire de fin d'étude pour mon DUT, j'ai durant 2 mois à Aquitaine Electronique rédigé plusieurs procédures de contrôle pour des baies électrique utilisé dans les équipements militaire produit par l'entreprise.
+											J'ai également réalisé le contrôle de celle-ci afin de valider ces procédures.
 										</p>
 										<div class="competences">
-											<label>Compétences aquises :</label>
+											<label>Compétences acquises :</label>
 											<ul>
 												<li>Rédaction de documentations de test</li>
-												<li>Analyse et test de schéma électique</li>
+												<li>Analyse et test de schéma électrique</li>
 											</ul>
 										</div>
 									</div>
@@ -254,7 +265,7 @@
 									<div class="card-body">
 										<p>
 											Formation de 8 jours sur la cybersécurité hardware et software. L'objectif était d'apprendre les risques ainsi que les facteurs d'attaque dans le domaine industriel.
-											Nous avons appris les différents types d'attaque existant et nous avons également apris à effectuer une attaque matériel et logiciel.
+											Nous avons appris les différents types d'attaque existant et nous avons également appris à effectuer une attaque matérielle et logiciel.
 										</p>
 									</div>
 								</div>
@@ -283,7 +294,7 @@
 									<div class="card-body">
 										<p>
 											Formation de quelques jours sur l'outil Photoshop CS6. Une formation menant à un niveau avancé dans l'utilisation de ce logiciel.
-											Ecretage, masque, fusion, détourage, déformation 3D etc ... autant de fonctionnalités que j'ai pu étudier et pratiquer dans l'objectif
+											Ecrêtage, masque, fusion, détourage, déformation 3D etc ... autant de fonctionnalités que j'ai pu étudier et pratiquer dans l'objectif
 											d'améliorer mes compétences en web design.
 										</p>
 									</div>
@@ -327,7 +338,7 @@
 								<div class="cv-detail card">
 									<div class="card-body">
 										<p>
-											Découverte de l'outil Oracle SQL et compréhension des requètes pour la gestion de base de données relationnelles.
+											Découverte de l'outil Oracle SQL et compréhension des requêtes pour la gestion de base de données relationnelles.
 										</p>
 									</div>
 								</div>
@@ -335,12 +346,12 @@
 							<li class="cv-block">
 								<div class="cv-item">
 									<span class="date">Juin 2014 :</span>
-									<span class="content">Microsoft Sharepoint 2010</span>
+									<span class="content">Microsoft SharePoint 2010</span>
 								</div>
 								<div class="cv-detail card">
 									<div class="card-body">
 										<p>
-											Formation sur l'utilisation et la découverte de l'outil de travail collaboratif Sharepoint 2010.
+											Formation sur l'utilisation et la découverte de l'outil de travail collaboratif SharePoint 2010.
 										</p>
 									</div>
 								</div>
@@ -353,7 +364,7 @@
 								<div class="cv-detail card">
 									<div class="card-body">
 										<p>
-											J'ai intégré cette école supérieur, afin d'orienter ma formation vers la robotique et l'électronique de précision.
+											J'ai intégré cette école supérieure, afin d'orienter ma formation vers la robotique et l'électronique de précision.
 										</p>
 									</div>
 								</div>
@@ -366,8 +377,8 @@
 								<div class="cv-detail card">
 									<div class="card-body">
 										<p>
-											Formation initiale qui porte dans le domaine de l'éléctrotechnique
-											(Eléctronique, Electrique, Mécanique, Informatique/Programmation, Physique, Mathématique)
+											Formation initiale qui porte dans le domaine de l'électrotechnique
+											(Electronique, Electrique, Mécanique, Informatique/Programmation, Physique, Mathématique)
 										</p>
 									</div>
 								</div>
