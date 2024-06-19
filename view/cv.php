@@ -383,7 +383,7 @@
 								<span class="content">Développement Web <span class="info">Langages: PHP, HTML, CSS, Javascript</span> Framework <span class="info">Angular, jQuery, Symfony</span></span>
 							</li>
 							<li>
-								<span class="content">Environement technique <span class="info">NodeJS, Docker, Git Bash, TortoiseGit</span></span>
+								<span class="content">Environnement technique <span class="info">NodeJS, Docker, Git Bash, TortoiseGit</span></span>
 							</li>
 							<li>
 								<span class="content">Programmation Logiciel <span class="info">Langages: C#, C++, C, Java</span> Framework <span class="info">.NET Framework, .NET Core, Boost</span>
@@ -393,7 +393,7 @@
 								<span class="content">Gestionnaire de base de données <span class="info">MySQL, SQL Server, PostgreSQL, OracleSQL</span></span>
 							</li>
 							<li>
-								<span class="content">Intégration continue / Deploiement continu <span class="info">GitHub Action</span></span>
+								<span class="content">Intégration continue / Déploiement continu <span class="info">GitHub Action</span></span>
 							</li>
 							<li>
 								<span class="content">Gestion de projets <span class="info">Scrum, Agile</span></span>

@@ -59,7 +59,7 @@
 								<p class="techno">(Langages: PHP, HTML, CSS, Javascript)</p>
 							</li>
 							<li>
-								<p class="content">Environements techniques</p>
+								<p class="content">Environnements techniques</p>
 								<p class="techno">(NodeJS, Docker, Git Bash, TortoiseGit)</p>
 							</li>
 							<li>
@@ -76,7 +76,7 @@
 								<p class="techno">(MySQL, SQL Server, PostgreSQL, Oracle SQL)</p>
 							</li>
 							<li>
-								<p class="content">Intégration continue / Deploiement continu</p>
+								<p class="content">Intégration continue / Déploiement continu</p>
 								<p class="techno">(GitHub Action)</p>
 							</li>
 							<li>
