@@ -1,0 +1,481 @@
+{
+    "professionalExperiences": [
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Mars 2023 - Octobre 2023 (8 mois)",
+            "title": "Développeur web à NaturaBuy",
+            "shortDescription": "Développement et maintenance du site E-commerce NaturaBuy.",
+            "longDescription": "Chargé du développement de nouvelles fonctionnalités ainsi que la maintenance de leur site E-commerce développé en PHP et JavaScript.",
+            "skills": [
+                {
+                    "text": "PHP 8.2",
+                    "short": "PHP 8.2"
+                },
+                {
+                    "text": "Javascript",
+                    "short": "Javascript"
+                },
+                {
+                    "text": "HTML",
+                    "short": "HTML"
+                },
+                {
+                    "text": "CSS",
+                    "short": "CSS"
+                },
+                {
+                    "text": "Docker",
+                    "short": "Docker"
+                },
+                {
+                    "text": "Git",
+                    "short": "Git"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Octobre 2018 - Février 2023 (4 ans et 5 mois)",
+            "title": "Développeur logiciel à Safran Engineering Services",
+            "shortDescription": "Travaillant sur des projets principalement orienté C# et C++, je suis chargé du développement d'outils de communication et de maintenance de calculateurs de régulation.",
+            "longDescription": "Développeur et chef de projet, je suis en charge du développement d'outils logiciel ayant pour principal objectif l'analyse et la maintenance des turbomoteurs du groupe Safran. Principalement écrit en C# et C++, ces programmes sont conçu autour d'un développement Agile (Scrum) et font de l'objet de tests unitaires avant leur livraison auprèt du client.<br />D'autres projets auquel je suis membre font également partie de mes activités. La réalité virtuel d'une part ainsi que le développement d'outils de gestion de projet (en Symfony et en Ruby) d'autre part.",
+            "skills": [
+                {
+                    "text": "C# avec .Net Fremwork 4.8",
+                    "short": "C#"
+                },
+                {
+                    "text": "C/C++",
+                    "short": "C/C++"
+                },
+                {
+                    "text": "Symfony 3",
+                    "short": "Symfony 3"
+                },
+                {
+                    "text": "Gestion de projet (Cahier des charges, planning, chiffrage, suivi de projet, etc.",
+                    "short": "Gestion de projet"
+                },
+                {
+                    "text": "Rédaction de documentations techniques",
+                    "short": ""
+                },
+                {
+                    "text": "Méthodologie Scrum",
+                    "short": "Scrum"
+                },
+                {
+                    "text": "Git",
+                    "short": "Git"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Janvier 2018 - Juillet 2018 (6 mois)",
+            "title": "Stagiaire développeur d'une application d'analyse de fluide à Total",
+            "shortDescription": "Dans l'équipe d'allocation de production, j'ai participé à la conception et au développement d'une application web d'analyse des fluides",
+            "longDescription": "L'objectif de ce stage de 6 mois fut de réaliser une aplication web permettant d'analyser les hydrocarbures prélevés en laboratoire. Cet outil doit être intuitif et facile d'utilisation. J'ai créé une interface utilisateur à l'aide du framework Angular 5. Afin de traiter la masse de données et de retourner des résultats précis, une API réalisée en C# a été mise en place.",
+            "skills": [
+                {
+                    "text": "Migration de AngularJS vers Angular 5",
+                    "short": "Angular 5"
+                },
+                {
+                    "text": "PHP 5.6",
+                    "short": "PHP 5.6"
+                },
+                {
+                    "text": "CSS avec Bootstrap",
+                    "short": "Bootstrap"
+                },
+                {
+                    "text": "Javascript avec jQuery",
+                    "short": "jQuery"
+                },
+                {
+                    "text": "C#",
+                    "short": "C#"
+                },
+                {
+                    "text": "Méthodologie Scrum",
+                    "short": "Scrum"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Octobre 2016 - Fevrier 2017 (4 mois)",
+            "title": "Stagiaire responsable du développement d'un site E-commerce pour Awesome-Bubbles",
+            "shortDescription": "En vue d'élargir la clientèle de ce revendeur de champagne en Irlande, j'ai réalisé un site vitrine WordPress à l'aide d'un plugin Woo Commerce.",
+            "longDescription": "Désireux d'être plus présent sur le net, cette petite entreprise de vente de champagne en Irlande a fait appel à un stagiaire pour mettre à jour leur site internet. C'est pourquoi, j'ai rejoint cette équipe et mis en place un site vitrine pour la présentation de ce commerçant ainsi qu'un site E-commerce afin d'étendre ses ventes sur internet.",
+            "skills": [
+                {
+                    "text": "WordPress",
+                    "short": "WordPress"
+                },
+                {
+                    "text": "Plugin WooCommerce",
+                    "short": "Plugin WooCommerce"
+                },
+                {
+                    "text": "Création de thèmes",
+                    "short": "Création de thèmes"
+                },
+                {
+                    "text": "Création de plugins",
+                    "short": "Création de plugins"
+                },
+                {
+                    "text": "PHP 5.6",
+                    "short": "PHP 5.6"
+                },
+                {
+                    "text": "CSS avec Bootstrap",
+                    "short": "Bootstrap"
+                },
+                {
+                    "text": "Javascript avec jQuery",
+                    "short": "jQuery"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Février 2016 - Mai 2016 (3 mois)",
+            "title": "Stagiaire chez Exakis, chargé de la mise en place d'un environnement Microsoft SharePoint 2016",
+            "shortDescription": "Découverte et mise en place d'un serveur SharePoint OnPremise pour la présentation des nouvelles fonctionnalités de la version 2016 de l'outil.",
+            "longDescription": "Durant 4 mois de stage chez Exakis à Bidart, j'étais chargé de mettre en place un environnement Microsoft SharePoint 2016 OnPremise. La nouvelle version de cet outil colaboratif a pour principal objectif d'être complètement lié au cloud, ceci permettant une plus grande disponibilité des services et garantissant de meilleures performances. Tout au long de cette mission, j'ai rédigé plusieurs documents permettant d'expliquer son fonctionnement aux collaborateurs ainsi que la procédure de mise en place de l'outil directement chez le client. Pour finir, j'ai mis en place l'outil sur un serveur dédié par l'entreprise afin de pouvoir présenter Microsoft Sarepoint 2016 aux clients.",
+            "skills": [
+                {
+                    "text": "SharePoint 2016",
+                    "short": "SharePoint 2016"
+                },
+                {
+                    "text": "Rédaction de documentations techniques",
+                    "short": ""
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Janvier 2014 - Janvier 2015 (1 an)",
+            "title": "Assistant et gestionnaire d'application de reporting de production à Total",
+            "shortDescription": "Responsable de l'analyse et la présentation des données de production 100% opérés par l'entreprise.",
+            "longDescription": "Au service Reporting de production mon objectif était de collecter les données hebdomadaires et mensuelles de production des sites du groupe Total. Directement en relation avec les filliales, j'avais également pour responsabilité de faire remonter les incidents survenus lors de la production afin de manager la production et d'augmenter les performances. Le dernier point de cette mission fut la rédaction de rapports de production en vu d'informer la direction.",
+            "skills": [
+                {
+                    "text": "Tableur Excel",
+                    "short": ""
+                },
+                {
+                    "text": "Génération de rapport",
+                    "short": ""
+                },
+                {
+                    "text": "Analyse de données pétrolières",
+                    "short": ""
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": true,
+            "period": "Janvier 2012 - Juillet 2013 (1 an et 7 mois)",
+            "title": "Cartographe à ERDF",
+            "shortDescription": "Chargé de la mise à jour des plans cartographiques des Landes, des Pyrénées-Atlantiques et des Hautes-Pyrénées.",
+            "longDescription": "Dans cette grande entreprise française, j'étais en charge de la mise à jour des réseaux électrique des départements Pyrénées-Atlantiques, Hautes-Pyrénées ainsi que des Landes. Travaillant avec les logiciels de cartographie Atlas et Pacific, mon objectif était de détecter les anomalies présentes dans la base de données de l'entreprise et de les corriger. Cette activité pleinement en autonomie, me permettait d'être en relation avec les techniciens présent sur le terrain ainsi qu'avec les Géométre-Topographes partenaires d'ERDF.",
+            "skills": [
+                {
+                    "text": "Utilisation des logiciel de cartographie Atlas et Pacific",
+                    "short": ""
+                },
+                {
+                    "text": "Gestion des équipe de cartographie sur le terrain",
+                    "short": ""
+                },
+                {
+                    "text": "Mise à jour des bases de données cartographique du sud-ouest",
+                    "short": ""
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": true,
+            "period": "Mai 2011 - Juin 2011 (2 mois)",
+            "title": "Stagiaire à Aquitaine Electronique",
+            "shortDescription": "Chargé de la mise en place de procédures de test.",
+            "longDescription": "Stagiaire de fin d'étude pour mon DUT, j'ai durant 2 mois à Aquitaine Electronique rédigé plusieurs procédures de contrôle pour des baies électrique utilisé dans les équipements militaire produit par l'entreprise. J'ai également réalisé le contrôle de celle-ci afin de valider ces procédures.",
+            "skills": [
+                {
+                    "text": "Rédaction de documentations de test",
+                    "short": ""
+                },
+                {
+                    "text": "Analyse et test de schéma électique",
+                    "short": ""
+                }
+            ]
+        }
+    ],
+    "trainings": [
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Octobre 2022",
+            "title": "Cybersécurité Software et Hardware",
+            "description": "Formation de 8 jours sur la cybersécurité hardware et software. L'objectif était d'apprendre les risques ainsi que les facteurs d'attaque dans le domaine industriel. Nous avons appris les différents types d'attaque existant et nous avons également apris à effectuer une attaque matériel et logiciel."
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Septembre 2015 - Juillet 2018",
+            "title": "Ecole d'ingénieur Informatique à l'Exia.Cesi",
+            "description": "Cette école d'ingénieur se démarque par sa méthode de travail orientée problème (PBL). Cette méthode apporte aux étudiants une très forte autonomie et un auto-apprentissage ludique et très riche. Durant ces 3 ans, j'ai pu approfondir et améliorer mes compétences en développement informatique ainsi qu'en management d'entreprise."
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Décembre 2014",
+            "title": "Photoshop CS6 - Avancé",
+            "description": "Formation de quelques jours sur l'outil Photoshop CS6. Une formation menant à un niveau avancé dans l'utilisation de ce logiciel. Ecretage, masque, fusion, détourage, déformation 3D etc ... autant de fonctionnalités que j'ai pu étudier et pratiquer dans l'objectif d'améliorer mes compétences en web design."
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Novembre 2014",
+            "title": "Gestion et modélisation des bases de données",
+            "description": "Cette formation porte sur la conception, l'architecture de base de données relationnelles (le modèle Merise) et la conception de base de données évolutives."
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Novembre 2014",
+            "title": "Ergonomie et design des sites web",
+            "description": "L'ergonomie des sites web est souvent mis de côté par les entreprises et les acteurs du web. Cette formation m'a permis de comprendre l'intérêt de l'ergonomie dans les applications web et logiciel et ainsi d'acquérir des notions me permettant de faire des sites internet ou des applications logiciel plus intuitifs pour les utilisateurs."
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Septembre 2014",
+            "title": "Base de données Oracle SQL",
+            "description": "Découverte de l'outil Oracle SQL et compréhension des requètes pour la gestion de base de données relationnelles."
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Juin 2014",
+            "title": "Microsoft Sharepoint 2010",
+            "description": "Formation sur l'utilisation et la découverte de l'outil de travail collaboratif Sharepoint 2010."
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": true,
+            "period": "Septembre 2009 - Juin 2011",
+            "title": "DUT GEII (Génie Electronique et Informatique Industriel)",
+            "description": "J'ai intégré cette école supérieur, afin d'orienter ma formation vers la robotique et l'électronique de précision."
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": true,
+            "period": "Juin 2009",
+            "title": "Bac STI Electrotechnique (Science et Technique de l'Ingénieur)",
+            "description": "Formation initiale qui porte dans le domaine de l'éléctrotechnique (Eléctronique, Electrique, Mécanique, Informatique/Programmation, Physique, Mathématique)"
+        }
+    ],
+    "skills": [
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "isImportant": false,
+                    "text": "Développement Web"
+                },
+                {
+                    "isImportant": true,
+                    "text": "Langages: PHP, HTML, CSS, Javascript"
+                },
+                {
+                    "isImportant": false,
+                    "text": "Framework"
+                },
+                {
+                    "isImportant": true,
+                    "text": "Angular, jQuery, Symfony"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "isImportant": false,
+                    "text": "Environnement technique"
+                },
+                {
+                    "isImportant": true,
+                    "text": "NodeJS, Docker, Git Bash, TortoiseGit"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "isImportant": false,
+                    "text": "Programmation Logiciel"
+                },
+                {
+                    "isImportant": true,
+                    "text": "Langages: C#, C++, C, Java"
+                },
+                {
+                    "isImportant": false,
+                    "text": "Framework"
+                },
+                {
+                    "isImportant": true,
+                    "text": ".NET Framework, .NET Core, Boost"
+                }
+            ]
+        },
+        {
+            "isDisplay": false,
+            "content": [
+                {
+                    "isImportant": false,
+                    "text": "Développement de drivers Windows en User-Mode"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "isImportant": false,
+                    "text": "Gestionnaire de base de données"
+                },
+                {
+                    "isImportant": true,
+                    "text": "MySQL, SQL Server, PostgreSQL, OracleSQL"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "isImportant": false,
+                    "text": "Intégration continue / Déploiement continu"
+                },
+                {
+                    "isImportant": true,
+                    "text": "GitHub Action"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "isImportant": false,
+                    "text": "Gestion de projets"
+                },
+                {
+                    "isImportant": true,
+                    "text": "Scrum, Agile"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "isImportant": false,
+                    "text": "Systèmes d'exploitation"
+                },
+                {
+                    "isImportant": true,
+                    "text": "Windows, Linux"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "isImportant": false,
+                    "text": "Tests unitaires"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "isImportant": false,
+                    "text": "Notion de TDD"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "isImportant": false,
+                    "text": "Réalité Virtuelle avec les casques Oculus sous Unreal Engine 4 et 5"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "isImportant": false,
+                    "text": "Anglais technique"
+                },
+                {
+                    "isImportant": true,
+                    "text": "TOEIC niveau B2"
+                }
+            ]
+        }
+    ],
+    "sillsBonus": [
+        "Logiciels graphiques:</b> Photoshop CS6, Gimp, Paint",
+        "Logiciels de modélisation 3D:</b> Blender",
+        "Logiciels de CAO:</b> FreeCAD, AutoDesk Fusion 360, SolidWorks",
+        "Logiciels de montage vidéo:</b> Premiere Pro, After Effect, DaVinci Resolve",
+        "Logiciels de bureautique:</b> Suite Microsoft Office (Word, Excel, PowerPoint)"
+    ],
+    "hobbies": [
+        {
+            "icon": [
+                "fas",
+                "camera"
+            ],
+            "title": "Photographie"
+        },
+        {
+            "icon": [
+                "fas",
+                "music"
+            ],
+            "title": "Piano"
+        },
+        {
+            "icon": [
+                "fas",
+                "dumbbell"
+            ],
+            "title": "Sport"
+        }
+    ]
+}

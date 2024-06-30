@@ -1,0 +1,58 @@
+import { NavLink } from "react-router-dom";
+import Skills from "./cv/website/Skills";
+import Trainings from "./cv/website/Trainings";
+import ProfessionalExperiences from "./cv/website/ProfessionalExperiences";
+import Hobbies from "./cv/website/Hobbies";
+import cvData from "../assets/cv.json"
+import { ExperienceAnimationContextProvider } from "../_hooks/useCvAnimation";
+import "../assets/css/Cv.scss"
+
+export default function Cv() {
+  const age = 33;
+
+  return <div className="container">
+    <div className="row">
+      <section className="col-sm-12">
+        <h1>Ingénieur en développement logiciel et web</h1>
+      </section>
+      <div className="col-md-3">
+        <section id="infos" className="card">
+          <div className="card-body">
+            <h3>Florent Lavignotte</h3>
+            <p>
+              {age} ans<br />
+              Permis B avec véhicule
+              <br /><br />
+              5 allée de la Houn<br />
+              64420 ANDOINS
+              <br /><br />
+              06 70 56 27 10<br />
+              <NavLink to="/contact" title="Contactez-moi si vous avez des questions">florent.lavignotte@gmail.com</NavLink>
+            </p>
+            {/*
+            <hr />
+            <h6>Informations complémentaires</h6>
+            <p>
+              Trésorier d'un club sportif pendant 5 ans.
+            </p>
+            */}
+          </div>
+        </section>
+        <section id="cvVersion">
+          <NavLink className="btn btn-danger btn-lg" to="/cv-papier" title="Version imprimable et synthétique" target="_blank">Version imprimable</NavLink>
+        </section>
+      </div>
+      <div className="col-md-9">
+        <ExperienceAnimationContextProvider>
+          <ProfessionalExperiences experiences={cvData.professionalExperiences} />
+
+          <Trainings trainings={cvData.trainings} />
+
+          <Skills skills={cvData.skills} />
+
+          <Hobbies hobbies={cvData.hobbies} />
+        </ExperienceAnimationContextProvider>
+      </div>
+    </div>
+  </div>;
+}
