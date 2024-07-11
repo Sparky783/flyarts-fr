@@ -6,10 +6,15 @@ import Footer from './_components/layouts/Footer';
 import Projects from './_components/Projects';
 import Cv from './_components/Cv';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCamera, faDumbbell, faMusic, fas } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightFromSquare, faCamera, faDumbbell, faMusic, fas } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, fab } from '@fortawesome/free-brands-svg-icons'
 import CvPaper from './_components/CvPaper';
+import Contact from './_components/Contact';
+import WebSiteProjects from './_components/projects/WebSiteProjects';
 
-library.add(fas, faCamera, faMusic, faDumbbell);
+// Add this line for the CV
+library.add(fas, faCamera, faMusic, faDumbbell, faArrowUpRightFromSquare);
+library.add(fab, faGithub);
 
 const router = createBrowserRouter([
   {
@@ -24,11 +29,21 @@ const router = createBrowserRouter([
       {
         path: '/projects',
         element: <Projects />,
+        children: [
+          {
+            path: 'websites',
+            element: <WebSiteProjects />,
+          }
+        ]
+      },
+      {
+        path: '/contact',
+        element: <Contact />,
       },
       {
         path: '/cv',
         element: <Cv />,
-      },
+      }
     ]
   },
   {

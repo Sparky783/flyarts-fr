@@ -16,9 +16,9 @@ function Header() {
             <li className="nav-item">
               <NavLink className="nav-link" to="/" title="Accueil du site FlyArts">Accueil</NavLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink className="nav-link" to="/cv" title="Mon CV en ligne">CV</NavLink>
-            </li>
+            </li> */}
             <li className="nav-item">
               <NavLink className="nav-link" to="/projects" title="Mes projets">Projets</NavLink>
             </li>
