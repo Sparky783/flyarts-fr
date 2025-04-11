@@ -1,30 +1,28 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import projectsList from "../assets/projects.json";
 import Project, { ProjectProp } from "./Project";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "../assets/css/Projects.scss";
-import WebSite, { WebSiteProp } from "./projects/WebSite";
-import websitesList from "../assets/projects-websites.json";
+import { useEffect, useState } from "react";
+import { getAllProjects } from "../_api/api";
 
 export default function Projects() {
-  return <div className="container">
-    <div className="row">
-      <section id="websites_projects" className="col-sm-12 flyarts-section">
-        <h1>Mes sites web</h1>
-        <div>
-          {websitesList.map((website: WebSiteProp) => {
-            if (website.isDisplay)
-              return <WebSite key={website.title} props={website} />
-          })}
-        </div>
-      </section>
+  const [projects, setProjects] = useState([]);
 
-      <section id="projects" className="col-sm-12 flyarts-section">
+  useEffect(() => {
+    getAllProjects().then(list => setProjects(list));
+  }, [])
+
+  return <div id="projects" className="container">
+    <div className="row">
+      <section id="project_list" className="col-sm-12 flyarts-section">
         <h1>Les autres projets</h1>
         <div className="row">
-          {projectsList.map((project: ProjectProp) => {
-            if (project.isDisplay)
-              return <Project key={project.title} props={project} />
+          {projects.map((project: ProjectProp) => {
+            if (project.visibility) {
+              return <div className="col-md-4" key={project.idProject}>
+                <Project props={project} />
+              </div>
+            }
           })}
         </div>
       </section>

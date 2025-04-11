@@ -1,8 +1,21 @@
 import { NavLink } from 'react-router-dom'
 import '../assets/css/Home.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { getAllProjects } from '../_api/api'
+import Project, { ProjectProp } from './Project'
+import { useEffect, useState } from 'react'
 
-function Home() {
-  return <div className="container">
+export default function Home() {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    (async () => {
+      setProjects(await getAllProjects())
+    })();
+  }, [])
+
+  return <div id="home" className="container">
     <div className="row">
       <section className="col-sm-12">
         <div className="jumbotron">
@@ -59,11 +72,16 @@ function Home() {
       <section id="projects" className="col-sm-12 flyarts-section">
         <h2>Mes projets en cours</h2>
         <div className="row">
-          { /*echo $currentProjectsHtml;*/}
+          {projects.map((project: ProjectProp) => {
+            if (project.visibility)
+              return <div className="col-md-4" key={project.idProject}>
+                <Project props={project} />
+              </div>;
+          })}
           <div className="col-md-4">
             <p id="projectsMore">
               <NavLink className="btn btn-danger" to="/projects">
-                <i className="fas fa-arrow-right"></i>
+                <FontAwesomeIcon icon={faArrowRight} />
               </NavLink>
             </p>
           </div>
@@ -72,5 +90,3 @@ function Home() {
     </div>
   </div>
 }
-
-export default Home

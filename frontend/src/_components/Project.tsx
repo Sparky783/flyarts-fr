@@ -1,23 +1,22 @@
 export interface ProjectProp {
+  idProject: number;
   title: string;
   link: string;
   image: string;
   description: string;
-  isDisplay: boolean;
+  visibility: boolean;
   inProgress: boolean;
 }
 
 export default function Project({ props }: { props: ProjectProp }) {
-  return <div className='col-md-4'>
-    <div className='card'>
-      <img className='card-img-top' src={props.image} alt={'Image représentant le project ' + props.title} />
-      <div className='card-body'>
-        <h5 className='card-title md-2'>{props.title} {props.inProgress ? <span className='badge bg-info'>En cours</span> : null}</h5>
-        <p className='card-text'>{props.description}</p>
-        <p className='link text-right'>
-          <a className={'btn btn-danger' + (props.inProgress ? ' disabled' : '')} href={props.link} target='_blank'>Voir le site</a>
-        </p>
-      </div>
+  return <div className='card'>
+    <img className='card-img-top' src={props.image} alt={'Image représentant le project ' + props.title} />
+    <div className='card-body'>
+      <h5 className='card-title md-2'>{props.title} {props.inProgress ? <span className='badge bg-info'>En cours</span> : null}</h5>
+      <p className='card-text'>{props.description}</p>
+      <p className='link text-right'>
+        <a className={'btn btn-danger' + (props.inProgress ? ' disabled' : '')} href={props.link} target='_blank'>Voir le site</a>
+      </p>
     </div>
   </div>
 }

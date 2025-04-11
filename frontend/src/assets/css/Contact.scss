@@ -1,46 +1,48 @@
 @charset "utf-8";
 
-.emot {
-	font-size: 5em;
-	vertical-align: middle;
-}
+#contact {
+	.emot {
+		font-size: 5em;
+		vertical-align: middle;
+	}
 
-.card-danger {
-	background-color: #ffa8a8;
-}
+	.card-danger {
+		background-color: #ffa8a8;
+	}
 
-#informations {
-	margin-top: 20px;
-}
+	#informations {
+		margin-top: 20px;
+	}
 
-#informations h1 {
-	margin-bottom: 20px;
-}
+	#informations h1 {
+		margin-bottom: 20px;
+	}
 
-#formulaire {
-	margin-top: 40px;
-	padding-bottom: 40px;
-	border-top: solid 1px #ddd;
-}
+	#formulaire {
+		margin-top: 40px;
+		padding-bottom: 40px;
+		border-top: solid 1px #ddd;
+	}
 
-#formulaire h3 {
-	margin: 25px 0 15px; 
-}
+	#formulaire h3 {
+		margin: 25px 0 15px;
+	}
 
-#formulaire #contactForm p:last-child {
-	margin-bottom: 0; 
-}
+	#formulaire #contactForm p:last-child {
+		margin-bottom: 0;
+	}
 
-#formulaire #contactSend {
-    text-align: center;
-}
+	#formulaire #contactSend {
+		text-align: center;
+	}
 
-#formulaire #contactSend .spinner-border {
-    width: 60px;
-    height: 60px;
-    font-size: 20px;
-}
+	#formulaire #contactSend .spinner-border {
+		width: 60px;
+		height: 60px;
+		font-size: 20px;
+	}
 
-#formulaire #contactResponse {
-    text-align: center;
+	#formulaire #contactResponse {
+		text-align: center;
+	}
 }

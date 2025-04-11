@@ -15,9 +15,11 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@popperjs/core": "^2.11.8",
+    "axios": "^1.7.4",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.2.12",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1"
   },
