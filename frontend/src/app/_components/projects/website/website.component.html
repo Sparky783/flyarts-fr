@@ -1,0 +1,14 @@
+<a className="website" href={props.link} title={props.title} target="_blank">
+    <div className="website-image">
+        <img src={props.image} alt="" />
+    </div>
+    <div className="website-title">{props.title}</div>
+    <div className="website-tehnologies">
+        {props.technologies.map((techno: string) => {
+        return <span>{techno}</span>
+        })}
+    </div>
+    <div className="website-link">
+        <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+    </div>
+</a>

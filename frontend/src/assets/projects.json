@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Photographie",
+        "link": "https://photographie.flyarts.fr",
+        "image": "assets/img/photographie.jpg",
+        "description": "Photographe par passion depuis maintenant plusieurs années, j'ai décidé de partager mon travail en ligne à travers un site internet entièrement développé par mes soins. Vous pouvez y retrouver mes création ainsi que tout mes projet photos.",
+        "isDisplay": true,
+        "inProgress": false
+    },
+    {
+        "title": "Sortzam",
+        "link": "https://sortzam.flyarts.fr",
+        "image": "",
+        "description": "Petite application Windows développé en collaboration avec un ami d'enfance qui permet de récupérer automatique depuis internet les informations de vox fichiers audios.",
+        "isDisplay": true,
+        "inProgress": false
+    },
+    {
+        "title": "Retropie",
+        "link": "index.php?page=project-retropie",
+        "image": "assets/img/retropie.jpg",
+        "description": "Réalisation d'une console de jeux rétro à l'aspect tout aussi rétro. Utilisant une RaspberryPi 3, j'ai crée cette console de salon pour des moment fun entre amis. Sur cette page je partage les impressions 3D utilisé pour la réalisation de cette console ainsi que les éléments essentiels à ça réalisation.",
+        "isDisplay": true,
+        "inProgress": false
+    },
+    {
+        "title": "FlashLightDMX",
+        "link": "",
+        "image": "assets/img/flashlight.jpg",
+        "description": "Les solutions du commerce étant hors de prix pour des jeunes débutant dans le métier, j'ai choisi de me lancer dans l'aventure de créer un logiciel de gestion de projecteur de scène open source développé en C#. Avec une partie hardware et une partie software ce projet est très complet.",
+        "isDisplay": true,
+        "inProgress": true
+    }
+]
