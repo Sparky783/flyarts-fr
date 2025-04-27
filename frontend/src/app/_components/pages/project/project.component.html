@@ -1,12 +1,18 @@
-<div className='card'>
-    <img className='card-img-top' src={props.image} alt={'Image représentant le project ' + props.title} />
-    <div className=' card-body'>
-        <h5 className='card-title md-2'>{props.title} {props.inProgress ? <span className='badge bg-info'>En cours</span> :
-            null}</h5>
-        <p className='card-text'>{props.description}</p>
-        <p className='link text-right'>
-            <a className={'btn btn-danger' + (props.inProgress ? ' disabled' : '' )} href={props.link} target='_blank'>Voir
-                le site</a>
+<div class="card">
+    <img class="card-img-top" [src]="projectData.image" [alt]="'Image représentant le projet ' + projectData.title" />
+
+    <div class="card-body">
+        <h5 class="card-title md-2">
+            {{ projectData.title }}
+            <span *ngIf="projectData.inProgress" class="badge bg-info">En cours</span>
+        </h5>
+
+        <p class="card-text">{{ projectData.description }}</p>
+
+        <p class="link text-right">
+            <a class="btn btn-danger" [class.disabled]="projectData.inProgress" [href]="projectData.link" target="_blank">
+                Voir le site
+            </a>
         </p>
     </div>
 </div>

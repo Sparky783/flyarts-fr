@@ -1,5 +1,6 @@
 [
     {
+        "idProject": 1,
         "title": "Photographie",
         "link": "https://photographie.flyarts.fr",
         "image": "assets/img/photographie.jpg",
@@ -8,6 +9,7 @@
         "inProgress": false
     },
     {
+        "idProject": 2,
         "title": "Sortzam",
         "link": "https://sortzam.flyarts.fr",
         "image": "",
@@ -16,6 +18,7 @@
         "inProgress": false
     },
     {
+        "idProject": 3,
         "title": "Retropie",
         "link": "index.php?page=project-retropie",
         "image": "assets/img/retropie.jpg",
@@ -24,6 +27,7 @@
         "inProgress": false
     },
     {
+        "idProject": 4,
         "title": "FlashLightDMX",
         "link": "",
         "image": "assets/img/flashlight.jpg",

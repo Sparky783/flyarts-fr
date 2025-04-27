@@ -1,20 +1,20 @@
-<div id="home" className="container">
-    <div className="row">
-        <section className="col-sm-12">
-            <div className="jumbotron">
-                <h1 className="display-4">FlyArts</h1>
-                <p className="lead">Mon petit site perso pour y mettre mes projets, mes passions et un peu de moi en
+<div id="home" class="container">
+    <div class="row">
+        <section class="col-sm-12">
+            <div class="jumbotron">
+                <h1 class="display-4">FlyArts</h1>
+                <p class="lead">Mon petit site perso pour y mettre mes projets, mes passions et un peu de moi en
                     ligne.</p>
             </div>
         </section>
 
-        <section id="portrait" className="col-sm-12 flyarts-section">
-            <div className="row">
-                <div className="col-md-4">
-                    <img className="rounded float-left img-thumbnail" src="./src/assets/img/portrait.jpg" alt="..." />
+        <section id="portrait" class="col-sm-12 flyarts-section">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="rounded float-left img-thumbnail" src="assets/img/portrait.jpg" alt="..." />
                 </div>
 
-                <div className="col-md-8">
+                <div class="col-md-8">
                     <h2>Qui suis-je ?</h2>
                     <p>
                         Je m'appelle Florent Lavignotte et je suis passionné d'informatique depuis le plus jeune age.
@@ -25,7 +25,7 @@
                         enfin mes ambitions et crée des outils
                         en tout genre.
                     </p>
-                    <p className="text-right">
+                    <p class="text-right">
                         <a class="btn btn-danger btn-lg" [routerLink]="['/cv']">
                             Accéder à mon CV
                         </a>
@@ -34,9 +34,9 @@
             </div>
         </section>
 
-        <div className="col-md-12 shadow">
-            <div className="row">
-                <section className="col-md-6 flyarts-section">
+        <div class="col-md-12 shadow">
+            <div class="row">
+                <section class="col-md-6 flyarts-section">
                     <h2>Qu'est ce que FlyArts ?</h2>
                     <p>
                         FlyArts est un site internet que j'ai créé afin de présenter et mettre en avant mes compétences
@@ -48,7 +48,7 @@
                         grâce à mes réalisations.
                     </p>
                 </section>
-                <section className="col-md-6 flyarts-section">
+                <section class="col-md-6 flyarts-section">
                     <h2>Pourquoi FlyArts ?</h2>
                     <p>
                         FlyArts était le nom que j'avais choisi pour mon projet de photographie.
@@ -61,19 +61,21 @@
             </div>
         </div>
 
-        <section id="projects" className="col-sm-12 flyarts-section">
+        <section id="projects" class="col-sm-12 flyarts-section">
             <h2>Mes projets en cours</h2>
-            <div className="row">
-                <!-- {projects.map((project: ProjectProp) => {
-                if (project.visibility)
-                return <div className="col-md-4" key={project.idProject}>
-                    <Project props={project} />
-                </div>;
-                })} -->
-                <div className="col-md-4">
+            <div class="row">
+                @for(project of projects; track project.idProject) {
+                    @if(project.isDisplay) {
+                        <div class="col-md-4">
+                            <app-project [project]={project} />
+                        </div>
+                    }
+                }
+
+                <div class="col-md-4">
                     <p id="projectsMore">
                         <a class="btn btn-danger" [routerLink]="['/projects']">
-                            <i class="fa-solid fa-arrow-right"></i>
+                            <fa-icon [icon]="faArrowRight"></fa-icon>
                         </a>
                     </p>
                 </div>
