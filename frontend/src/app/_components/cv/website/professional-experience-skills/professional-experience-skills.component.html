@@ -1,1 +1,8 @@
-<p>professional-experience-skills works!</p>
+<div class="competences">
+    <label>Compétences aquises :</label>
+    <ul>
+        @for(skill of skills; track skill.text) {
+            <li>{{ skill.text }}</li>
+        }
+    </ul>
+</div>

@@ -1,1 +1,12 @@
-<p>professional-experiences works!</p>
+<section id="experiences">
+    <div class="title">
+        <h2>Expériences professionnelles</h2>
+    </div>
+    <ul>
+        @for(experience of experiences; track experience.title) {
+            @if(experience.isDisplay) {
+                <app-professional-experience [experience]="experience" />
+            }
+        }
+    </ul>
+</section>

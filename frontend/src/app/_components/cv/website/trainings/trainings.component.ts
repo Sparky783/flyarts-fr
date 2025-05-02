@@ -1,11 +1,17 @@
-import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, Input } from '@angular/core';
+
+import { TrainingComponent } from '../training/training.component';
 
 @Component({
-  selector: 'app-trainings',
-  imports: [],
-  templateUrl: './trainings.component.html',
-  styleUrl: './trainings.component.scss'
+    selector: 'app-trainings',
+    imports: [
+        CommonModule,
+        TrainingComponent
+    ],
+    templateUrl: './trainings.component.html',
+    styleUrl: './trainings.component.scss'
 })
 export class TrainingsComponent {
-
+    @Input('trainings') trainings: any;
 }

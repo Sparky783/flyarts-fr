@@ -15,7 +15,7 @@
                         64420 ANDOINS
                         <br /><br />
                         06 70 56 27 10<br />
-                        <!-- <a title="Contactez-moi si vous avez des questions" [routerLink]="['contact']">florent.lavignotte@gmail.com</a> -->
+                        <a title="Contactez-moi si vous avez des questions" [routerLink]="['contact']">florent.lavignotte&#64;gmail.com</a>
                     </p>
                     <!-- <hr />
                     <h6>Informations complémentaires</h6>
@@ -29,15 +29,13 @@
             </section>
         </div>
         <div class="col-md-9">
-            <!-- <ExperienceAnimationContextProvider>
-                <ProfessionalExperiences experiences={cvData.professionalExperiences} />
+            <app-professional-experiences [experiences]="cvData.professionalExperiences" />
 
-                <Trainings trainings={cvData.trainings} />
+            <app-trainings [trainings]="cvData.trainings" />
 
-                <Skills skills={cvData.skills} />
+            <app-skills [skills]="cvData.skills" />
 
-                <Hobbies hobbies={cvData.hobbies} />
-            </ExperienceAnimationContextProvider> -->
+            <app-hobbies [hobbies]="cvData.hobbies" />
         </div>
     </div>
 </div>

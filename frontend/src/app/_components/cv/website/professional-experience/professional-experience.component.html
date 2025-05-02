@@ -1,1 +1,17 @@
-<p>professional-experience works!</p>
+<li class="cv-block">
+    <div class="cv-item">
+        <span class="date">{{ experience.period }}</span><br />
+        <span class="content">{{ experience.title }}</span><br />
+        <span class="description">{{ experience.shortDescription }}</span>
+    </div>
+    <div class="cv-detail card">
+        <div class="card-body">
+            <p class="details">
+                {{ experience.longDescription }}
+            </p>
+            @if(experience.skills) {
+                <app-professional-experience-skills [skills]="experience.skills" />
+            }
+        </div>
+    </div>
+</li>

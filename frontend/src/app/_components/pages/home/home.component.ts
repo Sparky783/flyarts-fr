@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { NgFor } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { ProjectComponent } from '../project/project.component';
@@ -11,7 +11,7 @@ import * as projects from '../../../../assets/projects.json'
   selector: 'app-home',
   imports: [
     RouterLink,
-    NgFor,
+    CommonModule,
     FontAwesomeModule,
     ProjectComponent
   ],
