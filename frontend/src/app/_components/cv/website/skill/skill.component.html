@@ -1,1 +1,12 @@
-<p>skill works!</p>
+<li>
+    <span class="content">
+        @for(element of skill.content; track element.text) {
+            @if(element.isImportant) {
+                <span class="info">{{ element.text }}</span> : 
+            }
+            @else {
+                {{ element.text }}
+            }
+        }
+    </span>
+</li>

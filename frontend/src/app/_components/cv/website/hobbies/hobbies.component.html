@@ -1,1 +1,10 @@
-<p>hobbies works!</p>
+<section id="loisirs">
+    <div class="title">
+        <h2>Loisirs</h2>
+    </div>
+    <div class="element-list">
+        @for(hobby of hobbies; track hobby.title) {
+            <app-hobby [hobby]="hobby"/>
+        }
+    </div>
+</section>

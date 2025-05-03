@@ -1,11 +1,14 @@
-import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-skill',
-  imports: [],
+  imports: [
+    CommonModule
+  ],
   templateUrl: './skill.component.html',
   styleUrl: './skill.component.scss'
 })
 export class SkillComponent {
-
+    @Input('skill') skill: any;
 }

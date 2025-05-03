@@ -1,11 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import * as faIcons from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-hobby',
-  imports: [],
+  imports: [
+    FontAwesomeModule
+  ],
   templateUrl: './hobby.component.html',
   styleUrl: './hobby.component.scss'
 })
 export class HobbyComponent {
-
+    @Input('hobby') hobby: any;
+    icon = ""
 }

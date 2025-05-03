@@ -1,1 +1,29 @@
-<p>skills works!</p>
+<section id="competences">
+    <div class="title">
+        <h2>Compétences</h2>
+    </div>
+    <ul>
+        @for(skill of skills; track skill.title) {
+            @if(skill.isDisplay) {
+                <app-skill [skill]="skill" />
+            }
+        }
+
+        <li class="cv-block">
+            <div class="cv-item">
+                <span class="content">Autres outils <button class="btn btn-sm btn-danger">+</button></span>
+            </div>
+            <div class="cv-detail card">
+                <div class="card-body">
+                    <p>
+                        <b>Logiciels graphiques:</b> Photoshop CS6, Gimp, Paint<br />
+                        <b>Logiciels de modélisation 3D:</b> Blender<br />
+                        <b>Logiciels de CAO:</b> FreeCAD, AutoDesk Fusion 360, SolidWorks<br />
+                        <b>Logiciels de montage vidéo:</b> Premiere Pro, After Effect, DaVinci Resolve<br />
+                        <b>Logiciels de bureautique:</b> Suite Microsoft Office (Word, Excel, PowerPoint)
+                    </p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
