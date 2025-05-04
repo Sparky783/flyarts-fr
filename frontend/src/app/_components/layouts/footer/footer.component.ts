@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   imports: [
     DatePipe
   ],
+  standalone: true,
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss'
 })

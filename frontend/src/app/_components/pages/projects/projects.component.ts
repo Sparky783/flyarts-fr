@@ -7,6 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
   imports: [
     FontAwesomeModule
   ],
+  standalone: true,
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })

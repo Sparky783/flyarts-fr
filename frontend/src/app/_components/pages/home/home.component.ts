@@ -3,6 +3,7 @@ import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
 import { ProjectComponent } from '../project/project.component';
 
 import * as projects from '../../../../assets/projects.json'
@@ -15,11 +16,11 @@ import * as projects from '../../../../assets/projects.json'
     FontAwesomeModule,
     ProjectComponent
   ],
+  standalone: true,
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
   faArrowRight = faArrowRight;
-
   projects = projects;
 }

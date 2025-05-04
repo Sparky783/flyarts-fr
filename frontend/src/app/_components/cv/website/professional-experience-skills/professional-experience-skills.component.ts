@@ -1,11 +1,12 @@
-import { NgFor } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-professional-experience-skills',
   imports: [
-    NgFor
+    CommonModule
   ],
+  standalone: true,
   templateUrl: './professional-experience-skills.component.html',
   styleUrl: './professional-experience-skills.component.scss'
 })

@@ -6,6 +6,7 @@ import { Component, Input } from '@angular/core';
   imports: [
     CommonModule
   ],
+  standalone: true,
   templateUrl: './skill.component.html',
   styleUrl: './skill.component.scss'
 })

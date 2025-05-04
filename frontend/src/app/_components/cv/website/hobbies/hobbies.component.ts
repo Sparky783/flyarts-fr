@@ -9,6 +9,7 @@ import { HobbyComponent } from '../hobby/hobby.component';
         CommonModule,
         HobbyComponent
     ],
+    standalone: true,
     templateUrl: './hobbies.component.html',
     styleUrl: './hobbies.component.scss'
 })

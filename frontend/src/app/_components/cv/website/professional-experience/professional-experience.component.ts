@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { trigger, style, transition, animate } from '@angular/animations';
 
 import { ProfessionalExperienceSkillsComponent } from '../professional-experience-skills/professional-experience-skills.component';
 
@@ -11,8 +12,24 @@ import { ProfessionalExperienceSkillsComponent } from '../professional-experienc
   ],
   standalone: true,
   templateUrl: './professional-experience.component.html',
-  styleUrl: './professional-experience.component.scss'
+  styleUrl: './professional-experience.component.scss',
+  animations: [
+    trigger('slideToggle', [
+      transition(':enter', [
+        style({ height: 0, opacity: 0 }),
+        animate('300ms ease-out', style({ height: '*', opacity: 1 })),
+      ]),
+      transition(':leave', [
+        animate('300ms ease-in', style({ height: 0, opacity: 0 }))
+      ]),
+    ])
+  ]
 })
 export class ProfessionalExperienceComponent {
-    @Input('experience') experience: any;
+  @Input('experience') experience: any;
+  isOpen = false;
+
+  toggle() {
+    this.isOpen = !this.isOpen;
+  }
 }

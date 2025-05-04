@@ -9,6 +9,7 @@ import { TrainingComponent } from '../training/training.component';
         CommonModule,
         TrainingComponent
     ],
+    standalone: true,
     templateUrl: './trainings.component.html',
     styleUrl: './trainings.component.scss'
 })

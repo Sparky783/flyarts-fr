@@ -7,6 +7,7 @@ import * as faIcons from '@fortawesome/free-solid-svg-icons';
   imports: [
     FontAwesomeModule
   ],
+  standalone: true,
   templateUrl: './hobby.component.html',
   styleUrl: './hobby.component.scss'
 })

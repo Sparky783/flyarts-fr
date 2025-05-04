@@ -9,6 +9,7 @@ import { ProfessionalExperienceComponent } from '../professional-experience/prof
     CommonModule,
     ProfessionalExperienceComponent
   ],
+  standalone: true,
   templateUrl: './professional-experiences.component.html',
   styleUrl: './professional-experiences.component.scss'
 })

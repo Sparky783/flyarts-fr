@@ -7,6 +7,7 @@ import { faPen } from '@fortawesome/free-solid-svg-icons';
   imports: [
     FontAwesomeModule
   ],
+  standalone: true,
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
 })

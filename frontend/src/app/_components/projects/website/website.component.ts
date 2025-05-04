@@ -7,6 +7,7 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
   imports: [
     FontAwesomeModule
   ],
+  standalone: true,
   templateUrl: './website.component.html',
   styleUrl: './website.component.scss'
 })

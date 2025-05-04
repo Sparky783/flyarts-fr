@@ -17,6 +17,7 @@ import * as cvData from '../../../../assets/cv.json'
     SkillsComponent,
     HobbiesComponent
   ],
+  standalone: true,
   templateUrl: './cv.component.html',
   styleUrl: './cv.component.scss'
 })
