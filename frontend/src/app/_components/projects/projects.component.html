@@ -6,7 +6,7 @@
 				@for(project of devProjects; track project.idProject) {
 				@if(project.isDisplay) {
 				<div class="col-md-4">
-					<app-project [project]="project" />
+					<app-project-item [project]="project" />
 				</div>
 				}
 				}
@@ -19,7 +19,7 @@
 				@for(project of otherProjects; track project.idProject) {
 				@if(project.isDisplay) {
 				<div class="col-md-4">
-					<app-project [project]="project" />
+					<app-project-item [project]="project" />
 				</div>
 				}
 				}

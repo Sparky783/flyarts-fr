@@ -3,14 +3,14 @@ import { Component, Input } from '@angular/core';
 import { ProjectLinkComponent } from "../project-link/project-link.component";
 
 @Component({
-  selector: 'app-project',
+  selector: 'app-project-item',
   imports: [
     ProjectLinkComponent
   ],
   standalone: true,
-  templateUrl: './project.component.html',
-  styleUrl: './project.component.scss'
+  templateUrl: './project-item.component.html',
+  styleUrl: './project-item.component.scss'
 })
-export class ProjectComponent {
+export class ProjectItemComponent {
   @Input('project') projectData: any;
 }

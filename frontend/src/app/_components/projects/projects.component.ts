@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 
-import { ProjectComponent } from '../project/project.component';
+import { ProjectItemComponent } from "./project-item/project-item.component";
 
-import * as jsondevProjects from '../../../../assets/dev-projects.json'
-import * as jsonOtherProjects from '../../../../assets/other-projects.json'
+import * as jsondevProjects from '../../../assets/dev-projects.json'
+import * as jsonOtherProjects from '../../../assets/other-projects.json'
 
 @Component({
   selector: 'app-projects',
   imports: [
-    ProjectComponent
+    ProjectItemComponent
   ],
   standalone: true,
   templateUrl: './projects.component.html',

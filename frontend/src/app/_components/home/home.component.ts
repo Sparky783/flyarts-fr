@@ -2,16 +2,16 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
-import { ProjectComponent } from '../project/project.component';
+import { ProjectItemComponent } from "../projects/project-item/project-item.component";
 
-import * as jsonProjects from '../../../../assets/dev-projects.json'
+import * as jsonProjects from '../../../assets/dev-projects.json'
 
 @Component({
   selector: 'app-home',
   imports: [
     RouterLink,
     CommonModule,
-    ProjectComponent
+    ProjectItemComponent
   ],
   standalone: true,
   templateUrl: './home.component.html',
