@@ -1,18 +1,16 @@
 <div class="card">
-    <img class="card-img-top" [src]="projectData.image" [alt]="'Image représentant le projet ' + projectData.title" />
+	<img class="card-img-top" [src]="projectData.image" [alt]="'Image représentant le projet ' + projectData.title" />
 
-    <div class="card-body">
-        <h5 class="card-title md-2">
-            {{ projectData.title }}
-            <span *ngIf="projectData.inProgress" class="badge bg-info">En cours</span>
-        </h5>
+	<div class="card-body">
+		<h5 class="card-title md-2">
+			{{ projectData.title }}
+			<span *ngIf="projectData.inProgress" class="badge bg-info">En cours</span>
+		</h5>
 
-        <p class="card-text">{{ projectData.description }}</p>
+		<p class="card-text">{{ projectData.description }}</p>
 
-        <p class="link text-right">
-            <a class="btn btn-danger" [class.disabled]="projectData.inProgress" [href]="projectData.link" target="_blank">
-                Voir le site
-            </a>
-        </p>
-    </div>
+		<p class="link text-right">
+			<app-project-link [link]="projectData.link" />
+		</p>
+	</div>
 </div>

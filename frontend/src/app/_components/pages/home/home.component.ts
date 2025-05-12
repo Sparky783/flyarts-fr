@@ -1,19 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 import { ProjectComponent } from '../project/project.component';
 
-import * as projects from '../../../../assets/projects.json'
+import * as jsonProjects from '../../../../assets/dev-projects.json'
 
 @Component({
   selector: 'app-home',
   imports: [
     RouterLink,
     CommonModule,
-    FontAwesomeModule,
     ProjectComponent
   ],
   standalone: true,
@@ -21,6 +18,5 @@ import * as projects from '../../../../assets/projects.json'
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-  faArrowRight = faArrowRight;
-  projects = projects;
+  projects = jsonProjects.projects;
 }

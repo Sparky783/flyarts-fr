@@ -1,0 +1,9 @@
+@if(link.isExternal) {
+<a class="btn btn-danger" [class.disabled]="isDisabled" [href]="link.url" target="_blank">
+	Voir le site <i class="fas fa-external-link-alt"></i>
+</a>
+} @else {
+<a class="btn btn-danger" [class.disabled]="isDisabled" [routerLink]="[link.url]">
+	Voir la page
+</a>
+}

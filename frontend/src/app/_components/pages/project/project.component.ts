@@ -1,8 +1,12 @@
 import { Component, Input } from '@angular/core';
 
+import { ProjectLinkComponent } from "../project-link/project-link.component";
+
 @Component({
   selector: 'app-project',
-  imports: [],
+  imports: [
+    ProjectLinkComponent
+  ],
   standalone: true,
   templateUrl: './project.component.html',
   styleUrl: './project.component.scss'

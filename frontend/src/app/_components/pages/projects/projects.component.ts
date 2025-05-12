@@ -1,16 +1,20 @@
 import { Component } from '@angular/core';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+
+import { ProjectComponent } from '../project/project.component';
+
+import * as jsondevProjects from '../../../../assets/dev-projects.json'
+import * as jsonOtherProjects from '../../../../assets/other-projects.json'
 
 @Component({
   selector: 'app-projects',
   imports: [
-    FontAwesomeModule
+    ProjectComponent
   ],
   standalone: true,
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent {
-  faGithub = faGithub
+  devProjects = jsondevProjects.projects
+  otherProjects = jsonOtherProjects.projects
 }
