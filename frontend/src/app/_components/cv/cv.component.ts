@@ -8,6 +8,8 @@ import { SkillsComponent } from './skills/skills.component';
 
 import * as cvData from '../../../assets/cv.json'
 
+type OpenItem = { type: 'experience' | 'training' | 'skill', id: number } | null
+
 @Component({
   selector: 'app-cv',
   imports: [
@@ -23,4 +25,17 @@ import * as cvData from '../../../assets/cv.json'
 })
 export class CvComponent {
   cvData = cvData;
+  openItem: OpenItem = null;
+
+  onExperienceSelected(experienceId: number) {
+    this.openItem = { type: 'experience', id: experienceId };
+  }
+
+  onTrainingSelected(trainingId: number) {
+    this.openItem = { type: 'training', id: trainingId };
+  }
+
+  onSkillSelected(skillId: number) {
+    this.openItem = { type: 'skill', id: skillId };
+  }
 }

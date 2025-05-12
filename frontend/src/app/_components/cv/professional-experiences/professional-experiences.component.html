@@ -1,12 +1,13 @@
 <section id="experiences">
-    <div class="title">
-        <h2>Expériences professionnelles</h2>
-    </div>
-    <ul>
-        @for(experience of experiences; track experience.title) {
-            @if(experience.isDisplay) {
-                <app-professional-experience [experience]="experience" />
-            }
-        }
-    </ul>
+	<div class="title">
+		<h2>Expériences professionnelles</h2>
+	</div>
+	<ul>
+		@for(experience of experiences; track experience.title; let i = $index) {
+		@if(experience.isDisplay) {
+		<app-professional-experience [experience]="experience" [isActive]="isActive(i)"
+			(toggleEvent)="experienceSelected.emit(i)" />
+		}
+		}
+	</ul>
 </section>

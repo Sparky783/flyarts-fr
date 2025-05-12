@@ -4,7 +4,10 @@
 	<div class="card-body">
 		<h5 class="card-title md-2">
 			{{ projectData.title }}
-			<span *ngIf="projectData.inProgress" class="badge bg-info">En cours</span>
+
+			@if(projectData.inProgress) {
+			<span class="badge bg-info">En cours</span>
+			}
 		</h5>
 
 		<p class="card-text">{{ projectData.description }}</p>

@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { trigger, style, transition, animate } from '@angular/animations';
 
-import { SkillComponent } from '../skill/skill.component';
+import { SkillComponent } from './skill/skill.component';
 
 @Component({
   selector: 'app-skills',
@@ -27,9 +27,14 @@ import { SkillComponent } from '../skill/skill.component';
 })
 export class SkillsComponent {
   @Input('skills') skills: any;
-  isOpen = false;
+  @Input() openItem: { type: string, id: number } | null = null;
+  @Output() skillSelected = new EventEmitter<number>();
+
+  isActive(): boolean {
+    return this.openItem?.type === 'skill';
+  }
 
   toggle() {
-    this.isOpen = !this.isOpen;
+    this.skillSelected.emit();
   }
 }

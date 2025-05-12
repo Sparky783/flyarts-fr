@@ -13,7 +13,8 @@
 			<div class="cv-item" (click)="toggle()">
 				<span class="content">Autres outils <button class="btn btn-sm btn-danger">+</button></span>
 			</div>
-			<div *ngIf="isOpen" class="cv-detail card" [@slideToggle]>
+			@if(isActive()) {
+			<div class="cv-detail card" [@slideToggle]>
 				<div class="card-body">
 					<p>
 						<b>Logiciels graphiques:</b> Photoshop CS6, Gimp, Paint<br />
@@ -24,6 +25,7 @@
 					</p>
 				</div>
 			</div>
+			}
 		</li>
 	</ul>
 </section>

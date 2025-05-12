@@ -3,6 +3,70 @@
         {
             "isDisplay": true,
             "hideInPaper": false,
+            "period": "Mai 2024 - Avril 2025 (1 an)",
+            "title": "Développeur Fullstack chez Safran Helicopter Engine (prestation CGI)",
+            "shortDescription": "Avec l'équipe de développement et maintenance chargé de faire évoluer l'outil MyInd, MES de Safran",
+            "longDescription": "Au sein de la DSI, j'ai eu pour mission de mettre en place un serveur acceuillant l'outil MyInd pour un client Indien. J'ai également participé au développement de nouvelles fonctionnalités et également au maintenant de l'outil éxistant. Cette mission a été effecté dans un contexte Scrum, avec une équipe composé de français et d'indens.",
+            "skills": [
+                {
+                    "text": "Angular 18",
+                    "short": "Angular 18"
+                },
+                {
+                    "text": "NodeJs 20",
+                    "short": "Node 20"
+                },
+                {
+                    "text": "NestJs",
+                    "short": "NestJs"
+                },
+                {
+                    "text": "Cypress",
+                    "short": "Cypress"
+                },
+                {
+                    "text": "Apache Tomcat",
+                    "short": "Tomcat"
+                },
+                {
+                    "text": "Java Spring",
+                    "short": "Spring"
+                },
+                {
+                    "text": "GitLab",
+                    "short": "GitLab"
+                },
+                {
+                    "text": "GitLab Runner",
+                    "short": "GitLab Runner"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Avril 2024 - Mai 2024 (1 mois)",
+            "title": "Développeur React pour Terega (prestation CGI)",
+            "shortDescription": "Développement d'un plugin Excel en React Pour Terega.",
+            "longDescription": "Courte mission pour la réalisation d'un plugin Microsoft Excel pour communiquer et récupérer des informations de leur base de données IO base.",
+            "skills": [
+                {
+                    "text": "React",
+                    "short": "React"
+                },
+                {
+                    "text": "TypeScript",
+                    "short": "TypeScript"
+                },
+                {
+                    "text": "API JavaScript Office",
+                    "short": "API JS Office"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
             "period": "Mars 2023 - Octobre 2023 (8 mois)",
             "title": "Développeur web à NaturaBuy",
             "shortDescription": "Développement et maintenance du site E-commerce NaturaBuy.",
@@ -163,7 +227,7 @@
             ]
         },
         {
-            "isDisplay": true,
+            "isDisplay": false,
             "hideInPaper": false,
             "period": "Janvier 2014 - Janvier 2015 (1 an)",
             "title": "Assistant et gestionnaire d'application de reporting de production à Total",
@@ -185,7 +249,7 @@
             ]
         },
         {
-            "isDisplay": true,
+            "isDisplay": false,
             "hideInPaper": true,
             "period": "Janvier 2012 - Juillet 2013 (1 an et 7 mois)",
             "title": "Cartographe à ERDF",
@@ -207,7 +271,7 @@
             ]
         },
         {
-            "isDisplay": true,
+            "isDisplay": false,
             "hideInPaper": true,
             "period": "Mai 2011 - Juin 2011 (2 mois)",
             "title": "Stagiaire à Aquitaine Electronique",
@@ -457,24 +521,15 @@
     ],
     "hobbies": [
         {
-            "icon": [
-                "fas",
-                "camera"
-            ],
+            "icon": "fa-camera",
             "title": "Photographie"
         },
         {
-            "icon": [
-                "fas",
-                "music"
-            ],
+            "icon": "fa-music",
             "title": "Piano"
         },
         {
-            "icon": [
-                "fas",
-                "dumbbell"
-            ],
+            "icon": "fa-dumbbell",
             "title": "Sport"
         }
     ]

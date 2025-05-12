@@ -1,8 +1,8 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { trigger, style, transition, animate } from '@angular/animations';
 
-import { ProfessionalExperienceSkillsComponent } from '../professional-experience-skills/professional-experience-skills.component';
+import { ProfessionalExperienceSkillsComponent } from './professional-experience-skills/professional-experience-skills.component';
 
 @Component({
   selector: 'app-professional-experience',
@@ -27,9 +27,10 @@ import { ProfessionalExperienceSkillsComponent } from '../professional-experienc
 })
 export class ProfessionalExperienceComponent {
   @Input('experience') experience: any;
-  isOpen = false;
+  @Input() isActive: boolean = false;
+  @Output() toggleEvent = new EventEmitter<void>();
 
   toggle() {
-    this.isOpen = !this.isOpen;
+    this.toggleEvent.emit();
   }
 }
