@@ -17,7 +17,7 @@
             "title": "Retropie",
             "link": {
                 "isExternal": false,
-                "url": "/projects/retropie"
+                "url": "/project/retropie"
             },
             "image": "assets/img/retropie.jpg",
             "description": "Réalisation d'une console de jeux rétro à l'aspect tout aussi rétro. Utilisant une RaspberryPi 3, j'ai crée cette console de salon pour des moment fun entre amis. Sur cette page je partage les impressions 3D utilisé pour la réalisation de cette console ainsi que les éléments essentiels à ça réalisation.",

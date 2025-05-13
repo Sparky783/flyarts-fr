@@ -9,35 +9,35 @@
             "longDescription": "Au sein de la DSI, j'ai eu pour mission de mettre en place un serveur acceuillant l'outil MyInd pour un client Indien. J'ai également participé au développement de nouvelles fonctionnalités et également au maintenant de l'outil éxistant. Cette mission a été effecté dans un contexte Scrum, avec une équipe composé de français et d'indens.",
             "skills": [
                 {
-                    "text": "Angular 18",
+                    "full": "Angular 18",
                     "short": "Angular 18"
                 },
                 {
-                    "text": "NodeJs 20",
+                    "full": "NodeJs 20",
                     "short": "Node 20"
                 },
                 {
-                    "text": "NestJs",
+                    "full": "NestJs",
                     "short": "NestJs"
                 },
                 {
-                    "text": "Cypress",
+                    "full": "Cypress",
                     "short": "Cypress"
                 },
                 {
-                    "text": "Apache Tomcat",
+                    "full": "Apache Tomcat",
                     "short": "Tomcat"
                 },
                 {
-                    "text": "Java Spring",
+                    "full": "Java Spring",
                     "short": "Spring"
                 },
                 {
-                    "text": "GitLab",
+                    "full": "GitLab",
                     "short": "GitLab"
                 },
                 {
-                    "text": "GitLab Runner",
+                    "full": "GitLab Runner",
                     "short": "GitLab Runner"
                 }
             ]
@@ -51,15 +51,15 @@
             "longDescription": "Courte mission pour la réalisation d'un plugin Microsoft Excel pour communiquer et récupérer des informations de leur base de données IO base.",
             "skills": [
                 {
-                    "text": "React",
+                    "full": "React",
                     "short": "React"
                 },
                 {
-                    "text": "TypeScript",
+                    "full": "TypeScript",
                     "short": "TypeScript"
                 },
                 {
-                    "text": "API JavaScript Office",
+                    "full": "API JavaScript Office",
                     "short": "API JS Office"
                 }
             ]
@@ -73,27 +73,27 @@
             "longDescription": "Chargé du développement de nouvelles fonctionnalités ainsi que la maintenance de leur site E-commerce développé en PHP et JavaScript.",
             "skills": [
                 {
-                    "text": "PHP 8.2",
+                    "full": "PHP 8.2",
                     "short": "PHP 8.2"
                 },
                 {
-                    "text": "Javascript",
+                    "full": "Javascript",
                     "short": "Javascript"
                 },
                 {
-                    "text": "HTML",
+                    "full": "HTML",
                     "short": "HTML"
                 },
                 {
-                    "text": "CSS",
+                    "full": "CSS",
                     "short": "CSS"
                 },
                 {
-                    "text": "Docker",
+                    "full": "Docker",
                     "short": "Docker"
                 },
                 {
-                    "text": "Git",
+                    "full": "Git",
                     "short": "Git"
                 }
             ]
@@ -107,31 +107,31 @@
             "longDescription": "Développeur et chef de projet, je suis en charge du développement d'outils logiciel ayant pour principal objectif l'analyse et la maintenance des turbomoteurs du groupe Safran. Principalement écrit en C# et C++, ces programmes sont conçu autour d'un développement Agile (Scrum) et font de l'objet de tests unitaires avant leur livraison auprèt du client.<br />D'autres projets auquel je suis membre font également partie de mes activités. La réalité virtuel d'une part ainsi que le développement d'outils de gestion de projet (en Symfony et en Ruby) d'autre part.",
             "skills": [
                 {
-                    "text": "C# avec .Net Fremwork 4.8",
+                    "full": "C# avec .Net Fremwork 4.8",
                     "short": "C#"
                 },
                 {
-                    "text": "C/C++",
+                    "full": "C/C++",
                     "short": "C/C++"
                 },
                 {
-                    "text": "Symfony 3",
+                    "full": "Symfony 3",
                     "short": "Symfony 3"
                 },
                 {
-                    "text": "Gestion de projet (Cahier des charges, planning, chiffrage, suivi de projet, etc.",
+                    "full": "Gestion de projet (Cahier des charges, planning, chiffrage, suivi de projet, etc.",
                     "short": "Gestion de projet"
                 },
                 {
-                    "text": "Rédaction de documentations techniques",
+                    "full": "Rédaction de documentations techniques",
                     "short": ""
                 },
                 {
-                    "text": "Méthodologie Scrum",
+                    "full": "Méthodologie Scrum",
                     "short": "Scrum"
                 },
                 {
-                    "text": "Git",
+                    "full": "Git",
                     "short": "Git"
                 }
             ]
@@ -145,27 +145,27 @@
             "longDescription": "L'objectif de ce stage de 6 mois fut de réaliser une aplication web permettant d'analyser les hydrocarbures prélevés en laboratoire. Cet outil doit être intuitif et facile d'utilisation. J'ai créé une interface utilisateur à l'aide du framework Angular 5. Afin de traiter la masse de données et de retourner des résultats précis, une API réalisée en C# a été mise en place.",
             "skills": [
                 {
-                    "text": "Migration de AngularJS vers Angular 5",
+                    "full": "Migration de AngularJS vers Angular 5",
                     "short": "Angular 5"
                 },
                 {
-                    "text": "PHP 5.6",
+                    "full": "PHP 5.6",
                     "short": "PHP 5.6"
                 },
                 {
-                    "text": "CSS avec Bootstrap",
+                    "full": "CSS avec Bootstrap",
                     "short": "Bootstrap"
                 },
                 {
-                    "text": "Javascript avec jQuery",
+                    "full": "Javascript avec jQuery",
                     "short": "jQuery"
                 },
                 {
-                    "text": "C#",
+                    "full": "C#",
                     "short": "C#"
                 },
                 {
-                    "text": "Méthodologie Scrum",
+                    "full": "Méthodologie Scrum",
                     "short": "Scrum"
                 }
             ]
@@ -179,71 +179,71 @@
             "longDescription": "Désireux d'être plus présent sur le net, cette petite entreprise de vente de champagne en Irlande a fait appel à un stagiaire pour mettre à jour leur site internet. C'est pourquoi, j'ai rejoint cette équipe et mis en place un site vitrine pour la présentation de ce commerçant ainsi qu'un site E-commerce afin d'étendre ses ventes sur internet.",
             "skills": [
                 {
-                    "text": "WordPress",
+                    "full": "WordPress",
                     "short": "WordPress"
                 },
                 {
-                    "text": "Plugin WooCommerce",
+                    "full": "Plugin WooCommerce",
                     "short": "Plugin WooCommerce"
                 },
                 {
-                    "text": "Création de thèmes",
+                    "full": "Création de thèmes",
                     "short": "Création de thèmes"
                 },
                 {
-                    "text": "Création de plugins",
+                    "full": "Création de plugins",
                     "short": "Création de plugins"
                 },
                 {
-                    "text": "PHP 5.6",
+                    "full": "PHP 5.6",
                     "short": "PHP 5.6"
                 },
                 {
-                    "text": "CSS avec Bootstrap",
+                    "full": "CSS avec Bootstrap",
                     "short": "Bootstrap"
                 },
                 {
-                    "text": "Javascript avec jQuery",
+                    "full": "Javascript avec jQuery",
                     "short": "jQuery"
                 }
             ]
         },
         {
             "isDisplay": true,
-            "hideInPaper": false,
+            "hideInPaper": true,
             "period": "Février 2016 - Mai 2016 (3 mois)",
             "title": "Stagiaire chez Exakis, chargé de la mise en place d'un environnement Microsoft SharePoint 2016",
             "shortDescription": "Découverte et mise en place d'un serveur SharePoint OnPremise pour la présentation des nouvelles fonctionnalités de la version 2016 de l'outil.",
             "longDescription": "Durant 4 mois de stage chez Exakis à Bidart, j'étais chargé de mettre en place un environnement Microsoft SharePoint 2016 OnPremise. La nouvelle version de cet outil colaboratif a pour principal objectif d'être complètement lié au cloud, ceci permettant une plus grande disponibilité des services et garantissant de meilleures performances. Tout au long de cette mission, j'ai rédigé plusieurs documents permettant d'expliquer son fonctionnement aux collaborateurs ainsi que la procédure de mise en place de l'outil directement chez le client. Pour finir, j'ai mis en place l'outil sur un serveur dédié par l'entreprise afin de pouvoir présenter Microsoft Sarepoint 2016 aux clients.",
             "skills": [
                 {
-                    "text": "SharePoint 2016",
+                    "full": "SharePoint 2016",
                     "short": "SharePoint 2016"
                 },
                 {
-                    "text": "Rédaction de documentations techniques",
+                    "full": "Rédaction de documentations techniques",
                     "short": ""
                 }
             ]
         },
         {
             "isDisplay": false,
-            "hideInPaper": false,
+            "hideInPaper": true,
             "period": "Janvier 2014 - Janvier 2015 (1 an)",
             "title": "Assistant et gestionnaire d'application de reporting de production à Total",
             "shortDescription": "Responsable de l'analyse et la présentation des données de production 100% opérés par l'entreprise.",
             "longDescription": "Au service Reporting de production mon objectif était de collecter les données hebdomadaires et mensuelles de production des sites du groupe Total. Directement en relation avec les filliales, j'avais également pour responsabilité de faire remonter les incidents survenus lors de la production afin de manager la production et d'augmenter les performances. Le dernier point de cette mission fut la rédaction de rapports de production en vu d'informer la direction.",
             "skills": [
                 {
-                    "text": "Tableur Excel",
+                    "full": "Tableur Excel",
                     "short": ""
                 },
                 {
-                    "text": "Génération de rapport",
+                    "full": "Génération de rapport",
                     "short": ""
                 },
                 {
-                    "text": "Analyse de données pétrolières",
+                    "full": "Analyse de données pétrolières",
                     "short": ""
                 }
             ]
@@ -257,15 +257,15 @@
             "longDescription": "Dans cette grande entreprise française, j'étais en charge de la mise à jour des réseaux électrique des départements Pyrénées-Atlantiques, Hautes-Pyrénées ainsi que des Landes. Travaillant avec les logiciels de cartographie Atlas et Pacific, mon objectif était de détecter les anomalies présentes dans la base de données de l'entreprise et de les corriger. Cette activité pleinement en autonomie, me permettait d'être en relation avec les techniciens présent sur le terrain ainsi qu'avec les Géométre-Topographes partenaires d'ERDF.",
             "skills": [
                 {
-                    "text": "Utilisation des logiciel de cartographie Atlas et Pacific",
+                    "full": "Utilisation des logiciel de cartographie Atlas et Pacific",
                     "short": ""
                 },
                 {
-                    "text": "Gestion des équipe de cartographie sur le terrain",
+                    "full": "Gestion des équipe de cartographie sur le terrain",
                     "short": ""
                 },
                 {
-                    "text": "Mise à jour des bases de données cartographique du sud-ouest",
+                    "full": "Mise à jour des bases de données cartographique du sud-ouest",
                     "short": ""
                 }
             ]
@@ -279,17 +279,24 @@
             "longDescription": "Stagiaire de fin d'étude pour mon DUT, j'ai durant 2 mois à Aquitaine Electronique rédigé plusieurs procédures de contrôle pour des baies électrique utilisé dans les équipements militaire produit par l'entreprise. J'ai également réalisé le contrôle de celle-ci afin de valider ces procédures.",
             "skills": [
                 {
-                    "text": "Rédaction de documentations de test",
+                    "full": "Rédaction de documentations de test",
                     "short": ""
                 },
                 {
-                    "text": "Analyse et test de schéma électique",
+                    "full": "Analyse et test de schéma électique",
                     "short": ""
                 }
             ]
         }
     ],
     "trainings": [
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Mai 2024",
+            "title": "Certification Devops Fundation",
+            "description": "Formation de 8 jours sur la cybersécurité hardware et software. L'objectif était d'apprendre les risques ainsi que les facteurs d'attaque dans le domaine industriel. Nous avons appris les différents types d'attaque existant et nous avons également apris à effectuer une attaque matériel et logiciel."
+        },
         {
             "isDisplay": true,
             "hideInPaper": false,
@@ -359,20 +366,12 @@
             "isDisplay": true,
             "content": [
                 {
-                    "isImportant": false,
-                    "text": "Développement Web"
+                    "title": "Développement Web",
+                    "detail": "Langages: PHP, HTML, CSS, Javascript"
                 },
                 {
-                    "isImportant": true,
-                    "text": "Langages: PHP, HTML, CSS, Javascript"
-                },
-                {
-                    "isImportant": false,
-                    "text": "Framework"
-                },
-                {
-                    "isImportant": true,
-                    "text": "Angular, jQuery, Symfony"
+                    "title": "Framework",
+                    "detail": "Angular, jQuery, Symfony"
                 }
             ]
         },
@@ -380,12 +379,8 @@
             "isDisplay": true,
             "content": [
                 {
-                    "isImportant": false,
-                    "text": "Environnement technique"
-                },
-                {
-                    "isImportant": true,
-                    "text": "NodeJS, Docker, Git Bash, TortoiseGit"
+                    "title": "Environnement technique",
+                    "detail": "NodeJS, Docker, Git Bash, TortoiseGit"
                 }
             ]
         },
@@ -393,20 +388,12 @@
             "isDisplay": true,
             "content": [
                 {
-                    "isImportant": false,
-                    "text": "Programmation Logiciel"
+                    "title": "Programmation Logiciel",
+                    "detail": "Langages: C#, C++, C, Java"
                 },
                 {
-                    "isImportant": true,
-                    "text": "Langages: C#, C++, C, Java"
-                },
-                {
-                    "isImportant": false,
-                    "text": "Framework"
-                },
-                {
-                    "isImportant": true,
-                    "text": ".NET Framework, .NET Core, Boost"
+                    "title": "Framework",
+                    "detail": ".NET Framework, .NET Core, Boost"
                 }
             ]
         },
@@ -414,8 +401,7 @@
             "isDisplay": false,
             "content": [
                 {
-                    "isImportant": false,
-                    "text": "Développement de drivers Windows en User-Mode"
+                    "title": "Développement de drivers Windows en User-Mode"
                 }
             ]
         },
@@ -423,12 +409,8 @@
             "isDisplay": true,
             "content": [
                 {
-                    "isImportant": false,
-                    "text": "Gestionnaire de base de données"
-                },
-                {
-                    "isImportant": true,
-                    "text": "MySQL, SQL Server, PostgreSQL, OracleSQL"
+                    "title": "Gestionnaire de base de données",
+                    "detail": "MySQL, SQL Server, PostgreSQL, OracleSQL"
                 }
             ]
         },
@@ -436,12 +418,8 @@
             "isDisplay": true,
             "content": [
                 {
-                    "isImportant": false,
-                    "text": "Intégration continue / Déploiement continu"
-                },
-                {
-                    "isImportant": true,
-                    "text": "GitHub Action"
+                    "title": "Intégration continue / Déploiement continu",
+                    "detail": "GitHub Action"
                 }
             ]
         },
@@ -449,12 +427,8 @@
             "isDisplay": true,
             "content": [
                 {
-                    "isImportant": false,
-                    "text": "Gestion de projets"
-                },
-                {
-                    "isImportant": true,
-                    "text": "Scrum, Agile"
+                    "title": "Gestion de projets",
+                    "detail": "Scrum, Agile"
                 }
             ]
         },
@@ -462,12 +436,8 @@
             "isDisplay": true,
             "content": [
                 {
-                    "isImportant": false,
-                    "text": "Systèmes d'exploitation"
-                },
-                {
-                    "isImportant": true,
-                    "text": "Windows, Linux"
+                    "title": "Systèmes d'exploitation",
+                    "detail": "Windows, Linux"
                 }
             ]
         },
@@ -475,8 +445,7 @@
             "isDisplay": true,
             "content": [
                 {
-                    "isImportant": false,
-                    "text": "Tests unitaires"
+                    "title": "Tests unitaires"
                 }
             ]
         },
@@ -484,8 +453,7 @@
             "isDisplay": true,
             "content": [
                 {
-                    "isImportant": false,
-                    "text": "Notion de TDD"
+                    "title": "Notion de TDD"
                 }
             ]
         },
@@ -493,8 +461,8 @@
             "isDisplay": true,
             "content": [
                 {
-                    "isImportant": false,
-                    "text": "Réalité Virtuelle avec les casques Oculus sous Unreal Engine 4 et 5"
+                    "title": "Developpement de jeux vidéos",
+                    "detail": "Unreal Engine 4 et 5"
                 }
             ]
         },
@@ -502,12 +470,8 @@
             "isDisplay": true,
             "content": [
                 {
-                    "isImportant": false,
-                    "text": "Anglais technique"
-                },
-                {
-                    "isImportant": true,
-                    "text": "TOEIC niveau B2"
+                    "title": "Anglais profesionnel",
+                    "detail": "TOEIC niveau B2"
                 }
             ]
         }

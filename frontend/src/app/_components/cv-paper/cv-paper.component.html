@@ -1,31 +1,31 @@
 <div id="paperCv">
-    <main>
-        <h1>Ingénieur développement logiciel et web</h1>
-        <div id="container">
-            <div id="informations">
-                <section id="infosText">
-                    <h2>Florent Lavignotte</h2>
-                    <small>{age} ans</small>
-                    <p>
-                        <FontAwesomeIcon icon={faCar} /> Permis B avec véhicule
-                        <br /><br />
-                        <FontAwesomeIcon icon={faMapMarkedAlt} /> 5 allée de la Houn<br />
-                        64420 ANDOINS
-                        <br /><br />
-                        <FontAwesomeIcon icon={faPhone} /> 06 70 56 27 10<br />
-                        <FontAwesomeIcon icon={faEnvelope} /> florent.lavignotte@gmail.com
-                    </p>
-                </section>
+	<main>
+		<h1>Ingénieur développement logiciel et web</h1>
+		<div id="container">
+			<div id="informations">
+				<section id="infosText">
+					<h2>Florent Lavignotte</h2>
+					<!-- <small>{age} ans</small> -->
+					<p>
+						<i class="fas fa-car"></i> Permis B avec véhicule
+						<br /><br />
+						<i class="fas fa-map-marker-alt"></i> 5 allée de la Houn<br />
+						64420 ANDOINS
+						<br /><br />
+						<i class="fas fa-phone"></i> 06 70 56 27 10<br />
+						<i class="fas fa-envelope"></i> florent.lavignotte&#64;gmail.com
+					</p>
+				</section>
 
-                <PaperSkills skills={cvData.skills} />
+				<app-skills-paper [skills]="cvData.skills" />
 
-                <PaperHobbies hobbies={cvData.hobbies} />
-            </div>
-            <div id="content">
-                <PaperProfessionalExperiences experiences={cvData.professionalExperiences} />
+				<app-hobbies-paper [hobbies]="cvData.hobbies" />
+			</div>
+			<div id="content">
+				<app-professional-experiences-paper [experiences]="cvData.professionalExperiences" />
 
-                <PaperTrainings trainings={cvData.trainings} />
-            </div>
-        </div>
-    </main>
+				<app-trainings-paper [trainings]="cvData.trainings" />
+			</div>
+		</div>
+	</main>
 </div>

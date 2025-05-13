@@ -1,46 +1,42 @@
-<div id="projects" class="container">
+<section id="project_list" class="col-sm-12 flyarts-section">
+	<h1>Les projets de développement</h1>
 	<div class="row">
-		<section id="project_list" class="col-sm-12 flyarts-section">
-			<h1>Les projets de développement</h1>
-			<div class="row">
-				@for(project of devProjects; track project.idProject) {
-				@if(project.isDisplay) {
-				<div class="col-md-4">
-					<app-project-item [project]="project" />
-				</div>
-				}
-				}
-			</div>
-		</section>
-
-		<section id="project_list" class="col-sm-12 flyarts-section">
-			<h1>Les autres projets</h1>
-			<div class="row">
-				@for(project of otherProjects; track project.idProject) {
-				@if(project.isDisplay) {
-				<div class="col-md-4">
-					<app-project-item [project]="project" />
-				</div>
-				}
-				}
-			</div>
-		</section>
-
-		<section id="more_projects" class="col-sm-12 flyarts-section">
-			<h1>Plus de projets</h1>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="card">
-						<p class="card-body">
-							<span>Retrouvez tous mes projets de développement directement sur mon GitHub.</span>
-							<br /><br />
-							<a href="https://github.com/sparky783" target="_blank">
-								<i class="fab fa-github"></i>
-							</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
+		@for(project of devProjects; track project.idProject) {
+		@if(project.isDisplay) {
+		<div class="col-md-4">
+			<app-project-item [project]="project" />
+		</div>
+		}
+		}
 	</div>
-</div>
+</section>
+
+<section id="project_list" class="col-sm-12 flyarts-section">
+	<h1>Les autres projets</h1>
+	<div class="row">
+		@for(project of otherProjects; track project.idProject) {
+		@if(project.isDisplay) {
+		<div class="col-md-4">
+			<app-project-item [project]="project" />
+		</div>
+		}
+		}
+	</div>
+</section>
+
+<section id="more_projects" class="col-sm-12 flyarts-section">
+	<h1>Plus de projets</h1>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<p class="card-body">
+					<span>Retrouvez tous mes projets de développement directement sur mon GitHub.</span>
+					<br /><br />
+					<a href="https://github.com/sparky783" target="_blank">
+						<i class="fab fa-github"></i>
+					</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>

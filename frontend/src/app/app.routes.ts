@@ -1,14 +1,17 @@
 import { Routes } from '@angular/router';
 
+import { RootComponent } from './_components/layouts/root/root.component';
 import { HomeComponent } from './_components/home/home.component';
 import { CvComponent } from './_components/cv/cv.component';
 import { ContactComponent } from './_components/contact/contact.component';
 import { ProjectsComponent } from './_components/projects/projects.component';
+import { CvPaperComponent } from './_components/cv-paper/cv-paper.component';
 
 export const routes: Routes = [
   {
     path: '',
-    title: 'Home page',
+    title: 'Accueil',
+    component: RootComponent,
     children: [
       {
         path: '',
@@ -16,12 +19,19 @@ export const routes: Routes = [
       },
       {
         path: 'projects',
-        component: ProjectsComponent,
+        component: ProjectsComponent
+      },
+      {
+        path: 'project',
         children: [
-          // {
-          //   path: 'retropie',
-          //   component: RetropieComponent,
-          // }
+          {
+            path: 'retropie',
+            loadComponent: () => import('./_components/projects/project-pages/retropie/retropie.component').then(m => m.RetropieComponent)
+          },
+          {
+            path: 'random-player',
+            loadComponent: () => import('./_components/projects/project-pages/random-player/random-player.component').then(m => m.RandomPlayerComponent)
+          }
         ]
       },
       {
@@ -33,5 +43,10 @@ export const routes: Routes = [
         component: CvComponent,
       }
     ]
+  },
+  {
+    path: 'cv-paper',
+    title: 'CV format papier',
+    component: CvPaperComponent
   }
 ];

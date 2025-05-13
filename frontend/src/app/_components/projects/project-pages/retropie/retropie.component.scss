@@ -1,0 +1,29 @@
+h1 {
+	margin: 20px 0 30px;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+.flyarts-section {
+	margin-bottom: 90px;
+}
+
+.table {
+	margin-bottom: 0;
+}
+
+.image {
+	text-align: center;
+}
+
+.image img {
+	max-width: 50%;
+}
+
+@media (max-width: 992px) {
+	.image img {
+		max-width: 100%;
+	}
+}

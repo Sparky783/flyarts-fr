@@ -77,7 +77,7 @@
                 "url": "https://sortzam.flyarts.fr"
             },
             "image": "",
-            "description": "Petite application Windows développé en collaboration avec un ami d'enfance qui permet de récupérer automatique depuis internet les informations de vox fichiers audios.",
+            "description": "Petite application Windows développé en collaboration avec un ami d'enfance qui permet de récupérer automatique depuis internet les informations de vos fichiers audios.",
             "isDisplay": true,
             "inProgress": false
         },
@@ -93,6 +93,19 @@
             "description": "Les solutions du commerce étant hors de prix pour des jeunes débutant dans le métier, j'ai choisi de me lancer dans l'aventure de créer un logiciel de gestion de projecteur de scène open source développé en C#. Avec une partie hardware et une partie software ce projet est très complet.",
             "isDisplay": true,
             "inProgress": true
+        },
+        {
+            "idProject": 6,
+            "type": "software",
+            "title": "Random Player",
+            "link": {
+                "isExternal": false,
+                "url": "/project/random-player"
+            },
+            "image": "assets/img/flashlight.jpg",
+            "description": "Les solutions du commerce étant hors de prix pour des jeunes débutant dans le métier, j'ai choisi de me lancer dans l'aventure de créer un logiciel de gestion de projecteur de scène open source développé en C#. Avec une partie hardware et une partie software ce projet est très complet.",
+            "isDisplay": true,
+            "inProgress": false
         }
     ]
 }

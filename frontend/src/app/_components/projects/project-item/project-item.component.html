@@ -12,8 +12,10 @@
 
 		<p class="card-text">{{ projectData.description }}</p>
 
+		@if(projectData.link.url) {
 		<p class="link text-right">
 			<app-project-link [link]="projectData.link" />
 		</p>
+		}
 	</div>
 </div>

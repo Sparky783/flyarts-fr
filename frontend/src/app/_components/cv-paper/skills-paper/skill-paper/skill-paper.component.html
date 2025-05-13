@@ -1,0 +1,8 @@
+@for(skillItem of skill.content; track skillItem) {
+<li>
+	<p class="content">{{ skillItem.title }}</p>
+	@if(skillItem.detail) {
+	<p class="techno">({{ skillItem.detail }})</p>
+	}
+</li>
+}
