@@ -1,6 +1,9 @@
 <div class="row">
 	<section id="project_list" class="col-sm-12 flyarts-section">
-		<h1>Les projets de développement</h1>
+		<h1>
+			Les projets de développement
+			<span class="badge text-bg-danger"><i class="fas fa-code"></i></span>
+		</h1>
 		<div class="row">
 			@for(project of devProjects; track project.idProject) {
 			@if(project.isDisplay) {
@@ -13,7 +16,9 @@
 	</section>
 
 	<section id="project_list" class="col-sm-12 flyarts-section">
-		<h1>Les autres projets</h1>
+		<h2>
+			Les autres projets
+		</h2>
 		<div class="row">
 			@for(project of otherProjects; track project.idProject) {
 			@if(project.isDisplay) {
@@ -26,7 +31,7 @@
 	</section>
 
 	<section id="more_projects" class="col-sm-12 flyarts-section">
-		<h1>Plus de projets</h1>
+		<h2>Plus de projets</h2>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="card">
