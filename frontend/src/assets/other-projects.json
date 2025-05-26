@@ -7,7 +7,7 @@
                 "isExternal": true,
                 "url": "https://photographie.flyarts.fr"
             },
-            "image": "assets/img/photographie.jpg",
+            "image": "assets/img/project-thumbnails/photographie.jpg",
             "description": "Photographe par passion depuis maintenant plusieurs années, j'ai décidé de partager mon travail en ligne à travers un site internet entièrement développé par mes soins. Vous pouvez y retrouver mes création ainsi que tout mes projet photos.",
             "isDisplay": true,
             "inProgress": false
@@ -19,7 +19,7 @@
                 "isExternal": false,
                 "url": "/project/retropie"
             },
-            "image": "assets/img/retropie.jpg",
+            "image": "assets/img/project-thumbnails/retropie.jpg",
             "description": "Réalisation d'une console de jeux rétro à l'aspect tout aussi rétro. Utilisant une RaspberryPi 3, j'ai crée cette console de salon pour des moment fun entre amis. Sur cette page je partage les impressions 3D utilisé pour la réalisation de cette console ainsi que les éléments essentiels à ça réalisation.",
             "isDisplay": true,
             "inProgress": false

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { AgeService } from '../../_services/age.service';
 
 import { SkillsPaperComponent } from "./skills-paper/skills-paper.component";
 import { HobbiesPaperComponent } from "./hobbies-paper/hobbies-paper.component";
@@ -20,5 +21,7 @@ import * as cvData from '../../../assets/cv.json'
   styleUrl: './cv-paper.component.scss'
 })
 export class CvPaperComponent {
+  public readonly ageService = inject(AgeService);
+
   cvData = cvData;
 }

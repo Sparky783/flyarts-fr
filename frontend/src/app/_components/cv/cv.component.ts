@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { AgeService } from '../../_services/age.service';
 
 import { ProfessionalExperiencesComponent } from './professional-experiences/professional-experiences.component';
 import { TrainingsComponent } from './trainings/trainings.component';
@@ -24,6 +25,8 @@ type OpenItem = { type: 'experience' | 'training' | 'skill', id: number } | null
   styleUrl: './cv.component.scss'
 })
 export class CvComponent {
+  public readonly ageService = inject(AgeService);
+
   cvData = cvData;
   openItem: OpenItem = null;
 

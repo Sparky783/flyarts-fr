@@ -19,27 +19,33 @@ export const routes: Routes = [
       },
       {
         path: 'projects',
+        title: 'Projets',
         component: ProjectsComponent
       },
       {
         path: 'project',
+        title: 'Projet',
         children: [
           {
             path: 'retropie',
+            title: 'Projet Retropie',
             loadComponent: () => import('./_components/projects/project-pages/retropie/retropie.component').then(m => m.RetropieComponent)
           },
           {
             path: 'random-player',
+            title: 'Projet Random Player',
             loadComponent: () => import('./_components/projects/project-pages/random-player/random-player.component').then(m => m.RandomPlayerComponent)
           }
         ]
       },
       {
         path: 'contact',
+        title: 'Contacter',
         component: ContactComponent,
       },
       {
         path: 'cv',
+        title: 'CV',
         component: CvComponent,
       }
     ]
