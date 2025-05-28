@@ -8,20 +8,23 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div id="mainMenu" class="collapse navbar-collapse">
+			<div #mainMenu id="mainMenu" class="collapse navbar-collapse">
 				<div class="me-auto mb-2 mb-lg-0"></div>
 				<ul class="navbar-nav d-flex">
 					<li class="nav-item">
-						<a class="nav-link" title="Accueil du site FlyArts" [routerLink]="['/']">Accueil</a>
+						<a class="nav-link" title="Accueil du site FlyArts" [routerLink]="['/']"
+							(click)="closeNavbar()">Accueil</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" title="Mon CV en ligne" [routerLink]="['/cv']">CV</a>
+						<a class="nav-link" title="Mon CV en ligne" [routerLink]="['/cv']"
+							(click)="closeNavbar()">CV</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" title="Mes projets" [routerLink]="['projects']">Projets</a>
+						<a class="nav-link" title="Mes projets" [routerLink]="['projects']"
+							(click)="closeNavbar()">Projets</a>
 					</li>
 					<!-- <li class="nav-item">
-                        <a class="nav-link" title="Contactez-moi si vous avez des questions" [routerLink]="['contact']">Contact</a>
+                        <a class="nav-link" title="Contactez-moi si vous avez des questions" [routerLink]="['contact']" (click)="closeNavbar()">Contact</a>
                     </li> -->
 				</ul>
 			</div>
