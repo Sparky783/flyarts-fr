@@ -22,10 +22,12 @@ jobs:
 
       # 3. Install dependencies
       - name: Install dependencies
+        working-directory: ./frontend
         run: npm ci
 
       # 4. Build Angular project
       - name: Build Angular app
+        working-directory: ./frontend
         run: npm run build -- --configuration=production
 
       # 5. Deploy built files via FTP
