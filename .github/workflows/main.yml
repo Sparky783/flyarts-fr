@@ -22,10 +22,12 @@ jobs:
 
       # 3. Install dependencies
       - name: Install dependencies
+        working-directory: ./frontend
         run: npm ci
 
       # 4. Build Angular project
       - name: Build Angular app
+        working-directory: ./frontend
         run: npm run build -- --configuration=production
 
       # 5. Deploy built files via FTP
@@ -37,7 +39,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /public_html/FLYARTS/
-          local-dir: frontend/dist/flyarts/
+          local-dir: frontend/dist/flyarts/browser/
           exclude: |
             **/.git*
             **/node_modules/**
