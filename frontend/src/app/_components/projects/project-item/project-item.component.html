@@ -1,0 +1,21 @@
+<div class="card">
+	<img class="card-img-top" [src]="projectData.image" [alt]="'Image représentant le projet ' + projectData.title" />
+
+	<div class="card-body">
+		<h5 class="card-title md-2">
+			{{ projectData.title }}
+
+			@if(projectData.inProgress) {
+			<span class="badge bg-info">En cours</span>
+			}
+		</h5>
+
+		<p class="card-text">{{ projectData.description }}</p>
+
+		@if(projectData.link.url) {
+		<p class="link text-right">
+			<app-project-link [link]="projectData.link" />
+		</p>
+		}
+	</div>
+</div>

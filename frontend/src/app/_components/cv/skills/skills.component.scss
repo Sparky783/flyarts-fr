@@ -1,0 +1,29 @@
+#competences {
+	margin-bottom: 40px;
+}
+
+.content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #dc3545;
+}
+
+.cv-item {
+	margin-left: -5px;
+	padding: 5px;
+	border-radius: 3px
+}
+
+.cv-item:hover {
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+
+.cv-detail {
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.cv-detail p {
+	margin-bottom: 0;
+}

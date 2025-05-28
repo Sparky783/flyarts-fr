@@ -1,0 +1,19 @@
+<li class="cv-block">
+	<div class="cv-item" (click)="toggle()">
+		<span class="date">{{ experience.period }}</span><br />
+		<span class="content">{{ experience.title }}</span><br />
+		<span class="description">{{ experience.shortDescription }}</span>
+	</div>
+	@if(isActive) {
+	<div class="cv-detail card" [@slideToggle]>
+		<div class="card-body">
+			<p class="details">
+				{{ experience.longDescription }}
+			</p>
+			@if(experience.skills) {
+			<app-professional-experience-skills [skills]="experience.skills" />
+			}
+		</div>
+	</div>
+	}
+</li>

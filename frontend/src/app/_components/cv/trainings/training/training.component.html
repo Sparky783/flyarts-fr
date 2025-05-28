@@ -1,0 +1,14 @@
+<li class="cv-block">
+	<div class="cv-item" (click)="toggle()">
+		<span class="date">{{ training.period }}</span> : <span class="content">{{ training.title }}</span>
+	</div>
+	@if(isActive) {
+	<div class="cv-detail card" [@slideToggle]>
+		<div class="card-body">
+			<p>
+				{{ training.description }}
+			</p>
+		</div>
+	</div>
+	}
+</li>

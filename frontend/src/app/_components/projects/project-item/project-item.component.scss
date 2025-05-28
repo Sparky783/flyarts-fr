@@ -1,0 +1,17 @@
+.card {
+	margin-bottom: 30px;
+}
+
+.card-img-top {
+	aspect-ratio: 1.5;
+	object-fit: cover;
+}
+
+.card .badge {
+	font-size: 0.8rem;
+	vertical-align: bottom;
+}
+
+.card .link {
+	margin-bottom: 0;
+}

@@ -1,0 +1,12 @@
+<section id="formations">
+	<div class="title">
+		<h2>Formations et Diplômes</h2>
+	</div>
+	<ul>
+		@for(training of trainings; track training.title; let i = $index) {
+		@if (training.isDisplay) {
+		<app-training [training]="training" [isActive]="isActive(i)" (toggleEvent)="trainingSelected.emit(i)" />
+		}
+		}
+	</ul>
+</section>

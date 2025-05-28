@@ -1,0 +1,12 @@
+<section id="experiences">
+	<div class="title">
+		<h2>Expériences professionnelles</h2>
+	</div>
+	<ul>
+		@for(experience of experiences; track experience.title; let i = $index) {
+		@if(experience.isDisplay && !experience.hideInPaper) {
+		<app-professional-experience-paper [experience]="experience" />
+		}
+		}
+	</ul>
+</section>
