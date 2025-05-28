@@ -54,5 +54,10 @@ export const routes: Routes = [
     path: 'cv-paper',
     title: 'CV format papier',
     component: CvPaperComponent
+  },
+  {
+    path: '**',
+    redirectTo: '',
+    pathMatch: 'full'
   }
 ];
