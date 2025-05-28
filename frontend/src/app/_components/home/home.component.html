@@ -60,15 +60,14 @@
 		</div>
 	</div>
 
+	@if(projects.length > 0) {
 	<section id="projects" class="col-sm-12 flyarts-section">
-		<h2>Mes projets en cours</h2>
+		<h2>Mes derniers projets</h2>
 		<div class="row">
 			@for(project of projects; track project.idProject) {
-			@if(project.isDisplay && project.inProgress) {
 			<div class="col-md-4">
 				<app-project-item [project]="project" />
 			</div>
-			}
 			}
 
 			<div class="col-md-4">
@@ -80,4 +79,5 @@
 			</div>
 		</div>
 	</section>
+	}
 </div>

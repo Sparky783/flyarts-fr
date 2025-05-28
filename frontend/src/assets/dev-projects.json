@@ -8,7 +8,7 @@
                 "isExternal": true,
                 "url": "https://flyarts.fr"
             },
-            "image": "assets/img/project-thumbnails/flyarts.png",
+            "image": "assets/img/project-thumbnails/flyarts.jpg",
             "description": "Photographe par passion depuis maintenant plusieurs années, j'ai décidé de partager mon travail en ligne à travers un site internet entièrement développé par mes soins. Vous pouvez y retrouver mes création ainsi que tout mes projet photos.",
             "technologies": [
                 "React",
@@ -25,7 +25,7 @@
                 "isExternal": true,
                 "url": "https://quotidian.flyarts.fr"
             },
-            "image": "assets/img/project-thumbnails/quotidian.png",
+            "image": "assets/img/project-thumbnails/quotidian.jpg",
             "description": "Petite application Windows développé en collaboration avec un ami d'enfance qui permet de récupérer automatique depuis internet les informations de vox fichiers audios.",
             "technologies": [
                 "Angular",
@@ -59,7 +59,7 @@
                 "isExternal": true,
                 "url": "https://photographie.flyarts.fr"
             },
-            "image": "assets/img/project-thumbnails/flyarts-photographie.png",
+            "image": "assets/img/project-thumbnails/flyarts-photographie.jpg",
             "description": "Réalisation d'une console de jeux rétro à l'aspect tout aussi rétro. Utilisant une RaspberryPi 3, j'ai crée cette console de salon pour des moment fun entre amis. Sur cette page je partage les impressions 3D utilisé pour la réalisation de cette console ainsi que les éléments essentiels à ça réalisation.",
             "technologies": [
                 "PHP vanilla",
@@ -76,7 +76,7 @@
                 "isExternal": true,
                 "url": "https://sortzam.flyarts.fr"
             },
-            "image": "assets/img/project-thumbnails/sortzam.png",
+            "image": "assets/img/project-thumbnails/sortzam.jpg",
             "description": "Petite application Windows développé en collaboration avec un ami d'enfance qui permet de récupérer automatique depuis internet les informations de vos fichiers audios.",
             "isDisplay": true,
             "inProgress": false
@@ -91,7 +91,7 @@
             },
             "image": "assets/img/project-thumbnails/flashlight.jpg",
             "description": "Les solutions du commerce étant hors de prix pour des jeunes débutant dans le métier, j'ai choisi de me lancer dans l'aventure de créer un logiciel de gestion de projecteur de scène open source développé en C#. Avec une partie hardware et une partie software ce projet est très complet.",
-            "isDisplay": true,
+            "isDisplay": false,
             "inProgress": true
         },
         {
@@ -102,7 +102,7 @@
                 "isExternal": false,
                 "url": "/project/random-player"
             },
-            "image": "assets/img/flashlight.jpg",
+            "image": "assets/img/project-thumbnails/random-player.jpg",
             "description": "Petit projet d'entrainement logiciel permettant de sélectionner et lancer un fichier au hasard parmis une liste de fichiers prédéfini.",
             "isDisplay": true,
             "inProgress": false

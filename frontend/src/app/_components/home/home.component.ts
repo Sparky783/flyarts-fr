@@ -19,4 +19,8 @@ import * as jsonProjects from '../../../assets/dev-projects.json'
 })
 export class HomeComponent {
   projects = jsonProjects.projects;
+
+  public constructor() {
+    this.projects = this.projects.filter(project => project.isDisplay).reverse().slice(0, 2);
+  }
 }
