@@ -1,0 +1,10 @@
+<li>
+	<span class="content">
+		@for(element of skill.content; track element.text) {
+		{{ element.title }}
+		@if(element.detail) {
+		<span class="info">{{ element.detail }}</span>
+		}
+		}
+	</span>
+</li>

@@ -1,0 +1,16 @@
+<li>
+	<span class="date">{{ experience.period }}</span><br />
+	<span class="content">{{ experience.title }}</span><br />
+	<span class="activite">{{ experience.shortDescription }}</span>
+
+	<div class="competences">
+		<label>Environnement technique :</label>
+		<ul>
+			@for(skill of experience.skills; track skill) {
+			@if(skill.short) {
+			<li>{{ skill.short }}</li>
+			}
+			}
+		</ul>
+	</div>
+</li>

@@ -1,0 +1,73 @@
+<div class="row">
+	<div class="col-sm-6 col-xs-12 offset-sm-3">
+		<section id="informations">
+			<h1>Me contacter</h1>
+			<p class="text-center">
+				<b>Florent LAVIGNOTTE</b>
+				<br /><br />
+				<a class="btn btn-danger"
+					href="mailto:florent.lavignotte@gmail.com">florent.lavignotte&#64;gmail.com</a>
+			</p>
+		</section>
+		<section id="formulaire">
+			<h3>
+				<i class="fas fa-pen"></i> Envoyer un message
+			</h3>
+			<div class="card card-danger">
+				<!-- <div class="card-body">
+                        {
+                        (!isSent && !isResponseReeived) &&
+                        <div id="contactForm">
+                            <form class="ap-form" method="post" onSubmit={handleSubmit}>
+                                <div class="form-group mb-2">
+                                    <label htmlFor="inputName"><span class="ap-form-star">*</span>Nom et prénom
+                                        :</label>
+                                    <input id="inputName" class="form-control" type="name" name="name"
+                                        aria-describedby="nameHelp" placeholder="Entrez votre nom et votre prénom"
+                                        value={name} onChange={e=> setName(e.target.value)} />
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label htmlFor="inputEmail"><span class="ap-form-star">*</span>E-mail :</label>
+                                    <input id="inputEmail" class="form-control" type="email" name="email"
+                                        aria-describedby="emailHelp" placeholder="Entrez votre adresse E-mail"
+                                        value={email} onChange={e=> setEmail(e.target.value)} />
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label htmlFor="inputMessage"><span class="ap-form-star">*</span>Message
+                                        :</label>
+                                    <textarea id="inputMessage" class="form-control" name="message" value={message}
+                                        onChange={e=> setMessage(e.target.value)}></textarea>
+                                </div>
+                                <small class="form-text text-muted"><span class="ap-form-star">*</span> Ces
+                                    champs sont obligatoires.</small>
+                                <p class="text-right">
+                                    <button class="btn btn-danger g-recaptcha" type="submit"
+                                        data-sitekey="<?= RECAPTCHA_PUBLIC_KEY ?>"
+                                        data-callback="sendFormCallback">Envoyer</button>
+                                </p>
+                            </form>
+                        </div>
+                        }
+
+                        {
+                        (isSent && !isResponseReeived) &&
+                        <div id="contactSend" class="ap-form-send">
+                            <p class="text-center">
+                                Envoi en cours ...<br />
+                                Veuillez patienter
+                            </p>
+                            <div class="spinner-border" role="status"></div>
+                        </div>
+                        }
+
+                        {
+                        isResponseReeived &&
+                        <div id="contactResponse" class="ap-form-response">
+                            {response}
+                        </div>
+                        }
+                    </div> -->
+			</div>
+		</section>
+	</div>
+</div>

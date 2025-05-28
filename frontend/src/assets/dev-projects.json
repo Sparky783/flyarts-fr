@@ -1,0 +1,111 @@
+{
+    "projects": [
+        {
+            "idProject": 1,
+            "type": "website",
+            "title": "FlyArts",
+            "link": {
+                "isExternal": true,
+                "url": "https://flyarts.fr"
+            },
+            "image": "assets/img/project-thumbnails/flyarts.jpg",
+            "description": "Photographe par passion depuis maintenant plusieurs années, j'ai décidé de partager mon travail en ligne à travers un site internet entièrement développé par mes soins. Vous pouvez y retrouver mes création ainsi que tout mes projet photos.",
+            "technologies": [
+                "React",
+                "Node.js"
+            ],
+            "isDisplay": true,
+            "inProgress": false
+        },
+        {
+            "idProject": 2,
+            "type": "website",
+            "title": "Quotidian",
+            "link": {
+                "isExternal": true,
+                "url": "https://quotidian.flyarts.fr"
+            },
+            "image": "assets/img/project-thumbnails/quotidian.jpg",
+            "description": "Petite application Windows développé en collaboration avec un ami d'enfance qui permet de récupérer automatique depuis internet les informations de vox fichiers audios.",
+            "technologies": [
+                "Angular",
+                "Node.js"
+            ],
+            "isDisplay": true,
+            "inProgress": false
+        },
+        {
+            "idProject": 3,
+            "type": "website",
+            "title": "Snake Cheer All Star",
+            "link": {
+                "isExternal": true,
+                "url": "https://snakecheerallstar.fr"
+            },
+            "image": "assets/img/project-thumbnails/snakecheerallstar.jpg",
+            "description": "Réalisation d'une console de jeux rétro à l'aspect tout aussi rétro. Utilisant une RaspberryPi 3, j'ai crée cette console de salon pour des moment fun entre amis. Sur cette page je partage les impressions 3D utilisé pour la réalisation de cette console ainsi que les éléments essentiels à ça réalisation.",
+            "technologies": [
+                "PHP vanilla",
+                "jQuery"
+            ],
+            "isDisplay": false,
+            "inProgress": false
+        },
+        {
+            "idProject": 4,
+            "type": "website",
+            "title": "FlyArts Photographie",
+            "link": {
+                "isExternal": true,
+                "url": "https://photographie.flyarts.fr"
+            },
+            "image": "assets/img/project-thumbnails/flyarts-photographie.jpg",
+            "description": "Réalisation d'une console de jeux rétro à l'aspect tout aussi rétro. Utilisant une RaspberryPi 3, j'ai crée cette console de salon pour des moment fun entre amis. Sur cette page je partage les impressions 3D utilisé pour la réalisation de cette console ainsi que les éléments essentiels à ça réalisation.",
+            "technologies": [
+                "PHP vanilla",
+                "jQuery"
+            ],
+            "isDisplay": true,
+            "inProgress": false
+        },
+        {
+            "idProject": 5,
+            "type": "software",
+            "title": "Sortzam",
+            "link": {
+                "isExternal": true,
+                "url": "https://sortzam.flyarts.fr"
+            },
+            "image": "assets/img/project-thumbnails/sortzam.jpg",
+            "description": "Petite application Windows développé en collaboration avec un ami d'enfance qui permet de récupérer automatique depuis internet les informations de vos fichiers audios.",
+            "isDisplay": true,
+            "inProgress": false
+        },
+        {
+            "idProject": 6,
+            "type": "software",
+            "title": "FlashLightDMX",
+            "link": {
+                "isExternal": false,
+                "url": ""
+            },
+            "image": "assets/img/project-thumbnails/flashlight.jpg",
+            "description": "Les solutions du commerce étant hors de prix pour des jeunes débutant dans le métier, j'ai choisi de me lancer dans l'aventure de créer un logiciel de gestion de projecteur de scène open source développé en C#. Avec une partie hardware et une partie software ce projet est très complet.",
+            "isDisplay": false,
+            "inProgress": true
+        },
+        {
+            "idProject": 6,
+            "type": "software",
+            "title": "Random Player",
+            "link": {
+                "isExternal": false,
+                "url": "/project/random-player"
+            },
+            "image": "assets/img/project-thumbnails/random-player.jpg",
+            "description": "Petit projet d'entrainement logiciel permettant de sélectionner et lancer un fichier au hasard parmis une liste de fichiers prédéfini.",
+            "isDisplay": true,
+            "inProgress": false
+        }
+    ]
+}

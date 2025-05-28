@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+.text-right {
+	text-align: right;
+}
+
+.btn-lg {
+	margin: 0 5px;
+	padding: .6rem 2rem;
+	border-radius: 4rem;
+}
+
+.project-title {
+	margin-top: 40px;
+	text-align: center;
+}

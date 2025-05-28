@@ -1,0 +1,15 @@
+<section id="formations">
+	<div class="title">
+		<h2>Formations et Diplômes</h2>
+	</div>
+	<ul>
+		@for(training of trainings; track training.title) {
+		@if (training.isDisplay) {
+		<li>
+			<span class="date">{{ training.period }} :</span>
+			<span class="content">{{ training.title }}</span>
+		</li>
+		}
+		}
+	</ul>
+</section>

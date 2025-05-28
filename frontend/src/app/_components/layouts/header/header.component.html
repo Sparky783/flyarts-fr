@@ -1,0 +1,30 @@
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" [routerLink]="['/']">FlyArts</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
+				aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="mainMenu" class="collapse navbar-collapse">
+				<div class="me-auto mb-2 mb-lg-0"></div>
+				<ul class="navbar-nav d-flex">
+					<li class="nav-item">
+						<a class="nav-link" title="Accueil du site FlyArts" [routerLink]="['/']">Accueil</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" title="Mon CV en ligne" [routerLink]="['/cv']">CV</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" title="Mes projets" [routerLink]="['projects']">Projets</a>
+					</li>
+					<!-- <li class="nav-item">
+                        <a class="nav-link" title="Contactez-moi si vous avez des questions" [routerLink]="['contact']">Contact</a>
+                    </li> -->
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>

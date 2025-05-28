@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#website {
+	background-color: white;
+	color: #272b2f;
+
+	.text-right {
+		text-align: right;
+	}
+	
+	.btn-lg {
+		margin: 0 5px;
+		padding: .6rem 2rem;
+		border-radius: 4rem;
+	}
+}

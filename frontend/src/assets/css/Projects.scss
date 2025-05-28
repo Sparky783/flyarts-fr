@@ -1,0 +1,71 @@
+#websites_projects {
+	.website {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 5px;
+		border: solid 1px rgb(204, 204, 204);
+		border-radius: 3px;
+		text-decoration: none;
+		color: black;
+	}
+
+	.website:hover {
+		background-color: rgb(240, 240, 240);
+	}
+
+	.website-image {
+	}
+
+	.website-image img {
+		display: block;
+		height: 80px;
+		width: 150px;
+		border-radius: 2px 0 0 2px;
+		object-fit: cover;
+	}
+
+	.website-title {
+		margin: 0 30px;
+		font-weight: 900;
+	}
+	
+	.website-tehnologies {
+		flex-grow: 1;
+		text-align: center;
+	}
+}
+
+#projects {
+	h1 {
+		margin: 20px 0 30px;
+	}
+
+	.card {
+		margin-bottom: 30px;
+	}
+
+	.card .badge {
+		font-size: 0.8rem;
+		vertical-align: bottom;
+	}
+
+	.card .link {
+		margin-bottom: 0;
+	}
+}
+
+#more_projects {
+	p {
+		text-align: center;
+	}
+
+	p span {
+		font-size: 1.5rem;
+	}
+
+	p svg {
+		font-size: 8rem;
+		color: #dc3545;
+	}
+}
