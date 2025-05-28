@@ -10,28 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      # 1. Checkout your code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y lftp
-          npm install -g minifier
-
-      - name: Set up PHP
-        uses: shivammathur/setup-php@v2
+      # 2. Set up Node.js (adjust version if needed)
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          php-version: '8.2'
+          node-version: 20
 
-      - name: Minify JS and CSS
-        run: |
-          find view/js -type f ! -name "*.min.js" -exec minify -o {} {} \;
-          find view/css -type f ! -name "*.min.css" -exec minify -o {} {} \;
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm ci
 
-      #- name: Run tests
-      #  run: vendor/bin/phpunit --stop-on-failure
+      # 4. Build Angular project
+      - name: Build Angular app
+        run: npm run build -- --configuration=production
 
+      # 5. Deploy built files via FTP
       - name: Deploy to Server
         if: ${{ success() }}
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -40,9 +37,9 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /public_html/FLYARTS/
-          local-dir: ./
+          local-dir: frontend/dist/flyarts/
           exclude: |
-            .git*/**
-            .idea/**
-            content/**
-            .git*
+            **/.git*
+            **/node_modules/**
+            **/.vscode/**
+            **/.github/**
