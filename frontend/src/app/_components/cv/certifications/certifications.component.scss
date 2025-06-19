@@ -1,0 +1,14 @@
+#certifications h3 {
+	margin-top: 30px;
+}
+
+#certifications .certif-badges {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#certifications .certif-badge {
+	display: block;
+	width: 50%;
+}

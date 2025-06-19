@@ -8,6 +8,7 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
 import { SkillsComponent } from './skills/skills.component';
 
 import * as cvData from '../../../assets/cv.json'
+import { CertificationsComponent } from "./certifications/certifications.component";
 
 type OpenItem = { type: 'experience' | 'training' | 'skill', id: number } | null
 
@@ -18,7 +19,8 @@ type OpenItem = { type: 'experience' | 'training' | 'skill', id: number } | null
     ProfessionalExperiencesComponent,
     TrainingsComponent,
     SkillsComponent,
-    HobbiesComponent
+    HobbiesComponent,
+    CertificationsComponent
   ],
   standalone: true,
   templateUrl: './cv.component.html',

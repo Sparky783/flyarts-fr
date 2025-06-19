@@ -496,5 +496,14 @@
             "icon": "fa-dumbbell",
             "title": "Sport"
         }
+    ],
+    "certifications": [
+        {
+            "isDisplay": true,
+            "title": "DevOps Foundation",
+            "badgeFilePath": "assets/img/certifications/devops-foundation.png",
+            "obtainingDate": "2024/05/02",
+            "expirationDate": "2027/05/02"
+        }
     ]
 }
