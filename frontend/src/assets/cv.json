@@ -500,6 +500,13 @@
     "certifications": [
         {
             "isDisplay": true,
+            "title": "AWS Cloud Practitioner",
+            "badgeFilePath": "assets/img/certifications/aws-cloud-practitioner.png",
+            "obtainingDate": "2025/07/30",
+            "expirationDate": "2027/07/30"
+        },
+        {
+            "isDisplay": true,
             "title": "DevOps Foundation",
             "badgeFilePath": "assets/img/certifications/devops-foundation.png",
             "obtainingDate": "2024/05/02",
