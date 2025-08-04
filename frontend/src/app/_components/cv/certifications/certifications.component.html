@@ -1,0 +1,10 @@
+<section id="certifications">
+	<h3>Certifications</h3>
+	<div class="certif-badges">
+		@for(certification of certifications; track certification.badgeFilePath) {
+		@if(certification.isDisplay) {
+		<img class="certif-badge" src="{{ certification.badgeFilePath }}" alt="..." />
+		}
+		}
+	</div>
+</section>

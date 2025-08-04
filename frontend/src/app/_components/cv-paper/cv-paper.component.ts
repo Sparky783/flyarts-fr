@@ -7,11 +7,13 @@ import { ProfessionalExperiencesPaperComponent } from "./professional-experience
 import { TrainingsPaperComponent } from "./trainings-paper/trainings-paper.component";
 
 import * as cvData from '../../../assets/cv.json'
+import { CertificationsPaperComponent } from './certifications-paper/certifications-paper.component';
 
 @Component({
   selector: 'app-cv-paper',
   imports: [
     SkillsPaperComponent,
+    CertificationsPaperComponent,
     HobbiesPaperComponent,
     ProfessionalExperiencesPaperComponent,
     TrainingsPaperComponent
