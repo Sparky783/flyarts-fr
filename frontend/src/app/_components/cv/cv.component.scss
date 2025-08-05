@@ -6,66 +6,82 @@ h1 {
 	margin-bottom: 0;
 }
 
-#cvVersion {
+#printVersion {
 	margin-top: 45px;
 	margin-bottom: 30px;
 	text-align: center;
 }
 
-.date {
-	font-style: italic;
-	font-size: 0.8rem;
-	font-weight: bold;
-	color: #4c4c4c;
+.layout {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
 }
 
-.content {
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	color: #dc3545;
+/* Ordre personnalisé sur mobile */
+.block1 {
+	order: 6;
 }
 
-.description {
-	font-size: 0.8rem;
-	color: #6b6b6b;
+.block2 {
+	order: 4;
 }
 
-.cv-item {
-	padding: 5px;
-	border-radius: 3px
+.block3 {
+	order: 7;
 }
 
-.cv-item:hover {
-	background-color: #f1f1f1;
-	cursor: pointer;
+.block4 {
+	order: 1;
 }
 
-.cv-item:hover .date {
-	color: #191919;
+.block5 {
+	order: 2;
 }
 
-.cv-item:hover .content {
-	color: #c82333;
+.block6 {
+	order: 3;
 }
 
-.cv-detail {
-	margin-top: 5px;
-	margin-bottom: 30px;
+.block7 {
+	order: 5;
 }
 
-.cv-detail p {
-	margin-bottom: 0;
+.col-left,
+.col-right {
+	display: contents;
+	/* pour que les ordres fonctionnent sur mobile */
 }
 
-.competences label {
-	margin-top: 10px;
-	font-weight: bold;
-}
+/* Layout PC (≥ 768px) */
+@media (min-width: 768px) {
+	.layout {
+		flex-direction: row;
+		align-items: flex-start;
+	}
 
-.info {
-	margin-right: 10px;
-	font-style: italic;
-	font-size: 0.8rem;
-	font-weight: bold;
-	color: #4c4c4c;
+	.col-left,
+	.col-right {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.col-left {
+		flex: 0 0 25%;
+	}
+
+	.col-right {
+		flex: 0 0 75%;
+	}
+
+	.block1,
+	.block2,
+	.block3,
+	.block4,
+	.block5,
+	.block6,
+	.block7 {
+		order: 0;
+		margin-bottom: 1rem;
+	}
 }
