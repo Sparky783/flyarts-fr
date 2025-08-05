@@ -19,12 +19,10 @@
 	width: 100%;
 	height: 15vh;
 	margin-bottom: -7px;
-	/*Fix for safari gap*/
 	min-height: 100px;
 	max-height: 150px;
 }
 
-/* Wave animation */
 .parallax>use:nth-child(1) {
 	animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 	animation-delay: -2s;
@@ -89,27 +87,31 @@ h2 {
 	margin-bottom: 20px;
 }
 
-.flyarts-section {
-	margin-top: 50px;
+
+
+/* Bio Section */
+#portrait {
+	margin-top: 170px;
 	margin-bottom: 50px;
 }
 
-.shadow {
-	display: flex;
-	box-shadow: 4px 4px 10px #6c757d;
+#portrait p {
+	font-size: large;
 }
 
 #portrait img {
 	display: block;
 	margin-right: 30px;
+	border-radius: 100%;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+	aspect-ratio: 1;
+	object-fit: cover;
 }
 
-#projects .card {
-	margin-bottom: 30px;
-}
-
-#projects .card .link {
-	margin-bottom: 0;
+/* Projects Section */
+#projects {
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 #projectsMore {
@@ -119,8 +121,8 @@ h2 {
 }
 
 #projectsMore a {
-	width: 107px;
-	padding: 30px;
+	width: 100px;
+	aspect-ratio: 1;
 	border-radius: 100%;
 	font-size: 2rem;
 }
