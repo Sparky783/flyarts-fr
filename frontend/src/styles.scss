@@ -3,6 +3,14 @@
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
 
+body {
+	--bs-body-bg: rgb(247, 243, 243);
+}
+
+.card {
+	--bs-card-bg: #fff;
+}
+
 .text-right {
 	text-align: right;
 }
@@ -15,6 +23,7 @@
 /* Custom Button */
 .customBtn {
 	--color: #dc3545;
+	background-color: #fff;
 	font-family: inherit;
 	display: inline-block;
 	line-height: 2.5em;

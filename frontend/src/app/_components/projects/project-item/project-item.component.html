@@ -1,8 +1,8 @@
-<div class="card">
-	<img class="card-img-top" [src]="projectData.image" [alt]="'Image représentant le projet ' + projectData.title" />
+<div class="custom-card">
+	<img class="card-header" [src]="projectData.image" [alt]="'Image représentant le projet ' + projectData.title" />
 
 	<div class="card-body">
-		<h5 class="card-title md-2">
+		<h5 class="card-title">
 			{{ projectData.title }}
 
 			@if(projectData.inProgress) {
@@ -12,10 +12,11 @@
 
 		<p class="card-text">{{ projectData.description }}</p>
 
+	</div>
+
+	<div class="card-footer">
 		@if(projectData.link.url) {
-		<p class="link text-right">
-			<app-project-link [link]="projectData.link" />
-		</p>
+		<app-project-link [link]="projectData.link" />
 		}
 	</div>
 </div>

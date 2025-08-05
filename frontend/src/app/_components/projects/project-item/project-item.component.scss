@@ -1,17 +1,43 @@
-.card {
-	margin-bottom: 30px;
+.custom-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin-top: 30px;
+	color: #4B5563;
+	border-radius: 1rem;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.card-img-top {
+.card-header {
+	margin: 0 1rem;
+	margin-top: -1.5rem;
 	aspect-ratio: 1.5;
+	border-radius: 1rem;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 	object-fit: cover;
 }
 
-.card .badge {
-	font-size: 0.8rem;
-	vertical-align: bottom;
+.card-body {
+	padding: 1.5rem;
 }
 
-.card .link {
-	margin-bottom: 0;
+.card-title {
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	color: #1e293b;
+	/* text-blue-gray-900 */
+}
+
+.card-text {
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.6;
+}
+
+.card-footer {
+	padding: 1.5rem;
+	padding-top: 0;
 }
