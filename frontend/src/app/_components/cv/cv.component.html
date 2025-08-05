@@ -1,63 +1,66 @@
-<div class="row">
-	<section class="col-12">
-		<h1>Ingénieur en développement logiciel et web</h1>
-	</section>
+<div class="container">
+	<div class="row">
+		<section class="col-12">
+			<h1>Ingénieur en développement logiciel et web</h1>
+		</section>
 
-	<div class="layout">
-		<div class="col-left">
-			<div class="block1">
-				<div id="infos" class="card">
-					<div class="card-body">
-						<h3>Florent Lavignotte</h3>
-						<p>
-							{{ ageService.getCurrentAge() }} ans<br />
-							Permis B avec véhicule
-							<br /><br />
-							5 allée de la Houn<br />
-							64420 ANDOINS
-							<br /><br />
-							06 70 56 27 10<br />
-							<a title="Contactez-moi si vous avez des questions"
-								[routerLink]="['contact']">florent.lavignotte&#64;gmail.com</a>
-						</p>
-						<!-- <hr />
+		<div class="layout">
+			<div class="col-left">
+				<div class="block1">
+					<div id="infos" class="card">
+						<div class="card-body">
+							<h3>Florent Lavignotte</h3>
+							<p>
+								{{ ageService.getCurrentAge() }} ans<br />
+								Permis B avec véhicule
+								<br /><br />
+								5 allée de la Houn<br />
+								64420 ANDOINS
+								<br /><br />
+								06 70 56 27 10<br />
+								<a title="Contactez-moi si vous avez des questions"
+									[routerLink]="['contact']">florent.lavignotte&#64;gmail.com</a>
+							</p>
+							<!-- <hr />
 						<h6>Informations complémentaires</h6>
 						<p>
 							Trésorier d'un club sportif pendant 5 ans.
 						</p> -->
+						</div>
+					</div>
+				</div>
+
+				<div class="block2">
+					<app-certifications [certifications]="cvData.certifications" />
+				</div>
+
+				<div class="block3">
+					<div id="printVersion">
+						<a class="btn btn-danger btn-lg" title="Version imprimable et synthétique"
+							[routerLink]="['/cv-paper']" target="_blank">Version imprimable</a>
 					</div>
 				</div>
 			</div>
 
-			<div class="block2">
-				<app-certifications [certifications]="cvData.certifications" />
-			</div>
-
-			<div class="block3">
-				<div id="printVersion">
-					<a class="btn btn-danger btn-lg" title="Version imprimable et synthétique"
-						[routerLink]="['/cv-paper']" target="_blank">Version imprimable</a>
+			<div class="col-right">
+				<div class="block4">
+					<app-professional-experiences [experiences]="cvData.professionalExperiences" [openItem]="openItem"
+						(experienceSelected)="onExperienceSelected($event)" />
 				</div>
-			</div>
-		</div>
 
-		<div class="col-right">
-			<div class="block4">
-				<app-professional-experiences [experiences]="cvData.professionalExperiences" [openItem]="openItem"
-					(experienceSelected)="onExperienceSelected($event)" />
-			</div>
+				<div class="block5">
+					<app-trainings [trainings]="cvData.trainings" [openItem]="openItem"
+						(trainingSelected)="onTrainingSelected($event)" />
+				</div>
 
-			<div class="block5">
-				<app-trainings [trainings]="cvData.trainings" [openItem]="openItem"
-					(trainingSelected)="onTrainingSelected($event)" />
-			</div>
+				<div class="block6">
+					<app-skills [skills]="cvData.skills" [openItem]="openItem"
+						(skillSelected)="onSkillSelected($event)" />
+				</div>
 
-			<div class="block6">
-				<app-skills [skills]="cvData.skills" [openItem]="openItem" (skillSelected)="onSkillSelected($event)" />
-			</div>
-
-			<div class="block7">
-				<app-hobbies [hobbies]="cvData.hobbies" />
+				<div class="block7">
+					<app-hobbies [hobbies]="cvData.hobbies" />
+				</div>
 			</div>
 		</div>
 	</div>
