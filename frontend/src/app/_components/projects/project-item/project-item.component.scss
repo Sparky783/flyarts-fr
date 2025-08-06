@@ -1,7 +1,13 @@
+.card-container {
+	height: 100%;
+	padding-top: 60px;
+}
+
 .custom-card {
 	position: relative;
 	display: flex;
 	flex-direction: column;
+	height: 100%;
 	background-color: white;
 	margin-top: 30px;
 	color: #4B5563;
@@ -21,6 +27,7 @@
 
 .card-body {
 	padding: 1.5rem;
+	padding-bottom: 0;
 }
 
 .card-title {
@@ -40,4 +47,5 @@
 .card-footer {
 	padding: 1.5rem;
 	padding-top: 0;
+	align-self: end;
 }

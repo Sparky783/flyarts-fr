@@ -26,7 +26,7 @@
 					<img class="" src="assets/img/portrait.jpg" alt="Photo de Florent Lavignotte" />
 				</div>
 
-				<div class="col-md-8 align-self-center">
+				<div class="col-md-8 align-self-center portrait-content">
 					<h2>Développeur et créateur</h2>
 					<p>
 						Développeur web spécialisé dans les technologies Angular, Node.js et C#, je conçois des
@@ -57,11 +57,13 @@
 				}
 
 				<div class="col-md-4">
-					<p id="projectsMore">
-						<a class="customBtn" [routerLink]="['/projects']">
-							<i class="fas fa-arrow-right"></i>
-						</a>
-					</p>
+					<div class="card-container">
+						<p id="projectsMore">
+							<a class="customBtn" [routerLink]="['/projects']">
+								<i class="fas fa-arrow-right"></i>
+							</a>
+						</p>
+					</div>
 				</div>
 			</div>
 		</section>

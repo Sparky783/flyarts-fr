@@ -87,8 +87,6 @@ h2 {
 	margin-bottom: 20px;
 }
 
-
-
 /* Bio Section */
 #portrait {
 	margin-top: 170px;
@@ -101,6 +99,7 @@ h2 {
 
 #portrait img {
 	display: block;
+	width: 100%;
 	margin-right: 30px;
 	border-radius: 100%;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
@@ -108,10 +107,41 @@ h2 {
 	object-fit: cover;
 }
 
+.portrait-content {
+	padding-left: 50px;
+}
+
+@media (max-width: 768px) {
+	#portrait {
+		margin-top: 70px;
+		margin-bottom: 0;
+	}
+
+	#portrait img {
+        justify-self: center;
+		width: 200px;
+		margin-right: 0;
+	}
+
+	.portrait-content {
+		margin-top: 20px;
+		padding: 0 15px;
+	}
+}
+
 /* Projects Section */
 #projects {
 	margin-top: 100px;
 	margin-bottom: 50px;
+}
+
+#projects .row {
+	margin-top: -60px;
+}
+
+.card-container {
+	height: 100%;
+	padding-top: 60px;
 }
 
 #projectsMore {
@@ -125,4 +155,20 @@ h2 {
 	aspect-ratio: 1;
 	border-radius: 100%;
 	font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+	.card-container {
+		padding-top: 0;
+	}
+
+	#projects {
+		margin-top: 70px;
+		margin-bottom: 0;
+	}
+
+	#projectsMore {
+		margin-top: 70px;
+		margin-bottom: 20px;
+	}
 }

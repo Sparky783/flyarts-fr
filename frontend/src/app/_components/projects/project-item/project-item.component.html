@@ -1,22 +1,24 @@
-<div class="custom-card">
-	<img class="card-header" [src]="projectData.image" [alt]="'Image représentant le projet ' + projectData.title" />
+<div class="card-container">
+	<div class="custom-card">
+		<img class="card-header" [src]="projectData.image" [alt]="'Image représentant le projet ' + projectData.title" />
 
-	<div class="card-body">
-		<h5 class="card-title">
-			{{ projectData.title }}
+		<div class="card-body">
+			<h5 class="card-title">
+				{{ projectData.title }}
 
-			@if(projectData.inProgress) {
-			<span class="badge bg-info">En cours</span>
+				@if(projectData.inProgress) {
+				<span class="badge bg-info">En cours</span>
+				}
+			</h5>
+
+			<p class="card-text">{{ projectData.description }}</p>
+
+		</div>
+
+		<div class="card-footer">
+			@if(projectData.link.url) {
+			<app-project-link [link]="projectData.link" />
 			}
-		</h5>
-
-		<p class="card-text">{{ projectData.description }}</p>
-
-	</div>
-
-	<div class="card-footer">
-		@if(projectData.link.url) {
-		<app-project-link [link]="projectData.link" />
-		}
+		</div>
 	</div>
 </div>

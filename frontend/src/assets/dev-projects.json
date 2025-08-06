@@ -6,10 +6,10 @@
             "title": "FlyArts",
             "link": {
                 "isExternal": true,
-                "url": "https://flyarts.fr"
+                "url": "https://github.com/Sparky783/flyarts-fr"
             },
             "image": "assets/img/project-thumbnails/flyarts.jpg",
-            "description": "Photographe par passion depuis maintenant plusieurs années, j'ai décidé de partager mon travail en ligne à travers un site internet entièrement développé par mes soins. Vous pouvez y retrouver mes création ainsi que tout mes projet photos.",
+            "description": "Ce site internet est l’un de mes premiers projets. Repris et amélioré à plusieurs reprises au fil des années, il a progressivement évolué pour devenir ce qu’il est aujourd’hui. Développé avec Angular, il me permet de présenter mon savoir-faire à travers une réalisation simple et fonctionnelle.",
             "technologies": [
                 "React",
                 "Node.js"
@@ -23,10 +23,10 @@
             "title": "Quotidian",
             "link": {
                 "isExternal": true,
-                "url": "https://quotidian.flyarts.fr"
+                "url": "https://github.com/Sparky783/quotidian-flyarts-fr"
             },
             "image": "assets/img/project-thumbnails/quotidian.jpg",
-            "description": "Petite application Windows développé en collaboration avec un ami d'enfance qui permet de récupérer automatique depuis internet les informations de vox fichiers audios.",
+            "description": "Des sites à consulter chaque mois, d’autres chaque semaine : ce projet propose une page d’accueil personnalisée pour votre navigateur, afin de ne rien oublier. Codé avec Angular et un backend en Nest.js, il répond parfaitement à ce petit besoin du quotidien.",
             "technologies": [
                 "Angular",
                 "Node.js"
@@ -40,10 +40,10 @@
             "title": "Snake Cheer All Star",
             "link": {
                 "isExternal": true,
-                "url": "https://snakecheerallstar.fr"
+                "url": "https://github.com/Sparky783/snakecheerallstar-fr"
             },
             "image": "assets/img/project-thumbnails/snakecheerallstar.jpg",
-            "description": "Réalisation d'une console de jeux rétro à l'aspect tout aussi rétro. Utilisant une RaspberryPi 3, j'ai crée cette console de salon pour des moment fun entre amis. Sur cette page je partage les impressions 3D utilisé pour la réalisation de cette console ainsi que les éléments essentiels à ça réalisation.",
+            "description": "",
             "technologies": [
                 "PHP vanilla",
                 "jQuery"
@@ -60,7 +60,7 @@
                 "url": "https://photographie.flyarts.fr"
             },
             "image": "assets/img/project-thumbnails/flyarts-photographie.jpg",
-            "description": "Réalisation d'une console de jeux rétro à l'aspect tout aussi rétro. Utilisant une RaspberryPi 3, j'ai crée cette console de salon pour des moment fun entre amis. Sur cette page je partage les impressions 3D utilisé pour la réalisation de cette console ainsi que les éléments essentiels à ça réalisation.",
+            "description": "La photographie est un loisir que je me devais de partager. J’ai donc choisi de partager mon travail à travers un site entièrement conçu et développé par moi-même. Ecrit en PHP, vous y trouverez mes créations ainsi que l’ensemble de mes projets photo.",
             "technologies": [
                 "PHP vanilla",
                 "jQuery"
@@ -74,10 +74,10 @@
             "title": "Sortzam",
             "link": {
                 "isExternal": true,
-                "url": "https://sortzam.flyarts.fr"
+                "url": "https://github.com/Sparky783/SortZam"
             },
             "image": "assets/img/project-thumbnails/sortzam.jpg",
-            "description": "Petite application Windows développé en collaboration avec un ami d'enfance qui permet de récupérer automatique depuis internet les informations de vos fichiers audios.",
+            "description": "Petite application Windows développée en collaboration avec un ami d’enfance, elle permet de récupérer automatiquement sur internet les informations de vos fichiers audio (artiste, album, titre original, année, etc.) afin de compléter les métadonnées. Idéal pour les DJs souhaitant mettre à jour leur catalogue.",
             "isDisplay": true,
             "inProgress": false
         },
@@ -90,7 +90,7 @@
                 "url": ""
             },
             "image": "assets/img/project-thumbnails/flashlight.jpg",
-            "description": "Les solutions du commerce étant hors de prix pour des jeunes débutant dans le métier, j'ai choisi de me lancer dans l'aventure de créer un logiciel de gestion de projecteur de scène open source développé en C#. Avec une partie hardware et une partie software ce projet est très complet.",
+            "description": "",
             "isDisplay": false,
             "inProgress": true
         },
@@ -103,7 +103,7 @@
                 "url": "/project/random-player"
             },
             "image": "assets/img/project-thumbnails/random-player.jpg",
-            "description": "Petit projet d'entrainement logiciel permettant de sélectionner et lancer un fichier au hasard parmis une liste de fichiers prédéfini.",
+            "description": "Petit projet logiciel d’entraînement permettant de sélectionner et lancer un fichier au hasard parmi une liste prédéfinie. Développé en C#, il offre quelques fonctionnalités pratiques comme la sauvegarde des dossiers utilisés, la recherche par tags et la personnalisation du thème.",
             "isDisplay": true,
             "inProgress": false
         }
