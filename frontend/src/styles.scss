@@ -3,17 +3,72 @@
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
 
-.text-right {
-	text-align: right;
+body {
+	--bs-body-bg: rgb(247, 243, 243);
 }
 
-.btn-lg {
-	margin: 0 5px;
-	padding: .6rem 2rem;
-	border-radius: 4rem;
+.card {
+	--bs-card-bg: #fff;
+	--bs-border-radius: 1rem;
+}
+
+.text-right {
+	text-align: right;
 }
 
 .project-title {
 	margin-top: 40px;
 	text-align: center;
+}
+
+/* Custom Button */
+.customBtn {
+	--color: #dc3545;
+	background-color: #fff;
+	font-family: inherit;
+	display: inline-block;
+	line-height: 2.5em;
+	margin: 0 5px;
+	padding: .6rem 2rem;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	border: 2px solid var(--color);
+	transition: color 0.5s;
+	z-index: 1;
+	font-size: 17px;
+	border-radius: 4rem;
+	font-weight: 500;
+	color: var(--color);
+	text-decoration: none;
+}
+
+.customBtn:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	background: var(--color);
+	height: 400%;
+	width: 200%;
+	border-radius: 50%;
+}
+
+.customBtn:hover {
+	color: #fff;
+}
+
+.customBtn:before {
+	top: 100%;
+	left: 100%;
+	transition: all 0.7s;
+}
+
+.customBtn:hover:before {
+	top: -50%;
+	left: -50%;
+}
+
+.customBtn:active:before {
+	background: rgb(165, 39.75, 51.75);
+	transition: background 0s;
 }
