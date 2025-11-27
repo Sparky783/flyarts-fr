@@ -198,7 +198,7 @@
         },
         {
             "isDisplay": true,
-            "hideInPaper": false,
+            "hideInPaper": true,
             "period": "Octobre 2016 - Fevrier 2017 (4 mois)",
             "title": "Stagiaire responsable du développement d'un site E-commerce pour Awesome-Bubbles",
             "shortDescription": "En vue d'élargir la clientèle de ce revendeur de champagne en Irlande, j'ai réalisé un site vitrine WordPress à l'aide d'un plugin Woo Commerce.",
@@ -319,9 +319,23 @@
         {
             "isDisplay": true,
             "hideInPaper": false,
+            "period": "Octobre 2025",
+            "title": "Formation AWS Developer",
+            "description": "Formation sur les bonnes pratiques du développement d'outils utilisant les API d'AWS. Optimisation et utilisation des services de calcul, de gestion de base de données et de gestion de compte d'AWS."
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
+            "period": "Juillet 2025",
+            "title": "Certification AWS Cloud Practitioner",
+            "description": "Auto-formation sur les services cloud AWS avec une vue d'ensemble des services, des couts et des cas d'utilisation dans un cadre profesionnel. Suite à quoi j'ai passé la certification AWS Cloud Practitioner."
+        },
+        {
+            "isDisplay": true,
+            "hideInPaper": false,
             "period": "Mai 2024",
-            "title": "Certification Devops Fundation",
-            "description": "Formation de 8 jours sur la cybersécurité hardware et software. L'objectif était d'apprendre les risques ainsi que les facteurs d'attaque dans le domaine industriel. Nous avons appris les différents types d'attaque existant et nous avons également apris à effectuer une attaque matériel et logiciel."
+            "title": "Certification Devops Foundation",
+            "description": "Formation sur les base du DevOps en entreprise et sur les outils utilisés par les équipes. Cette formation à abouti à l'obtention de la certification DevOps Foundation."
         },
         {
             "isDisplay": true,
@@ -374,14 +388,14 @@
         },
         {
             "isDisplay": true,
-            "hideInPaper": true,
+            "hideInPaper": false,
             "period": "Septembre 2009 - Juin 2011",
             "title": "DUT GEII (Génie Electronique et Informatique Industriel)",
             "description": "J'ai intégré cette école supérieur, afin d'orienter ma formation vers la robotique et l'électronique de précision."
         },
         {
             "isDisplay": true,
-            "hideInPaper": true,
+            "hideInPaper": false,
             "period": "Juin 2009",
             "title": "Bac STI Electrotechnique (Science et Technique de l'Ingénieur)",
             "description": "Formation initiale qui porte dans le domaine de l'éléctrotechnique (Eléctronique, Electrique, Mécanique, Informatique/Programmation, Physique, Mathématique)"
