@@ -1,5 +1,5 @@
 header .navbar {
-    background-color: #dc3545;
+    background-color: #c93535;
     padding: 0;
     border-bottom: solid 2px var(--bs-body-bg);
 }
@@ -22,8 +22,12 @@ header .navbar-nav {
     height: 100%;
 }
 
+header .navbar-nav li {
+    border-radius: 10px;
+}
+
 header .navbar-nav li:hover {
-    background-color: #c82333;
+    background-color: #b73232;
 }
 
 header .navbar-nav li a {
