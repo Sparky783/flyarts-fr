@@ -167,7 +167,7 @@
             "hideInPaper": false,
             "period": "Janvier 2018 - Juillet 2018 (6 mois)",
             "title": "Stagiaire développeur d'une application d'analyse de fluide à Total",
-            "shortDescription": "Dans l'équipe d'allocation de production, j'ai participé à la conception et au développement d'une application web d'analyse des fluides",
+            "shortDescription": "Dans l'équipe d'allocation de production, j'ai participé à la conception et au développement d'une application web d'analyse des fluides.",
             "longDescription": "L'objectif de ce stage de 6 mois fut de réaliser une aplication web permettant d'analyser les hydrocarbures prélevés en laboratoire. Cet outil doit être intuitif et facile d'utilisation. J'ai créé une interface utilisateur à l'aide du framework Angular 5. Afin de traiter la masse de données et de retourner des résultats précis, une API réalisée en C# a été mise en place.",
             "skills": [
                 {
@@ -411,7 +411,7 @@
                 },
                 {
                     "title": "Framework",
-                    "detail": "Angular, React, Nest.js, jQuery, Symfony"
+                    "detail": "Angular, React, Nest.js, jQuery"
                 }
             ]
         },
@@ -433,7 +433,7 @@
                 },
                 {
                     "title": "Framework",
-                    "detail": ".Net, .NET Core, .NET Framework, Boost"
+                    "detail": ".Net, .NET Core, Boost"
                 }
             ]
         },
@@ -442,7 +442,7 @@
             "content": [
                 {
                     "title": "Gestionnaire de base de données",
-                    "detail": "MySQL, SQL Server, PostgreSQL, OracleSQL"
+                    "detail": "MySQL, SQL Server, PostgreSQL"
                 }
             ]
         },
@@ -483,7 +483,7 @@
             ]
         },
         {
-            "isDisplay": true,
+            "isDisplay": false,
             "content": [
                 {
                     "title": "Systèmes d'exploitation",
@@ -492,7 +492,7 @@
             ]
         },
         {
-            "isDisplay": true,
+            "isDisplay": false,
             "content": [
                 {
                     "title": "Developpement de jeux vidéos",
