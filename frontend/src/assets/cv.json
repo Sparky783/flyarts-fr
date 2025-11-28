@@ -5,8 +5,8 @@
             "hideInPaper": false,
             "period": "Septembre 2025 - Octobre 2025 (2 mois)",
             "title": "Développement plugin Power BI pour GSF",
-            "shortDescription": "Réalisation from scratch d'un plugin de gestion de l'organigramme d'entreprise au sein du groupe.",
-            "longDescription": "GSF avait pour souhait de développer un visuel d'organigramme spécifique aux activités du groupe et répondant à la charte graphique de ce dernier. Le plugin, connecté à leur base de données permet de charger et d'organiser automatiquement les employés sur le visuel.",
+            "shortDescription": "Réalisation d'un visuel Power BI pour l'affichage et la gestion de l'organigramme au sein du groupe GSF.",
+            "longDescription": "GSF avait pour souhait de développer un visuel d'organigramme spécifique aux activités du groupe et répondant à la charte graphique de ce dernier. Le plugin, connecté à leur base de données permet de charger et d'organiser automatiquement les employés sur un visuel Power BI.",
             "skills": [
                 {
                     "full": "TypeScript",
@@ -31,8 +31,8 @@
             "hideInPaper": false,
             "period": "Mai 2024 - Avril 2025 (1 an)",
             "title": "Développeur Fullstack chez Safran Helicopter Engine",
-            "shortDescription": "Avec l'équipe de développement et maintenance chargé de faire évoluer l'outil MyInd, MES de Safran",
-            "longDescription": "Au sein de la DSI, j'ai eu pour mission de mettre en place un serveur acceuillant l'outil MyInd pour un client Indien. J'ai également participé au développement de nouvelles fonctionnalités et également au maintenant de l'outil éxistant. Cette mission a été effecté dans un contexte Scrum, avec une équipe composé de français et d'indens.",
+            "shortDescription": "Intégré à l'équipe de développement chargé de faire évoluer l'outil MyInd. Outil de suivi de production, maintenance et évaluation des moteurs du groupe.",
+            "longDescription": "Au sein de la DSI, j'ai eu pour mission de mettre en place un serveur acceuillant l'outil MyInd pour un client Indien. J'ai également participé au développement de nouvelles fonctionnalités et à la maintenance de l'outil existant. Cette mission a été effectué dans un contexte Scrum, avec une équipe composée de français et d'indens.",
             "skills": [
                 {
                     "full": "Angular 18",
@@ -73,8 +73,8 @@
             "hideInPaper": false,
             "period": "Avril 2024 - Mai 2024 (1 mois)",
             "title": "Développeur React pour Terega",
-            "shortDescription": "Développement d'un plugin Excel en React Pour Terega.",
-            "longDescription": "Courte mission pour la réalisation d'un plugin Microsoft Excel pour communiquer et récupérer des informations de leur base de données IO base.",
+            "shortDescription": "Développement d'un plugin Excel en React pour Terega.",
+            "longDescription": "Courte mission pour la réalisation d'un plugin Microsoft Excel pour récupérer et utiliser des informations de leur base de données IO Base directement sur leurs classeurs Excel.",
             "skills": [
                 {
                     "full": "React",
@@ -96,7 +96,7 @@
             "period": "Mars 2023 - Octobre 2023 (8 mois)",
             "title": "Développeur web à NaturaBuy",
             "shortDescription": "Développement et maintenance du site E-commerce NaturaBuy.",
-            "longDescription": "Chargé du développement de nouvelles fonctionnalités ainsi que la maintenance de leur site E-commerce développé en PHP et JavaScript.",
+            "longDescription": "Chargé du développement de nouvelles fonctionnalités ainsi que la maintenance du site E-commerce développé en PHP et JavaScript (sans framework).",
             "skills": [
                 {
                     "full": "PHP 8.2",
@@ -129,8 +129,8 @@
             "hideInPaper": false,
             "period": "Octobre 2018 - Février 2023 (4 ans et 5 mois)",
             "title": "Développeur logiciel à Safran Engineering Services",
-            "shortDescription": "Travaillant sur des projets principalement orienté C# et C++, je suis chargé du développement d'outils de communication et de maintenance de calculateurs de régulation.",
-            "longDescription": "Développeur et chef de projet, je suis en charge du développement d'outils logiciel ayant pour principal objectif l'analyse et la maintenance des turbomoteurs du groupe Safran. Principalement écrit en C# et C++, ces programmes sont conçu autour d'un développement Agile (Scrum) et font de l'objet de tests unitaires avant leur livraison auprèt du client.<br />D'autres projets auquel je suis membre font également partie de mes activités. La réalité virtuel d'une part ainsi que le développement d'outils de gestion de projet (en Symfony et en Ruby) d'autre part.",
+            "shortDescription": "Développeur et chef de projet sur des applications logiciel de communication et de maintenance des calculateurs moteur écrit en C# et C++.",
+            "longDescription": "Chargé du développement ainsi que de la gestion des projets logiciel ayant pour principal objectif l'analyse et la maintenance des turbomoteurs du groupe Safran. Principalement écrit en C# et C++, ces programmes sont conçu autour d'un développement Agile (Scrum) et font de l'objet de tests unitaires avant leur livraison auprès du client.<br />D'autres projets auxquels j'était membre faisaient également partie de mes activités. La réalité virtuel d'une part ainsi que le développement d'outils de gestion de projet (Symfony) d'autre part.",
             "skills": [
                 {
                     "full": "C# avec .Net Fremwork 4.8",
