@@ -3,7 +3,7 @@
         {
             "isDisplay": true,
             "hideInPaper": false,
-            "period": "Septembre 2025 - Octobre 2025 (2 mois)",
+            "period": "Septembre 2025 - Novembre 2025 (3 mois)",
             "title": "Développement plugin Power BI pour GSF",
             "shortDescription": "Réalisation d'un visuel Power BI pour l'affichage et la gestion de l'organigramme au sein du groupe GSF.",
             "longDescription": "GSF avait pour souhait de développer un visuel d'organigramme spécifique aux activités du groupe et répondant à la charte graphique de ce dernier. Le plugin, connecté à leur base de données permet de charger et d'organiser automatiquement les employés sur un visuel Power BI.",
@@ -39,12 +39,12 @@
                     "short": "Angular 18"
                 },
                 {
-                    "full": "NodeJs 20",
+                    "full": "Node.js 20",
                     "short": "Node 20"
                 },
                 {
-                    "full": "NestJs",
-                    "short": "NestJs"
+                    "full": "Nest.js",
+                    "short": "Nest.js"
                 },
                 {
                     "full": "Cypress",
@@ -103,8 +103,8 @@
                     "short": "PHP 8.2"
                 },
                 {
-                    "full": "Javascript",
-                    "short": "Javascript"
+                    "full": "JavaScript",
+                    "short": "JavaScript"
                 },
                 {
                     "full": "HTML",
@@ -129,7 +129,7 @@
             "hideInPaper": false,
             "period": "Octobre 2018 - Février 2023 (4 ans et 5 mois)",
             "title": "Développeur logiciel à Safran Engineering Services",
-            "shortDescription": "Développeur et chef de projet sur des applications logiciel de communication et de maintenance des calculateurs moteur écrit en C# et C++.",
+            "shortDescription": "Développeur et chef de projet sur des applications logiciel de communication et de maintenance des calculateurs moteur du groupe Safran.",
             "longDescription": "Chargé du développement ainsi que de la gestion des projets logiciel ayant pour principal objectif l'analyse et la maintenance des turbomoteurs du groupe Safran. Principalement écrit en C# et C++, ces programmes sont conçu autour d'un développement Agile (Scrum) et font de l'objet de tests unitaires avant leur livraison auprès du client.<br />D'autres projets auxquels j'était membre faisaient également partie de mes activités. La réalité virtuel d'une part ainsi que le développement d'outils de gestion de projet (Symfony) d'autre part.",
             "skills": [
                 {
@@ -167,7 +167,7 @@
             "hideInPaper": false,
             "period": "Janvier 2018 - Juillet 2018 (6 mois)",
             "title": "Stagiaire développeur d'une application d'analyse de fluide à Total",
-            "shortDescription": "Dans l'équipe d'allocation de production, j'ai participé à la conception et au développement d'une application web d'analyse des fluides",
+            "shortDescription": "Dans l'équipe d'allocation de production, j'ai participé à la conception et au développement d'une application web d'analyse des fluides.",
             "longDescription": "L'objectif de ce stage de 6 mois fut de réaliser une aplication web permettant d'analyser les hydrocarbures prélevés en laboratoire. Cet outil doit être intuitif et facile d'utilisation. J'ai créé une interface utilisateur à l'aide du framework Angular 5. Afin de traiter la masse de données et de retourner des résultats précis, une API réalisée en C# a été mise en place.",
             "skills": [
                 {
@@ -183,7 +183,7 @@
                     "short": "Bootstrap"
                 },
                 {
-                    "full": "Javascript avec jQuery",
+                    "full": "JavaScript avec jQuery",
                     "short": "jQuery"
                 },
                 {
@@ -229,7 +229,7 @@
                     "short": "Bootstrap"
                 },
                 {
-                    "full": "Javascript avec jQuery",
+                    "full": "JavaScript avec jQuery",
                     "short": "jQuery"
                 }
             ]
@@ -407,11 +407,11 @@
             "content": [
                 {
                     "title": "Développement Web",
-                    "detail": "Langages: PHP, HTML, CSS, Javascript"
+                    "detail": "Langages: TypeScript, JavaScript, HTML, CSS, PHP"
                 },
                 {
                     "title": "Framework",
-                    "detail": "Angular, jQuery, Symfony"
+                    "detail": "Angular, React, Nest.js, jQuery"
                 }
             ]
         },
@@ -420,7 +420,7 @@
             "content": [
                 {
                     "title": "Environnement technique",
-                    "detail": "NodeJS, Docker, Git Bash, TortoiseGit"
+                    "detail": "Node.js, Docker, Git, GitHub, GitLab"
                 }
             ]
         },
@@ -433,15 +433,7 @@
                 },
                 {
                     "title": "Framework",
-                    "detail": ".NET Framework, .NET Core, Boost"
-                }
-            ]
-        },
-        {
-            "isDisplay": false,
-            "content": [
-                {
-                    "title": "Développement de drivers Windows en User-Mode"
+                    "detail": ".Net, .NET Core, Boost"
                 }
             ]
         },
@@ -450,7 +442,7 @@
             "content": [
                 {
                     "title": "Gestionnaire de base de données",
-                    "detail": "MySQL, SQL Server, PostgreSQL, OracleSQL"
+                    "detail": "MySQL, SQL Server, PostgreSQL"
                 }
             ]
         },
@@ -467,13 +459,31 @@
             "isDisplay": true,
             "content": [
                 {
+                    "title": "Tests unitaires",
+                    "detail": "Cypress, Jasmine, Unit test C#, PHP Unit"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "title": "Méthodologie de développement",
+                    "detail": "TDD, Clean code, Architecture hexagonale"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
                     "title": "Gestion de projets",
                     "detail": "Scrum, Agile"
                 }
             ]
         },
         {
-            "isDisplay": true,
+            "isDisplay": false,
             "content": [
                 {
                     "title": "Systèmes d'exploitation",
@@ -482,27 +492,19 @@
             ]
         },
         {
-            "isDisplay": true,
-            "content": [
-                {
-                    "title": "Tests unitaires"
-                }
-            ]
-        },
-        {
-            "isDisplay": true,
-            "content": [
-                {
-                    "title": "Notion de TDD"
-                }
-            ]
-        },
-        {
-            "isDisplay": true,
+            "isDisplay": false,
             "content": [
                 {
                     "title": "Developpement de jeux vidéos",
-                    "detail": "Unreal Engine 4 et 5"
+                    "detail": "Unreal Engine 5"
+                }
+            ]
+        },
+        {
+            "isDisplay": false,
+            "content": [
+                {
+                    "title": "Développement de drivers Windows en User-Mode"
                 }
             ]
         },
@@ -517,11 +519,11 @@
         }
     ],
     "skillsBonus": [
-        "Logiciels graphiques:</b> Photoshop CS6, Gimp, Paint",
-        "Logiciels de modélisation 3D:</b> Blender",
-        "Logiciels de CAO:</b> FreeCAD, AutoDesk Fusion 360, SolidWorks",
-        "Logiciels de montage vidéo:</b> Premiere Pro, After Effect, DaVinci Resolve",
-        "Logiciels de bureautique:</b> Suite Microsoft Office (Word, Excel, PowerPoint)"
+        "Logiciels graphiques: Photoshop, Gimp, Paint",
+        "Logiciels de modélisation 3D: Blender",
+        "Logiciels de CAO: AutoDesk Fusion 360, FreeCAD, SolidWorks",
+        "Logiciels de montage vidéo: DaVinci Resolve, Premiere Pro, After Effect",
+        "Logiciels de bureautique: Suite Microsoft Office (Word, Excel, PowerPoint)"
     ],
     "hobbies": [
         {
@@ -534,7 +536,7 @@
         },
         {
             "icon": "fa-dumbbell",
-            "title": "Sport"
+            "title": "Sport (Badminton)"
         }
     ],
     "certifications": [
