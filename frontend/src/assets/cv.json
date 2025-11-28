@@ -3,7 +3,7 @@
         {
             "isDisplay": true,
             "hideInPaper": false,
-            "period": "Septembre 2025 - Octobre 2025 (2 mois)",
+            "period": "Septembre 2025 - Novembre 2025 (3 mois)",
             "title": "Développement plugin Power BI pour GSF",
             "shortDescription": "Réalisation d'un visuel Power BI pour l'affichage et la gestion de l'organigramme au sein du groupe GSF.",
             "longDescription": "GSF avait pour souhait de développer un visuel d'organigramme spécifique aux activités du groupe et répondant à la charte graphique de ce dernier. Le plugin, connecté à leur base de données permet de charger et d'organiser automatiquement les employés sur un visuel Power BI.",
@@ -39,12 +39,12 @@
                     "short": "Angular 18"
                 },
                 {
-                    "full": "NodeJs 20",
+                    "full": "Node.js 20",
                     "short": "Node 20"
                 },
                 {
-                    "full": "NestJs",
-                    "short": "NestJs"
+                    "full": "Nest.js",
+                    "short": "Nest.js"
                 },
                 {
                     "full": "Cypress",
@@ -103,8 +103,8 @@
                     "short": "PHP 8.2"
                 },
                 {
-                    "full": "Javascript",
-                    "short": "Javascript"
+                    "full": "JavaScript",
+                    "short": "JavaScript"
                 },
                 {
                     "full": "HTML",
@@ -183,7 +183,7 @@
                     "short": "Bootstrap"
                 },
                 {
-                    "full": "Javascript avec jQuery",
+                    "full": "JavaScript avec jQuery",
                     "short": "jQuery"
                 },
                 {
@@ -229,7 +229,7 @@
                     "short": "Bootstrap"
                 },
                 {
-                    "full": "Javascript avec jQuery",
+                    "full": "JavaScript avec jQuery",
                     "short": "jQuery"
                 }
             ]
