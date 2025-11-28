@@ -129,7 +129,7 @@
             "hideInPaper": false,
             "period": "Octobre 2018 - Février 2023 (4 ans et 5 mois)",
             "title": "Développeur logiciel à Safran Engineering Services",
-            "shortDescription": "Développeur et chef de projet sur des applications logiciel de communication et de maintenance des calculateurs moteur écrit en C# et C++.",
+            "shortDescription": "Développeur et chef de projet sur des applications logiciel de communication et de maintenance des calculateurs moteur du groupe Safran.",
             "longDescription": "Chargé du développement ainsi que de la gestion des projets logiciel ayant pour principal objectif l'analyse et la maintenance des turbomoteurs du groupe Safran. Principalement écrit en C# et C++, ces programmes sont conçu autour d'un développement Agile (Scrum) et font de l'objet de tests unitaires avant leur livraison auprès du client.<br />D'autres projets auxquels j'était membre faisaient également partie de mes activités. La réalité virtuel d'une part ainsi que le développement d'outils de gestion de projet (Symfony) d'autre part.",
             "skills": [
                 {
@@ -407,11 +407,11 @@
             "content": [
                 {
                     "title": "Développement Web",
-                    "detail": "Langages: PHP, HTML, CSS, Javascript"
+                    "detail": "Langages: TypeScript, JavaScript, HTML, CSS, PHP"
                 },
                 {
                     "title": "Framework",
-                    "detail": "Angular, jQuery, Symfony"
+                    "detail": "Angular, React, Nest.js, jQuery, Symfony"
                 }
             ]
         },
@@ -420,7 +420,7 @@
             "content": [
                 {
                     "title": "Environnement technique",
-                    "detail": "NodeJS, Docker, Git Bash, TortoiseGit"
+                    "detail": "Node.js, Docker, Git, GitHub, GitLab"
                 }
             ]
         },
@@ -433,15 +433,7 @@
                 },
                 {
                     "title": "Framework",
-                    "detail": ".NET Framework, .NET Core, Boost"
-                }
-            ]
-        },
-        {
-            "isDisplay": false,
-            "content": [
-                {
-                    "title": "Développement de drivers Windows en User-Mode"
+                    "detail": ".Net, .NET Core, .NET Framework, Boost"
                 }
             ]
         },
@@ -467,6 +459,24 @@
             "isDisplay": true,
             "content": [
                 {
+                    "title": "Tests unitaires",
+                    "detail": "Cypress, Jasmine, Unit test C#, PHP Unit"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
+                    "title": "Méthodologie de développement",
+                    "detail": "TDD, Clean code, Architecture hexagonale"
+                }
+            ]
+        },
+        {
+            "isDisplay": true,
+            "content": [
+                {
                     "title": "Gestion de projets",
                     "detail": "Scrum, Agile"
                 }
@@ -485,24 +495,16 @@
             "isDisplay": true,
             "content": [
                 {
-                    "title": "Tests unitaires"
-                }
-            ]
-        },
-        {
-            "isDisplay": true,
-            "content": [
-                {
-                    "title": "Notion de TDD"
-                }
-            ]
-        },
-        {
-            "isDisplay": true,
-            "content": [
-                {
                     "title": "Developpement de jeux vidéos",
-                    "detail": "Unreal Engine 4 et 5"
+                    "detail": "Unreal Engine 5"
+                }
+            ]
+        },
+        {
+            "isDisplay": false,
+            "content": [
+                {
+                    "title": "Développement de drivers Windows en User-Mode"
                 }
             ]
         },
@@ -517,11 +519,11 @@
         }
     ],
     "skillsBonus": [
-        "Logiciels graphiques:</b> Photoshop CS6, Gimp, Paint",
-        "Logiciels de modélisation 3D:</b> Blender",
-        "Logiciels de CAO:</b> FreeCAD, AutoDesk Fusion 360, SolidWorks",
-        "Logiciels de montage vidéo:</b> Premiere Pro, After Effect, DaVinci Resolve",
-        "Logiciels de bureautique:</b> Suite Microsoft Office (Word, Excel, PowerPoint)"
+        "Logiciels graphiques: Photoshop, Gimp, Paint",
+        "Logiciels de modélisation 3D: Blender",
+        "Logiciels de CAO: AutoDesk Fusion 360, FreeCAD, SolidWorks",
+        "Logiciels de montage vidéo: DaVinci Resolve, Premiere Pro, After Effect",
+        "Logiciels de bureautique: Suite Microsoft Office (Word, Excel, PowerPoint)"
     ],
     "hobbies": [
         {
@@ -534,7 +536,7 @@
         },
         {
             "icon": "fa-dumbbell",
-            "title": "Sport"
+            "title": "Sport (Badminton)"
         }
     ],
     "certifications": [
