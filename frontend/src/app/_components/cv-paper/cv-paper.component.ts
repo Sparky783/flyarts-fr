@@ -2,7 +2,6 @@ import { Component, inject } from '@angular/core';
 import { AgeService } from '../../_services/age.service';
 
 import { SkillsPaperComponent } from "./skills-paper/skills-paper.component";
-import { HobbiesPaperComponent } from "./hobbies-paper/hobbies-paper.component";
 import { ProfessionalExperiencesPaperComponent } from "./professional-experiences-paper/professional-experiences-paper.component";
 import { TrainingsPaperComponent } from "./trainings-paper/trainings-paper.component";
 
@@ -14,7 +13,7 @@ import { CertificationsPaperComponent } from './certifications-paper/certificati
   imports: [
     SkillsPaperComponent,
     CertificationsPaperComponent,
-    HobbiesPaperComponent,
+    //HobbiesPaperComponent,
     ProfessionalExperiencesPaperComponent,
     TrainingsPaperComponent
   ],
