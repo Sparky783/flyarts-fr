@@ -14,6 +14,9 @@ describe('CertificationsPaperComponent', () => {
 
     fixture = TestBed.createComponent(CertificationsPaperComponent);
     component = fixture.componentInstance;
+
+    component.certifications = [];
+
     fixture.detectChanges();
   });
 

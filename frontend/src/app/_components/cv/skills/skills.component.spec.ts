@@ -14,6 +14,9 @@ describe('SkillsComponent', () => {
 
     fixture = TestBed.createComponent(SkillsComponent);
     component = fixture.componentInstance;
+
+    component.skills = [];
+
     fixture.detectChanges();
   });
 

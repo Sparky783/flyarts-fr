@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { provideRouter } from '@angular/router';
 import { ProjectLinkComponent } from './project-link.component';
 
 describe('ProjectComponent', () => {
@@ -8,12 +8,24 @@ describe('ProjectComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ProjectLinkComponent]
+      imports: [ProjectLinkComponent],
+      providers: [
+        provideRouter([])
+      ]
     })
       .compileComponents();
 
     fixture = TestBed.createComponent(ProjectLinkComponent);
     component = fixture.componentInstance;
+
+    component.link = {
+      content: 'Mock content for testing'
+    };
+    component.isDisabled = {
+      content: 'Mock content for testing'
+    };
+
+
     fixture.detectChanges();
   });
 

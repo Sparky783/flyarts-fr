@@ -14,6 +14,11 @@ describe('HobbyComponent', () => {
 
     fixture = TestBed.createComponent(HobbyPaperComponent);
     component = fixture.componentInstance;
+
+    component.hobby = {
+      content: 'Mock content for testing'
+    };
+
     fixture.detectChanges();
   });
 

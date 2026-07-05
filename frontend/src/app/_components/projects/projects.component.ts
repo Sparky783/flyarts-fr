@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 import { ProjectItemComponent } from "./project-item/project-item.component";
 
-import * as jsondevProjects from '../../../assets/dev-projects.json'
-import * as jsonOtherProjects from '../../../assets/other-projects.json'
+import jsonDevProjects from '../../../assets/dev-projects.json';
+import jsonOtherProjects from '../../../assets/other-projects.json';
 
 @Component({
   selector: 'app-projects',
@@ -15,6 +15,6 @@ import * as jsonOtherProjects from '../../../assets/other-projects.json'
   styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent {
-  devProjects = jsondevProjects.projects
+  devProjects = jsonDevProjects.projects
   otherProjects = jsonOtherProjects.projects
 }
