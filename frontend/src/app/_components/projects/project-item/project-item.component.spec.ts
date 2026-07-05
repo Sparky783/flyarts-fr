@@ -1,19 +1,23 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { ProjectComponent } from './project.component';
+import { ProjectItemComponent } from './project-item.component';
 
 describe('ProjectComponent', () => {
-  let component: ProjectComponent;
-  let fixture: ComponentFixture<ProjectComponent>;
+  let component: ProjectItemComponent;
+  let fixture: ComponentFixture<ProjectItemComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ProjectComponent]
+      imports: [ProjectItemComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ProjectComponent);
+    fixture = TestBed.createComponent(ProjectItemComponent);
     component = fixture.componentInstance;
+
+    component.projectData = {
+      content: 'Mock content for testing'
+    };
+
     fixture.detectChanges();
   });
 

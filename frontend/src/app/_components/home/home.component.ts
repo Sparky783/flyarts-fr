@@ -3,8 +3,7 @@ import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 import { ProjectItemComponent } from "../projects/project-item/project-item.component";
-
-import * as jsonProjects from '../../../assets/dev-projects.json'
+import jsonProjects from '../../../assets/dev-projects.json';
 
 @Component({
   selector: 'app-home',

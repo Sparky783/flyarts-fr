@@ -14,6 +14,15 @@ describe('ProjectComponent', () => {
 
     fixture = TestBed.createComponent(ProjectLinkComponent);
     component = fixture.componentInstance;
+
+    component.link = {
+      content: 'Mock content for testing'
+    };
+    component.isDisabled = {
+      content: 'Mock content for testing'
+    };
+
+
     fixture.detectChanges();
   });
 

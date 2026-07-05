@@ -14,6 +14,11 @@ describe('SkillComponent', () => {
 
     fixture = TestBed.createComponent(SkillComponent);
     component = fixture.componentInstance;
+
+    component.skill = {
+      content: 'Mock content for testing'
+    };
+
     fixture.detectChanges();
   });
 

@@ -1,19 +1,24 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProfessionalExperiencesComponent } from './professional-experiences.component';
+import { ProfessionalExperiencesPaperComponent } from './professional-experiences-paper.component';
 
 describe('ProfessionalExperiencesComponent', () => {
-  let component: ProfessionalExperiencesComponent;
-  let fixture: ComponentFixture<ProfessionalExperiencesComponent>;
+  let component: ProfessionalExperiencesPaperComponent;
+  let fixture: ComponentFixture<ProfessionalExperiencesPaperComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ProfessionalExperiencesComponent]
+      imports: [ProfessionalExperiencesPaperComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ProfessionalExperiencesComponent);
+    fixture = TestBed.createComponent(ProfessionalExperiencesPaperComponent);
     component = fixture.componentInstance;
+
+    component.experiences = {
+      content: 'Mock content for testing'
+    };
+
     fixture.detectChanges();
   });
 

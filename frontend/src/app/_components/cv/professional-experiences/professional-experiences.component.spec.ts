@@ -14,6 +14,11 @@ describe('ProfessionalExperiencesComponent', () => {
 
     fixture = TestBed.createComponent(ProfessionalExperiencesComponent);
     component = fixture.componentInstance;
+
+    component.experiences = {
+      content: 'Mock content for testing'
+    };
+
     fixture.detectChanges();
   });
 
