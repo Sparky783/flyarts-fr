@@ -15,9 +15,7 @@ describe('TrainingsComponent', () => {
     fixture = TestBed.createComponent(TrainingsComponent);
     component = fixture.componentInstance;
 
-    component.trainings = {
-      content: 'Mock content for testing'
-    };
+    component.trainings = [];
 
     fixture.detectChanges();
   });

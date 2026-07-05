@@ -15,7 +15,9 @@ describe('ProjectComponent', () => {
     component = fixture.componentInstance;
 
     component.projectData = {
-      content: 'Mock content for testing'
+      link: {
+        url: ''
+      }
     };
 
     fixture.detectChanges();
